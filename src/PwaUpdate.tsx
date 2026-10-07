@@ -1,2 +1,20 @@
-import { useRegisterSW } from 'virtual:pwa-register/react';
-export function PwaUpdate(){const {needRefresh:[needRefresh],updateServiceWorker}=useRegisterSW({onRegisterError(error){console.warn('Offline installation unavailable',error)}});if(!needRefresh)return null;return <div className="connection-note" role="status"><span>A new catalogue version is ready. / নতুন সংস্করণ প্রস্তুত। </span><button className="text-button" onClick={()=>updateServiceWorker(true)}>Load update / আপডেট দেখুন</button></div>}
+import { useRegisterSW } from "virtual:pwa-register/react";
+export function PwaUpdate() {
+  const {
+    needRefresh: [needRefresh],
+    updateServiceWorker,
+  } = useRegisterSW({
+    onRegisterError(error) {
+      console.warn("Offline installation unavailable", error);
+    },
+  });
+  if (!needRefresh) return null;
+  return (
+    <div className="connection-note" role="status">
+      <span>A new catalogue version is ready. / নতুন সংস্করণ প্রস্তুত। </span>
+      <button className="text-button" onClick={() => updateServiceWorker(true)}>
+        Load update / আপডেট দেখুন
+      </button>
+    </div>
+  );
+}

@@ -1,8 +1,240 @@
-export const ui={
- en:{tagline:'Your medicine, understood.',searchNav:'Medicine search',method:'Data & Methodology',install:'Install app',eyebrow:'FOR MEDICINES YOU WERE ALREADY PRESCRIBED',headline:'A little clarity.\nA little more confidence.',intro:'Search your prescribed medicine and understand how it is commonly taken.',searchLabel:'Find your medicine',placeholder:'Try Napa 500, Paracetamol, or Square…',searchHelp:'Search by brand, generic, company, strength, or form.',popular:'Try a search',catalogue:'Curated Bangladesh catalogue',coverage:'products indexed',guidance:'formulation guides',sourcesChecked:'Source-checked information',noAi:'Works without AI or paid APIs',offline:'Works offline after your first visit',steps:'A simple, careful process',step1:'Find the exact product',step1body:'Match the name, strength, form, and manufacturer on your pack.',step2:'Confirm your medicine',step2body:'You decide which product matches your prescription.',step3:'Understand the instructions',step3body:'Read general guidance with a source for every medical claim.',results:'Medicine matches',resultsHint:'Select a product, then check it against your medicine pack.',empty:'No medicine found in our current catalogue.',emptyBody:'Check the spelling, try the generic name or manufacturer, or ask your pharmacist. This catalogue does not cover every medicine in Bangladesh.',choose:'Check this product',identified:'MEDICINE IDENTIFIED',check:'Check every detail against your pack',confirm:'Yes, this is my medicine',back:'Back to search',brand:'Brand',generic:'Generic',strength:'Strength',form:'Dosage form',manufacturer:'Manufacturer',release:'Formulation',identitySource:'Product identity source',general:'General administration guidance',follow:'Follow the exact instructions on your prescription or dispensing label.',food:'Before or after food?',timing:'When should I take it?',uses:'What is it commonly used for?',instructions:'Important instructions',drinks:'Food and drink',warnings:'Important cautions',sources:'Sources & verification',verified:'Source-checked',partial:'Partially verified',unavailableBadge:'NOT AVAILABLE',unavailable:'Verified administration guidance is not currently available for this product.',unavailableBody:'We have not verified a matching generic, dosage form, and release type. Ask a pharmacist and follow your prescription or dispensing label.',noTiming:'A specific time of day has not been verified for this formulation. Follow the schedule on your prescription.',noNotes:'No additional instruction is verified in this record. Check the dispensing label or ask your pharmacist.',noDrinks:'No additional food or drink advice is verified in this record. This does not rule out interactions.',highRisk:'Patient-specific instructions may be important for this medicine. Please follow your prescription and ask a doctor or pharmacist.',context:'Pregnancy, breastfeeding, children, kidney or liver disease, and other medicines may require individual advice. This app cannot personalise instructions.',permanent:'MediGuide BD provides general medication administration information from referenced sources. Always follow your prescription, dispensing label, doctor, or pharmacist.',safety:'General information only. No diagnosis, prescribing, dose calculation, or treatment decisions.',last:'Source checked',save:'Save medicine',saved:'Saved medicine',savedList:'Saved on this device',recent:'Recently confirmed',clear:'Clear saved & recent medicines',local:'Only medicine IDs are stored on this device. No diagnosis or prescription text is collected.',review:'Source-checked means the displayed claims were checked against the linked publications. It does not mean reviewed by a clinician.',update:'An updated version is ready.',refresh:'Load update',offlineNotice:'You are offline. Showing the saved catalogue; source websites require a connection.',print:'Print guidance',notice:'Understand how to take the medicine you were already prescribed.',showAll:'Browse all products',dataUpdate:'Data checked 8 October 2026',skip:'Skip to main content'},
- bn:{tagline:'আপনার ওষুধ, সহজে বুঝুন।',searchNav:'ওষুধ খুঁজুন',method:'তথ্য ও পদ্ধতি',install:'অ্যাপ ইনস্টল',eyebrow:'ইতিমধ্যে প্রেসক্রিপশনে লেখা ওষুধের জন্য',headline:'ওষুধের নির্দেশনা\nআরও সহজে বুঝুন।',intro:'প্রেসক্রিপশনে লেখা ওষুধ খুঁজুন এবং সাধারণ ব্যবহারের নির্দেশনা বুঝুন।',searchLabel:'আপনার ওষুধ খুঁজুন',placeholder:'Napa 500, Paracetamol বা Square লিখুন…',searchHelp:'ব্র্যান্ড, জেনেরিক, কোম্পানি, শক্তি বা ফর্ম দিয়ে খুঁজুন।',popular:'খুঁজে দেখুন',catalogue:'বাংলাদেশের নির্বাচিত ওষুধের তালিকা',coverage:'টি পণ্য তালিকাভুক্ত',guidance:'টি ফর্মভিত্তিক নির্দেশনা',sourcesChecked:'উৎসের সঙ্গে যাচাই করা তথ্য',noAi:'AI বা পেইড API ছাড়াই কাজ করে',offline:'প্রথমবার দেখার পরে অফলাইনেও কাজ করে',steps:'সহজ ও সতর্ক প্রক্রিয়া',step1:'সঠিক পণ্য খুঁজুন',step1body:'প্যাকেটের নাম, শক্তি, ফর্ম ও প্রস্তুতকারক মিলিয়ে নিন।',step2:'ওষুধ নিশ্চিত করুন',step2body:'প্রেসক্রিপশনের সঙ্গে কোন পণ্য মেলে তা আপনি নিশ্চিত করবেন।',step3:'নির্দেশনা বুঝুন',step3body:'প্রতিটি চিকিৎসা তথ্যের উৎসসহ সাধারণ নির্দেশনা পড়ুন।',results:'মিলে যাওয়া ওষুধ',resultsHint:'একটি পণ্য বেছে নিন, তারপর প্যাকেটের সঙ্গে মিলিয়ে দেখুন।',empty:'বর্তমান তালিকায় ওষুধটি পাওয়া যায়নি।',emptyBody:'বানান দেখুন, জেনেরিক বা কোম্পানির নাম দিয়ে খুঁজুন, অথবা ফার্মাসিস্টকে জিজ্ঞাসা করুন। বাংলাদেশের সব ওষুধ এই তালিকায় নেই।',choose:'পণ্যটি মিলিয়ে দেখুন',identified:'ওষুধের পরিচয় পাওয়া গেছে',check:'প্যাকেটের সঙ্গে প্রতিটি তথ্য মিলিয়ে নিন',confirm:'হ্যাঁ, এটি আমার ওষুধ',back:'অনুসন্ধানে ফিরুন',brand:'ব্র্যান্ড',generic:'জেনেরিক',strength:'শক্তি',form:'ওষুধের ফর্ম',manufacturer:'প্রস্তুতকারক',release:'ফর্মুলেশন',identitySource:'পণ্যের পরিচয়ের উৎস',general:'সাধারণ ব্যবহারের নির্দেশনা',follow:'আপনার প্রেসক্রিপশন বা ওষুধের লেবেলের সঠিক নির্দেশনা অনুসরণ করুন।',food:'খাবারের আগে না পরে?',timing:'কখন নেওয়া হয়?',uses:'সাধারণত কী কাজে ব্যবহৃত হয়?',instructions:'গুরুত্বপূর্ণ নির্দেশনা',drinks:'খাবার ও পানীয়',warnings:'গুরুত্বপূর্ণ সতর্কতা',sources:'উৎস ও যাচাই',verified:'উৎস যাচাই করা',partial:'আংশিক যাচাই করা',unavailableBadge:'তথ্য পাওয়া যায়নি',unavailable:'এই পণ্যের জন্য যাচাই করা সাধারণ ব্যবহারের নির্দেশনা বর্তমানে পাওয়া যাচ্ছে না।',unavailableBody:'একই জেনেরিক, ফর্ম ও রিলিজ ধরনের নির্দেশনা যাচাই করা হয়নি। ফার্মাসিস্টকে জিজ্ঞাসা করুন এবং প্রেসক্রিপশন বা লেবেল অনুসরণ করুন।',noTiming:'এই ফর্মের জন্য দিনের নির্দিষ্ট সময় যাচাই করা হয়নি। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।',noNotes:'এই রেকর্ডে অতিরিক্ত নির্দেশনা যাচাই করা নেই। লেবেল দেখুন বা ফার্মাসিস্টকে জিজ্ঞাসা করুন।',noDrinks:'এই রেকর্ডে অতিরিক্ত খাবার বা পানীয়ের পরামর্শ যাচাই করা নেই। এর অর্থ মিথস্ক্রিয়া নেই—এমন নয়।',highRisk:'এই ওষুধের জন্য ব্যক্তিভিত্তিক নির্দেশনা গুরুত্বপূর্ণ হতে পারে। প্রেসক্রিপশন অনুসরণ করুন এবং চিকিৎসক বা ফার্মাসিস্টকে জিজ্ঞাসা করুন।',context:'গর্ভাবস্থা, স্তন্যদান, শিশু, কিডনি বা লিভারের রোগ এবং অন্য ওষুধের ক্ষেত্রে ব্যক্তিভিত্তিক পরামর্শ প্রয়োজন হতে পারে। এই অ্যাপ তা নির্ধারণ করতে পারে না।',permanent:'MediGuide BD উল্লেখিত উৎস থেকে ওষুধ ব্যবহারের সাধারণ তথ্য দেয়। সবসময় প্রেসক্রিপশন, ওষুধের লেবেল, চিকিৎসক বা ফার্মাসিস্টের নির্দেশনা অনুসরণ করুন।',safety:'শুধু সাধারণ তথ্য। রোগ নির্ণয়, প্রেসক্রিপশন, ডোজ গণনা বা চিকিৎসার সিদ্ধান্ত নয়।',last:'উৎস যাচাই',save:'ওষুধ সংরক্ষণ',saved:'ওষুধ সংরক্ষিত',savedList:'এই ডিভাইসে সংরক্ষিত',recent:'সম্প্রতি নিশ্চিত করা',clear:'সংরক্ষিত ও সাম্প্রতিক তালিকা মুছুন',local:'শুধু ওষুধের ID এই ডিভাইসে থাকে। রোগ নির্ণয় বা প্রেসক্রিপশনের লেখা সংগ্রহ করা হয় না।',review:'উৎস যাচাই বলতে দেখানো তথ্য প্রকাশিত উৎসের সঙ্গে মিলিয়ে দেখা বোঝায়। চিকিৎসকের পর্যালোচনা বোঝায় না।',update:'নতুন সংস্করণ প্রস্তুত।',refresh:'নতুন সংস্করণ দেখুন',offlineNotice:'আপনি অফলাইনে আছেন। সংরক্ষিত তালিকা দেখানো হচ্ছে; উৎসের ওয়েবসাইটে যেতে ইন্টারনেট প্রয়োজন।',print:'নির্দেশনা প্রিন্ট',notice:'ইতিমধ্যে প্রেসক্রিপশনে লেখা ওষুধের ব্যবহারের নির্দেশনা বুঝুন।',showAll:'সব পণ্য দেখুন',dataUpdate:'তথ্য যাচাই: ৮ অক্টোবর ২০২৬',skip:'মূল অংশে যান'}
+export const ui = {
+  en: {
+    tagline: "Your medicine, understood.",
+    searchNav: "Medicine search",
+    method: "Data & Methodology",
+    install: "Install app",
+    eyebrow: "FOR MEDICINES YOU WERE ALREADY PRESCRIBED",
+    headline: "A little clarity.\nA little more confidence.",
+    intro:
+      "Search your prescribed medicine and understand how it is commonly taken.",
+    searchLabel: "Find your medicine",
+    placeholder: "Try Napa 500, Paracetamol, or Square…",
+    searchHelp: "Search by brand, generic, company, strength, or form.",
+    popular: "Try a search",
+    catalogue: "Curated Bangladesh catalogue",
+    coverage: "products indexed",
+    guidance: "formulation guides",
+    sourcesChecked: "Source-checked information",
+    noAi: "Works without AI or paid APIs",
+    offline: "Works offline after your first visit",
+    steps: "A simple, careful process",
+    step1: "Find the exact product",
+    step1body: "Match the name, strength, form, and manufacturer on your pack.",
+    step2: "Confirm your medicine",
+    step2body: "You decide which product matches your prescription.",
+    step3: "Understand the instructions",
+    step3body: "Read general guidance with a source for every medical claim.",
+    results: "Medicine matches",
+    resultsHint: "Select a product, then check it against your medicine pack.",
+    empty: "No medicine found in our current catalogue.",
+    emptyBody:
+      "Check the spelling, try the generic name or manufacturer, or ask your pharmacist. This catalogue does not cover every medicine in Bangladesh.",
+    choose: "Check this product",
+    identified: "MEDICINE IDENTIFIED",
+    check: "Check every detail against your pack",
+    confirm: "Yes, this is my medicine",
+    back: "Back to search",
+    brand: "Brand",
+    generic: "Generic",
+    strength: "Strength",
+    form: "Dosage form",
+    manufacturer: "Manufacturer",
+    release: "Formulation",
+    identitySource: "Product identity source",
+    general: "General administration guidance",
+    follow:
+      "Follow the exact instructions on your prescription or dispensing label.",
+    food: "Before or after food?",
+    timing: "When should I take it?",
+    uses: "What is it commonly used for?",
+    instructions: "Important instructions",
+    drinks: "Food and drink",
+    warnings: "Important cautions",
+    sources: "Sources & verification",
+    verified: "Source-checked",
+    partial: "Partially verified",
+    unavailableBadge: "NOT AVAILABLE",
+    unavailable:
+      "Verified administration guidance is not currently available for this product.",
+    unavailableBody:
+      "We have not verified a matching generic, dosage form, and release type. Ask a pharmacist and follow your prescription or dispensing label.",
+    noTiming:
+      "A specific time of day has not been verified for this formulation. Follow the schedule on your prescription.",
+    noNotes:
+      "No additional instruction is verified in this record. Check the dispensing label or ask your pharmacist.",
+    noDrinks:
+      "No additional food or drink advice is verified in this record. This does not rule out interactions.",
+    highRisk:
+      "Patient-specific instructions may be important for this medicine. Please follow your prescription and ask a doctor or pharmacist.",
+    context:
+      "Pregnancy, breastfeeding, children, kidney or liver disease, and other medicines may require individual advice. This app cannot personalise instructions.",
+    permanent:
+      "MediGuide BD provides general medication administration information from referenced sources. Always follow your prescription, dispensing label, doctor, or pharmacist.",
+    safety:
+      "General information only. No diagnosis, prescribing, dose calculation, or treatment decisions.",
+    last: "Source checked",
+    save: "Save medicine",
+    saved: "Saved medicine",
+    savedList: "Saved on this device",
+    recent: "Recently confirmed",
+    clear: "Clear saved & recent medicines",
+    local:
+      "Only medicine IDs are stored on this device. No diagnosis or prescription text is collected.",
+    review:
+      "Source-checked means the displayed claims were checked against the linked publications. It does not mean reviewed by a clinician.",
+    update: "An updated version is ready.",
+    refresh: "Load update",
+    offlineNotice:
+      "You are offline. Showing the saved catalogue; source websites require a connection.",
+    print: "Print guidance",
+    notice: "Understand how to take the medicine you were already prescribed.",
+    showAll: "Browse all products",
+    dataUpdate: "Data checked 8 October 2026",
+    skip: "Skip to main content",
+  },
+  bn: {
+    tagline: "আপনার ওষুধ, সহজে বুঝুন।",
+    searchNav: "ওষুধ খুঁজুন",
+    method: "তথ্য ও পদ্ধতি",
+    install: "অ্যাপ ইনস্টল",
+    eyebrow: "ইতিমধ্যে প্রেসক্রিপশনে লেখা ওষুধের জন্য",
+    headline: "ওষুধের নির্দেশনা\nআরও সহজে বুঝুন।",
+    intro:
+      "প্রেসক্রিপশনে লেখা ওষুধ খুঁজুন এবং সাধারণ ব্যবহারের নির্দেশনা বুঝুন।",
+    searchLabel: "আপনার ওষুধ খুঁজুন",
+    placeholder: "Napa 500, Paracetamol বা Square লিখুন…",
+    searchHelp: "ব্র্যান্ড, জেনেরিক, কোম্পানি, শক্তি বা ফর্ম দিয়ে খুঁজুন।",
+    popular: "খুঁজে দেখুন",
+    catalogue: "বাংলাদেশের নির্বাচিত ওষুধের তালিকা",
+    coverage: "টি পণ্য তালিকাভুক্ত",
+    guidance: "টি ফর্মভিত্তিক নির্দেশনা",
+    sourcesChecked: "উৎসের সঙ্গে যাচাই করা তথ্য",
+    noAi: "AI বা পেইড API ছাড়াই কাজ করে",
+    offline: "প্রথমবার দেখার পরে অফলাইনেও কাজ করে",
+    steps: "সহজ ও সতর্ক প্রক্রিয়া",
+    step1: "সঠিক পণ্য খুঁজুন",
+    step1body: "প্যাকেটের নাম, শক্তি, ফর্ম ও প্রস্তুতকারক মিলিয়ে নিন।",
+    step2: "ওষুধ নিশ্চিত করুন",
+    step2body: "প্রেসক্রিপশনের সঙ্গে কোন পণ্য মেলে তা আপনি নিশ্চিত করবেন।",
+    step3: "নির্দেশনা বুঝুন",
+    step3body: "প্রতিটি চিকিৎসা তথ্যের উৎসসহ সাধারণ নির্দেশনা পড়ুন।",
+    results: "মিলে যাওয়া ওষুধ",
+    resultsHint: "একটি পণ্য বেছে নিন, তারপর প্যাকেটের সঙ্গে মিলিয়ে দেখুন।",
+    empty: "বর্তমান তালিকায় ওষুধটি পাওয়া যায়নি।",
+    emptyBody:
+      "বানান দেখুন, জেনেরিক বা কোম্পানির নাম দিয়ে খুঁজুন, অথবা ফার্মাসিস্টকে জিজ্ঞাসা করুন। বাংলাদেশের সব ওষুধ এই তালিকায় নেই।",
+    choose: "পণ্যটি মিলিয়ে দেখুন",
+    identified: "ওষুধের পরিচয় পাওয়া গেছে",
+    check: "প্যাকেটের সঙ্গে প্রতিটি তথ্য মিলিয়ে নিন",
+    confirm: "হ্যাঁ, এটি আমার ওষুধ",
+    back: "অনুসন্ধানে ফিরুন",
+    brand: "ব্র্যান্ড",
+    generic: "জেনেরিক",
+    strength: "শক্তি",
+    form: "ওষুধের ফর্ম",
+    manufacturer: "প্রস্তুতকারক",
+    release: "ফর্মুলেশন",
+    identitySource: "পণ্যের পরিচয়ের উৎস",
+    general: "সাধারণ ব্যবহারের নির্দেশনা",
+    follow: "আপনার প্রেসক্রিপশন বা ওষুধের লেবেলের সঠিক নির্দেশনা অনুসরণ করুন।",
+    food: "খাবারের আগে না পরে?",
+    timing: "কখন নেওয়া হয়?",
+    uses: "সাধারণত কী কাজে ব্যবহৃত হয়?",
+    instructions: "গুরুত্বপূর্ণ নির্দেশনা",
+    drinks: "খাবার ও পানীয়",
+    warnings: "গুরুত্বপূর্ণ সতর্কতা",
+    sources: "উৎস ও যাচাই",
+    verified: "উৎস যাচাই করা",
+    partial: "আংশিক যাচাই করা",
+    unavailableBadge: "তথ্য পাওয়া যায়নি",
+    unavailable:
+      "এই পণ্যের জন্য যাচাই করা সাধারণ ব্যবহারের নির্দেশনা বর্তমানে পাওয়া যাচ্ছে না।",
+    unavailableBody:
+      "একই জেনেরিক, ফর্ম ও রিলিজ ধরনের নির্দেশনা যাচাই করা হয়নি। ফার্মাসিস্টকে জিজ্ঞাসা করুন এবং প্রেসক্রিপশন বা লেবেল অনুসরণ করুন।",
+    noTiming:
+      "এই ফর্মের জন্য দিনের নির্দিষ্ট সময় যাচাই করা হয়নি। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+    noNotes:
+      "এই রেকর্ডে অতিরিক্ত নির্দেশনা যাচাই করা নেই। লেবেল দেখুন বা ফার্মাসিস্টকে জিজ্ঞাসা করুন।",
+    noDrinks:
+      "এই রেকর্ডে অতিরিক্ত খাবার বা পানীয়ের পরামর্শ যাচাই করা নেই। এর অর্থ মিথস্ক্রিয়া নেই—এমন নয়।",
+    highRisk:
+      "এই ওষুধের জন্য ব্যক্তিভিত্তিক নির্দেশনা গুরুত্বপূর্ণ হতে পারে। প্রেসক্রিপশন অনুসরণ করুন এবং চিকিৎসক বা ফার্মাসিস্টকে জিজ্ঞাসা করুন।",
+    context:
+      "গর্ভাবস্থা, স্তন্যদান, শিশু, কিডনি বা লিভারের রোগ এবং অন্য ওষুধের ক্ষেত্রে ব্যক্তিভিত্তিক পরামর্শ প্রয়োজন হতে পারে। এই অ্যাপ তা নির্ধারণ করতে পারে না।",
+    permanent:
+      "MediGuide BD উল্লেখিত উৎস থেকে ওষুধ ব্যবহারের সাধারণ তথ্য দেয়। সবসময় প্রেসক্রিপশন, ওষুধের লেবেল, চিকিৎসক বা ফার্মাসিস্টের নির্দেশনা অনুসরণ করুন।",
+    safety:
+      "শুধু সাধারণ তথ্য। রোগ নির্ণয়, প্রেসক্রিপশন, ডোজ গণনা বা চিকিৎসার সিদ্ধান্ত নয়।",
+    last: "উৎস যাচাই",
+    save: "ওষুধ সংরক্ষণ",
+    saved: "ওষুধ সংরক্ষিত",
+    savedList: "এই ডিভাইসে সংরক্ষিত",
+    recent: "সম্প্রতি নিশ্চিত করা",
+    clear: "সংরক্ষিত ও সাম্প্রতিক তালিকা মুছুন",
+    local:
+      "শুধু ওষুধের ID এই ডিভাইসে থাকে। রোগ নির্ণয় বা প্রেসক্রিপশনের লেখা সংগ্রহ করা হয় না।",
+    review:
+      "উৎস যাচাই বলতে দেখানো তথ্য প্রকাশিত উৎসের সঙ্গে মিলিয়ে দেখা বোঝায়। চিকিৎসকের পর্যালোচনা বোঝায় না।",
+    update: "নতুন সংস্করণ প্রস্তুত।",
+    refresh: "নতুন সংস্করণ দেখুন",
+    offlineNotice:
+      "আপনি অফলাইনে আছেন। সংরক্ষিত তালিকা দেখানো হচ্ছে; উৎসের ওয়েবসাইটে যেতে ইন্টারনেট প্রয়োজন।",
+    print: "নির্দেশনা প্রিন্ট",
+    notice: "ইতিমধ্যে প্রেসক্রিপশনে লেখা ওষুধের ব্যবহারের নির্দেশনা বুঝুন।",
+    showAll: "সব পণ্য দেখুন",
+    dataUpdate: "তথ্য যাচাই: ৮ অক্টোবর ২০২৬",
+    skip: "মূল অংশে যান",
+  },
 };
-export const foodLabels={en:{BEFORE_FOOD:'Before food',WITH_FOOD:'With food',AFTER_FOOD:'After food',WITH_OR_WITHOUT_FOOD:'With or without food',EMPTY_STOMACH:'Empty stomach',NO_SPECIFIC_REQUIREMENT:'No specific food requirement',VARIABLE:'Depends on formulation',UNKNOWN:'Unknown / not verified'},bn:{BEFORE_FOOD:'খাবারের আগে',WITH_FOOD:'খাবারের সঙ্গে',AFTER_FOOD:'খাবারের পরে',WITH_OR_WITHOUT_FOOD:'খাবারের সঙ্গে বা ছাড়াও',EMPTY_STOMACH:'খালি পেটে',NO_SPECIFIC_REQUIREMENT:'খাবারের বিশেষ নির্দেশনা নেই',VARIABLE:'ফর্মুলেশনের ওপর নির্ভর করে',UNKNOWN:'অজানা / যাচাই করা হয়নি'}};
-export const releaseLabels={en:{IMMEDIATE:'Immediate release',DELAYED:'Delayed release',EXTENDED:'Extended release',MUPS:'Multiple-unit pellet system (MUPS)',NOT_APPLICABLE:'Not applicable',UNKNOWN:'Unknown / not verified'},bn:{IMMEDIATE:'ইমিডিয়েট-রিলিজ',DELAYED:'ডিলেইড-রিলিজ',EXTENDED:'এক্সটেন্ডেড-রিলিজ',MUPS:'মাল্টিপল-ইউনিট পেলেট সিস্টেম (MUPS)',NOT_APPLICABLE:'প্রযোজ্য নয়',UNKNOWN:'অজানা / যাচাই করা হয়নি'}};
-const bnForms:Record<string,string>={'Tablet':'ট্যাবলেট','Capsule':'ক্যাপসুল','Syrup':'সিরাপ','Oral suspension':'মুখে খাওয়ার সাসপেনশন','Powder for oral suspension':'মুখে খাওয়ার সাসপেনশন তৈরির পাউডার','Paediatric drops':'শিশুদের ড্রপ','Suppository':'সাপোজিটরি'};
-export const formLabel=(form:string,lang:'en'|'bn')=>lang==='bn'?`${bnForms[form]??form} (${form})`:form;
+export const foodLabels = {
+  en: {
+    BEFORE_FOOD: "Before food",
+    WITH_FOOD: "With food",
+    AFTER_FOOD: "After food",
+    WITH_OR_WITHOUT_FOOD: "With or without food",
+    EMPTY_STOMACH: "Empty stomach",
+    NO_SPECIFIC_REQUIREMENT: "No specific food requirement",
+    VARIABLE: "Depends on formulation",
+    UNKNOWN: "Unknown / not verified",
+  },
+  bn: {
+    BEFORE_FOOD: "খাবারের আগে",
+    WITH_FOOD: "খাবারের সঙ্গে",
+    AFTER_FOOD: "খাবারের পরে",
+    WITH_OR_WITHOUT_FOOD: "খাবারের সঙ্গে বা ছাড়াও",
+    EMPTY_STOMACH: "খালি পেটে",
+    NO_SPECIFIC_REQUIREMENT: "খাবারের বিশেষ নির্দেশনা নেই",
+    VARIABLE: "ফর্মুলেশনের ওপর নির্ভর করে",
+    UNKNOWN: "অজানা / যাচাই করা হয়নি",
+  },
+};
+export const releaseLabels = {
+  en: {
+    IMMEDIATE: "Immediate release",
+    DELAYED: "Delayed release",
+    EXTENDED: "Extended release",
+    MUPS: "Multiple-unit pellet system (MUPS)",
+    NOT_APPLICABLE: "Not applicable",
+    UNKNOWN: "Unknown / not verified",
+  },
+  bn: {
+    IMMEDIATE: "ইমিডিয়েট-রিলিজ",
+    DELAYED: "ডিলেইড-রিলিজ",
+    EXTENDED: "এক্সটেন্ডেড-রিলিজ",
+    MUPS: "মাল্টিপল-ইউনিট পেলেট সিস্টেম (MUPS)",
+    NOT_APPLICABLE: "প্রযোজ্য নয়",
+    UNKNOWN: "অজানা / যাচাই করা হয়নি",
+  },
+};
+const bnForms: Record<string, string> = {
+  Tablet: "ট্যাবলেট",
+  Capsule: "ক্যাপসুল",
+  Syrup: "সিরাপ",
+  "Oral suspension": "মুখে খাওয়ার সাসপেনশন",
+  "Powder for oral suspension": "মুখে খাওয়ার সাসপেনশন তৈরির পাউডার",
+  "Paediatric drops": "শিশুদের ড্রপ",
+  Suppository: "সাপোজিটরি",
+};
+export const formLabel = (form: string, lang: "en" | "bn") =>
+  lang === "bn" ? `${bnForms[form] ?? form} (${form})` : form;

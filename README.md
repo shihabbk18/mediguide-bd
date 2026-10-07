@@ -16,21 +16,21 @@ It is an instruction explainer, not a diagnosis system, prescribing system, phar
 
 ![English medicine search](docs/screenshots/home-desktop.jpg)
 
-| Mobile search | Bangla guidance |
-| --- | --- |
+| Mobile search                                                                          | Bangla guidance                                                                                                |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | <img src="docs/screenshots/home-mobile.jpg" width="260" alt="Mobile search interface"> | <img src="docs/screenshots/guidance-mobile-bangla.jpg" width="260" alt="Bangla formulation-specific guidance"> |
 
 ## Actual coverage
 
-| Measure | Current seed |
-| --- | ---: |
-| Bangladesh product identities | **29** |
-| Generic / dosage form / release-type guidance records | **9** |
-| Products with matching guidance | **15** |
-| Products that explicitly abstain | **14** |
-| Manufacturer publication sets | **2** (Beximco and Square) |
-| Linked source publications/pages | **16** |
-| Source check date | **8 October 2026** |
+| Measure                                               |               Current seed |
+| ----------------------------------------------------- | -------------------------: |
+| Bangladesh product identities                         |                     **29** |
+| Generic / dosage form / release-type guidance records |                      **9** |
+| Products with matching guidance                       |                     **15** |
+| Products that explicitly abstain                      |                     **14** |
+| Manufacturer publication sets                         | **2** (Beximco and Square) |
+| Linked source publications/pages                      |                     **16** |
+| Source check date                                     |         **8 October 2026** |
 
 This is a curated demonstration catalogue, **not every medicine in Bangladesh**. It includes Napa, Napa Extra, Seclo, Seclo MUPS, Nexum, Comet, Comet XR, Cef-3, Cef-3 DS, Cef-3 Forte, Amdocal and Alatrol identities across real published strengths and formulations. Manufacturer names preserve source wording. Publication presence does not confirm current stock or DGDA registration; registration numbers remain unverified/null.
 

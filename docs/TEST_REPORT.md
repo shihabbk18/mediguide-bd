@@ -17,14 +17,14 @@ Two initial search assertions failed (short transposition typo, fuzzy lookalike 
 
 UI exercised through the Codex browser with snapshots after actions. Desktop 1280×900; mobile 390×844.
 
-| Category | Product | Food instruction observed | Confirmation, sources, Bangla, mobile |
-| --- | --- | --- | --- |
-| Pain | Napa 500 mg Tablet | With or without food | Passed |
-| Acid/reflux | Seclo 20 mg Capsule | Before a meal | Passed |
-| Antibiotic | Cef-3 200 mg Tablet | With or without food | Passed |
-| Diabetes | Comet XR 500 mg Tablet | With evening meal; do not crush/cut/chew | Passed |
-| Antihypertensive | Amdocal 5 mg Tablet | Before or after food; grapefruit note | Passed |
-| Allergy | Alatrol 10 mg Tablet | With or without food; no required time of day | Passed |
+| Category         | Product                | Food instruction observed                     | Confirmation, sources, Bangla, mobile |
+| ---------------- | ---------------------- | --------------------------------------------- | ------------------------------------- |
+| Pain             | Napa 500 mg Tablet     | With or without food                          | Passed                                |
+| Acid/reflux      | Seclo 20 mg Capsule    | Before a meal                                 | Passed                                |
+| Antibiotic       | Cef-3 200 mg Tablet    | With or without food                          | Passed                                |
+| Diabetes         | Comet XR 500 mg Tablet | With evening meal; do not crush/cut/chew      | Passed                                |
+| Antihypertensive | Amdocal 5 mg Tablet    | Before or after food; grapefruit note         | Passed                                |
+| Allergy          | Alatrol 10 mg Tablet   | With or without food; no required time of day | Passed                                |
 
 Mobile checks are captured in `mobile-acceptance.json`. Document scroll width was 375px within a 390px viewport (15px vertical scrollbar), with no horizontal overflow. Initial equality-based overflow diagnostics were corrected to check `scrollWidth <= innerWidth`.
 
@@ -32,7 +32,12 @@ Screenshots: desktop search/guidance, mobile search and mobile Bangla guidance i
 
 ## Public deployment checks
 
-Pending the first GitHub Pages deployment. This section will be updated with actual public URL, workflow and deployed search/mobile results before completion.
+- GitHub Pages public URL loaded successfully: https://shihabbk18.github.io/mediguide-bd/
+- Initial CI test/build/deploy workflow completed successfully: https://github.com/shihabbk18/mediguide-bd/actions/runs/37679247744
+- Public browser check: `Napa 500` returned the separate tablet, suppository and combination products. Selecting the 500mg tablet showed Beximco / Paracetamol identity; guidance was absent before confirmation. After confirmation, with-or-without-food guidance and the NHS source were present.
+- Deployed Bangla toggle and 390×844 mobile check passed; document width 375px within the 390px viewport, with no horizontal overflow.
+- Offline-origin test: loaded and cached the production build at the deployed base path; stopped its dedicated local preview server. A direct request then failed with `ECONNREFUSED`, while the browser reloaded the cached app and successfully searched/confirmed Seclo 20mg, displaying before-meal guidance and sources. This tests unavailable-origin cache behavior, not a physical-device airplane-mode installation.
+- Live full-page screenshot capture was unreliable in the in-app browser, but a public guidance viewport screenshot was captured and visually inspected (`screenshots/live-guidance.jpg`). The other screenshots document the earlier local desktop/mobile run. Public acceptance was verified through browser accessibility/DOM observations and the captured guidance viewport.
 
 ## Limits of verification
 
