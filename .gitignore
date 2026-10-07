@@ -6,3 +6,5 @@ test-results/
 playwright-report/
 *.local
 *.tsbuildinfo
+tmp/
+data-source-audit/

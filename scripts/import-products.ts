@@ -9,6 +9,9 @@ export function parseImport(raw: string, format: "csv" | "json") {
       : parse(raw, { columns: true, skip_empty_lines: true, bom: true }).map(
           (row: Record<string, string>) => ({
             ...row,
+            active_ingredients: row.active_ingredients?.startsWith("[")
+              ? JSON.parse(row.active_ingredients)
+              : row.active_ingredients?.split("+").map((x) => x.trim()),
             high_risk:
               row.high_risk === "true"
                 ? true

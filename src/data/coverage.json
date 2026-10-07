@@ -1,0 +1,14 @@
+{
+  "built_at": "2026-10-07T23:10:40.115Z",
+  "products": 177,
+  "unique_brands": 106,
+  "unique_formulations": 124,
+  "guidance_records": 17,
+  "verified_products": 25,
+  "partial_products": 4,
+  "unavailable_products": 148,
+  "verified_guidance": 13,
+  "partial_guidance": 4,
+  "needs_review_guidance": 0,
+  "sources": 25
+}

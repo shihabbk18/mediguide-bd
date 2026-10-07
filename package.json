@@ -5,11 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc -b && vite build",
+    "build": "pnpm build:data && tsc -b && vite build",
     "test": "vitest run",
     "preview": "vite preview --host 127.0.0.1",
     "import:products": "tsx scripts/import-products.ts",
-    "validate:data": "tsx scripts/validate-data.ts"
+    "validate:data": "tsx scripts/validate-data.ts",
+    "build:data": "tsx scripts/build-data.ts",
+    "normalize:products": "tsx scripts/normalize-products.ts",
+    "import:dgda": "tsx scripts/import-dgda-products.ts",
+    "enrich:guidance": "tsx scripts/enrich-generic-guidance.ts"
   },
   "dependencies": {
     "fuse.js": "^7.1.0",

@@ -1,6 +1,28 @@
 import { z } from "zod";
 const text = z.string().trim().min(1);
 const date = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
+export const routeSchema = z.enum([
+  "ORAL",
+  "INJECTION",
+  "OPHTHALMIC",
+  "TOPICAL",
+  "INHALATION",
+  "RECTAL",
+  "OTIC",
+  "NASAL",
+  "UNKNOWN",
+]);
+export const timingSchema = z.enum([
+  "MORNING",
+  "EVENING",
+  "BEDTIME",
+  "EVENLY_SPACED",
+  "CONSISTENT_TIME",
+  "NO_SPECIFIC_TIME",
+  "PRESCRIPTION_DEPENDENT",
+  "UNKNOWN",
+  "NOT_APPLICABLE",
+]);
 export const releaseSchema = z.enum([
   "IMMEDIATE",
   "DELAYED",
@@ -26,12 +48,16 @@ export const productSchema = z
     id: text,
     brand_name: text,
     generic_name: text,
+    active_ingredients: z.array(text).min(1),
+    route: routeSchema,
+    mapping_status: z.enum(["VERIFIED", "NEEDS_REVIEW"]),
     strength: text,
     dosage_form: text,
     release_type: releaseSchema,
     manufacturer: text,
     registration_number: z.string().nullable(),
     source: text,
+    source_name: text,
     source_url: z
       .string()
       .url()
@@ -48,7 +74,19 @@ export const claimSchema = z
     source_ids: z.array(text).min(1),
     source_section: text,
   })
-  .strict();
+  .strict()
+  .superRefine((c, ctx) => {
+    if (
+      /\b(?:take|give|use)\s+\d|\b\d+\s*(?:mg|ml|tablets?|capsules?|days?|weeks?)\b|\b(?:once|twice|three times)\s+(?:a |per )?day|\b(?:start|stop|replace|increase|decrease|switch)\s+(?:taking|your (?:dose|medicine)|the dose|this medicine)\b/i.test(
+        c.en,
+      )
+    )
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message:
+          "Prescription dosing or treatment changes are not administration claims",
+      });
+  });
 export const foodSchema = z.enum([
   "BEFORE_FOOD",
   "WITH_FOOD",
@@ -56,15 +94,21 @@ export const foodSchema = z.enum([
   "WITH_OR_WITHOUT_FOOD",
   "EMPTY_STOMACH",
   "NO_SPECIFIC_REQUIREMENT",
-  "VARIABLE",
+  "VARIABLE_BY_INDICATION_OR_FORMULATION",
+  "NOT_APPLICABLE",
   "UNKNOWN",
 ]);
 export const guidanceSchema = z
   .object({
     id: text,
+    generic_key: text,
     generic_name: text,
     dosage_form: text,
+    route: routeSchema,
     release_type: releaseSchema,
+    meal_relevance: z.enum(["RELEVANT", "NOT_APPLICABLE", "UNKNOWN"]),
+    timing_type: timingSchema,
+    evidence_note: text,
     food_relation: foodSchema,
     food_guidance: claimSchema.nullable(),
     timing_guidance: claimSchema.nullable(),
@@ -76,12 +120,39 @@ export const guidanceSchema = z
       "VERIFIED",
       "PARTIALLY_VERIFIED",
       "NOT_AVAILABLE",
+      "NEEDS_REVIEW",
     ]),
     last_verified: date,
     mapping_note: text,
   })
   .strict()
   .superRefine((g, ctx) => {
+    if (
+      g.food_relation === "NOT_APPLICABLE" &&
+      (g.route === "ORAL" ||
+        g.route === "UNKNOWN" ||
+        g.meal_relevance !== "NOT_APPLICABLE")
+    )
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message:
+          "Meal irrelevance requires a known non-oral route and matching relevance state",
+      });
+    if (g.generic_key !== formulationKey(g))
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "Guidance key must match generic/form/route/release",
+      });
+    if (
+      !["UNKNOWN", "PRESCRIPTION_DEPENDENT", "NOT_APPLICABLE"].includes(
+        g.timing_type,
+      ) &&
+      !g.timing_guidance
+    )
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "Specific timing requires cited evidence",
+      });
     if (g.food_relation !== "UNKNOWN" && !g.food_guidance)
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
@@ -109,16 +180,26 @@ export const normalize = (x: string) =>
     .replace(/\s+/g, " ")
     .trim();
 export const formulationKey = (
-  x: Pick<Product, "generic_name" | "dosage_form" | "release_type">,
+  x: Pick<Product, "generic_name" | "dosage_form" | "route" | "release_type">,
 ) =>
-  [normalize(x.generic_name), normalize(x.dosage_form), x.release_type].join(
-    "|",
-  );
+  [
+    ingredientKey(x.generic_name.split("+")),
+    normalize(x.dosage_form),
+    x.route,
+    x.release_type,
+  ].join("|");
+export const ingredientKey = (ingredients: string[]) =>
+  ingredients.map(normalize).sort().join(" + ");
 export function validateCatalogue(input: unknown): Product[] {
   const parsed = z.array(productSchema).min(1).parse(input);
   const ids = new Set<string>();
   const identities = new Set<string>();
   for (const p of parsed) {
+    if (
+      ingredientKey(p.active_ingredients) !==
+      ingredientKey(p.generic_name.split("+"))
+    )
+      throw new Error(`Ingredient mapping inconsistent: ${p.id}`);
     const identity = [
       normalize(p.brand_name),
       normalize(p.strength),

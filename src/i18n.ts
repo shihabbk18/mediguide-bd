@@ -195,7 +195,9 @@ export const foodLabels = {
     WITH_OR_WITHOUT_FOOD: "With or without food",
     EMPTY_STOMACH: "Empty stomach",
     NO_SPECIFIC_REQUIREMENT: "No specific food requirement",
-    VARIABLE: "Depends on formulation",
+    VARIABLE_BY_INDICATION_OR_FORMULATION:
+      "Depends on indication or formulation",
+    NOT_APPLICABLE: "Meal timing is not applicable to this dosage form.",
     UNKNOWN: "Unknown / not verified",
   },
   bn: {
@@ -205,7 +207,10 @@ export const foodLabels = {
     WITH_OR_WITHOUT_FOOD: "খাবারের সঙ্গে বা ছাড়াও",
     EMPTY_STOMACH: "খালি পেটে",
     NO_SPECIFIC_REQUIREMENT: "খাবারের বিশেষ নির্দেশনা নেই",
-    VARIABLE: "ফর্মুলেশনের ওপর নির্ভর করে",
+    VARIABLE_BY_INDICATION_OR_FORMULATION:
+      "রোগের কারণ বা ফর্মুলেশনের ওপর নির্ভর করে",
+    NOT_APPLICABLE:
+      "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
     UNKNOWN: "অজানা / যাচাই করা হয়নি",
   },
 };
@@ -228,6 +233,12 @@ export const releaseLabels = {
   },
 };
 const bnForms: Record<string, string> = {
+  "Eye Drops": "চোখের ড্রপ",
+  Injection: "ইনজেকশন",
+  Cream: "ক্রিম",
+  Gel: "জেল",
+  Ointment: "মলম",
+  Inhaler: "ইনহেলার",
   Tablet: "ট্যাবলেট",
   Capsule: "ক্যাপসুল",
   Syrup: "সিরাপ",
@@ -238,3 +249,60 @@ const bnForms: Record<string, string> = {
 };
 export const formLabel = (form: string, lang: "en" | "bn") =>
   lang === "bn" ? `${bnForms[form] ?? form} (${form})` : form;
+export const routeLabels = {
+  en: {
+    ORAL: "Oral",
+    INJECTION: "Injection",
+    OPHTHALMIC: "Eye",
+    TOPICAL: "Skin / topical",
+    INHALATION: "Inhalation",
+    RECTAL: "Rectal",
+    OTIC: "Ear",
+    NASAL: "Nasal",
+    UNKNOWN: "Unknown / not verified",
+  },
+  bn: {
+    ORAL: "মুখে খাওয়ার",
+    INJECTION: "ইনজেকশন",
+    OPHTHALMIC: "চোখে প্রয়োগ",
+    TOPICAL: "ত্বকে প্রয়োগ",
+    INHALATION: "শ্বাসের মাধ্যমে",
+    RECTAL: "মলদ্বারে প্রয়োগ",
+    OTIC: "কানে প্রয়োগ",
+    NASAL: "নাকে প্রয়োগ",
+    UNKNOWN: "অজানা / যাচাই করা হয়নি",
+  },
+};
+export const timingLabels = {
+  en: {
+    MORNING: "Morning timing requires source-specific instructions.",
+    EVENING: "Evening timing requires source-specific instructions.",
+    BEDTIME: "Bedtime timing requires source-specific instructions.",
+    EVENLY_SPACED: "Spacing must follow the source and prescription.",
+    CONSISTENT_TIME:
+      "Follow a consistent time as specified on your prescription.",
+    NO_SPECIFIC_TIME:
+      "No universal time of day is required. Follow the schedule on your prescription.",
+    PRESCRIPTION_DEPENDENT:
+      "Timing depends on your prescription. Follow the written schedule.",
+    UNKNOWN:
+      "A specific time of day has not been verified for this formulation. Follow the schedule on your prescription.",
+    NOT_APPLICABLE:
+      "A time-of-day recommendation is not applicable to this administration information. Follow your prescription.",
+  },
+  bn: {
+    MORNING: "সকালের সময়ের জন্য উৎসভিত্তিক নির্দেশনা প্রয়োজন।",
+    EVENING: "সন্ধ্যার সময়ের জন্য উৎসভিত্তিক নির্দেশনা প্রয়োজন।",
+    BEDTIME: "শোবার সময়ের জন্য উৎসভিত্তিক নির্দেশনা প্রয়োজন।",
+    EVENLY_SPACED: "উৎস ও প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+    CONSISTENT_TIME: "প্রেসক্রিপশনে লেখা নির্দিষ্ট সময় অনুসরণ করুন।",
+    NO_SPECIFIC_TIME:
+      "দিনের কোনো সর্বজনীন নির্দিষ্ট সময় নেই। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+    PRESCRIPTION_DEPENDENT:
+      "সময় প্রেসক্রিপশনের ওপর নির্ভর করে। লিখিত সময়সূচি অনুসরণ করুন।",
+    UNKNOWN:
+      "এই ফর্মের জন্য দিনের নির্দিষ্ট সময় যাচাই করা হয়নি। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+    NOT_APPLICABLE:
+      "এই তথ্যের ক্ষেত্রে দিনের নির্দিষ্ট সময়ের নির্দেশনা প্রযোজ্য নয়। প্রেসক্রিপশন অনুসরণ করুন।",
+  },
+};

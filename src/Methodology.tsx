@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import { products, guidance, coveredProducts, sources } from "./catalogue";
 import type { Language } from "./domain";
+import { Coverage } from "./Coverage";
 export function Methodology({ lang }: { lang: Language }) {
   const bn = lang === "bn";
   return (
@@ -22,6 +23,7 @@ export function Methodology({ lang }: { lang: Language }) {
             : "What we know, how we checked it, and where our information ends."}
         </p>
       </div>
+      <Coverage lang={lang} />
       <div className="coverage-stats">
         <div>
           <strong>{products.length}</strong>
@@ -54,12 +56,12 @@ export function Methodology({ lang }: { lang: Language }) {
         <p>
           {bn
             ? "Beximco ও Square-এর প্রকাশিত পণ্যের লিফলেট এবং পণ্যের পৃষ্ঠা থেকে নাম, উপাদান, শক্তি ও ফর্ম হাতে বেছে নেওয়া হয়েছে। কোম্পানির নাম উৎসে যেভাবে আছে সেভাবেই রাখা হয়েছে।"
-            : "Brand, ingredient, strength, form and manufacturer are manually curated from Beximco and Square product leaflets and product pages. Company names preserve the wording in the source publication."}
+            : "Product identities come from Beximco and Square publications, including Square’s published 9th-edition product guide. A conservative PDF extractor quarantines candidates; reviewed composition and preparation facts are imported with page provenance. Company names preserve the source wording."}
         </p>
         <p>
           {bn
-            ? "DGDA-এর সরকারি তালিকা পরীক্ষা করা হয়েছে। নথিভুক্ত bulk API বা অনুমোদিত সম্পূর্ণ ডেটাসেট পাওয়া যায়নি। robots.txt নিরাপদে পাওয়া যায়নি (সার্টিফিকেটের মেয়াদের সমস্যা); তাই স্বয়ংক্রিয় সংগ্রহ করা হয়নি। এই প্রকল্প DGDA তালিকার অনুলিপি নয়।"
-            : "We investigated the official DGDA public catalogue. No documented bulk API or authorised complete download was located during this build. The robots policy could not be retrieved securely due to a certificate validity error, so no automated DGDA crawling was attempted. This seed catalogue is not a mirror of the DGDA register."}
+            ? "DGHS / MoHFW-এর প্রকাশ্য API পাওয়া গেছে, কিন্তু পুনঃপ্রকাশের অনুমতি পাওয়া যায়নি। অনুমতি ছাড়া bulk import করা হয় না। এই তালিকা DGDA রেজিস্টারের অনুলিপি নয়।"
+            : "A public DGHS / MoHFW API exposes DGDA product concepts, but no redistribution permission or licensed export was supplied. Bulk import remains gated. DGDA’s certificate problem was not bypassed. MedEx and Healthcare Pharmaceuticals restrict reuse and were not bulk imported. This catalogue is not a mirror of the DGDA register."}
         </p>
         <a
           href="https://info.dgda.gov.bd/allopathic-medicines"
@@ -82,7 +84,7 @@ export function Methodology({ lang }: { lang: Language }) {
         <p>
           {bn
             ? "স্থানীয় লিফলেট, NHS ও DailyMed-এর প্রকাশিত তথ্য থেকে সাধারণ নির্দেশনা সংক্ষেপ করা হয়েছে। জেনেরিক, ফর্ম ও রিলিজ ধরন সম্পূর্ণ মিলে গেলে নির্দেশনা দেখানো হয়। ব্র্যান্ডের ফাজি মিল শুধু সম্ভাব্য পণ্য খোঁজে; চিকিৎসা তথ্য মেলাতে ব্যবহার হয় না।"
-            : "General instructions are paraphrased from manufacturer publications, NHS guidance and DailyMed labels. Guidance resolves only when the ingredient, dosage form and release type all match. Fuzzy matching finds product candidates; it never determines a medical guidance match."}
+            : "General instructions come from manufacturer publications, NHS and DailyMed. Guidance resolves after confirmation only when source-checked ingredients, form, route and release match. Unknown mappings abstain. Combinations require a combination key. Fuzzy matching only finds candidates."}
         </p>
         <div className="pipeline">
           {[
@@ -126,8 +128,8 @@ export function Methodology({ lang }: { lang: Language }) {
           <li>
             <strong>PARTIALLY_VERIFIED:</strong>{" "}
             {bn
-              ? "মডেলে সমর্থিত; কেবল উৎসসমর্থিত অংশ দেখানো যাবে এবং অনুপস্থিত অংশ স্পষ্ট থাকবে। বর্তমান seed-এ এই অবস্থার রেকর্ড নেই।"
-              : "Supported by the schema: only evidenced fields may be shown and gaps stay explicit. The current seed contains no records in this state."}
+              ? "শুধু যাচাই করা অংশ দেখানো হয়। মুখে না খাওয়ার ওষুধে খাবারের প্রাসঙ্গিকতা উৎসে লেখা প্রয়োগের ধরন থেকে নির্ধারিত; এটি আংশিক নির্দেশনা। সময়সূচি প্রেসক্রিপশন অনুযায়ী অনুসরণ করতে হবে।"
+              : "Only reviewed fields are displayed. Non-oral meal relevance is inferred from the cited route and marked partial; it does not establish a universal dosing schedule. Missing timing remains prescription-dependent. NEEDS_REVIEW retrieval candidates are never shown as clinical instructions."}
           </li>
           <li>
             <strong>NOT_AVAILABLE:</strong>{" "}

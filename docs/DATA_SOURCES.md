@@ -1,44 +1,22 @@
-# Data-source preflight and curation log
+# Source methodology — 8 October 2026
 
-Source check date: **8 October 2026 (Asia/Dhaka)**.
+Identity facts come from Beximco leaflets and Square publications, including [Square’s published 9th-edition guide](https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf). Concise composition/preparation facts preserve PDF page references; the PDF is not republished. Ambiguous ingredients, strengths, modified releases, neighbouring-column matches and contradictory preparations were excluded or left unresolved. Presence in an older publication does not verify current registration or availability.
 
-## Bangladesh identities
+Guidance uses manufacturer publications, [NHS medicines information](https://www.nhs.uk/medicines/) and [DailyMed](https://dailymed.nlm.nih.gov/). The complete claim-level register is src/data/sources.json. Facts are concise paraphrases, not complete copied leaflets. Foreign labeling does not establish local bioequivalence or approval. No independent clinician/pharmacist review has occurred.
 
-- DGDA public catalogue: https://info.dgda.gov.bd/allopathic-medicines
-- Official catalogue pages were visible through web search. No documented bulk API, complete permitted machine-readable download, or redistribution licence was located during the bounded preflight.
-- Direct access to `https://info.dgda.gov.bd/robots.txt` failed TLS validation (`NotTimeValid`). No certificate bypass, crawl, undocumented endpoint enumeration, or rate-limit circumvention was attempted. Robots permission therefore remains unknown.
-- Seed identities are individually curated factual fields from Beximco and Square publications, **not DGDA registry extracts**. Registration numbers stay `null`; current registration and market availability are unverified.
-- No claim of complete coverage or manufacturer endorsement. No manufacturer marketing claims, pack images or dosing tables are reproduced.
+[openFDA](https://open.fda.gov/apis/drug/label/) is used for an unpublished enrichment queue. Three successful formulation retrievals were exercised. Every extraction stays NEEDS_REVIEW until ingredients, route, release, evidence and bilingual wording are checked. The website needs no live API or model.
 
-## Actual source register
+## Investigated, not imported
 
-The exact source names, URLs, types and check dates are in `src/data/sources.json`; each product also has its own source URL and section. `scripts/seed.ts` records the authoring inputs. The current catalogue contains **29 products** (brand / ingredient / strength / form / release type / manufacturer identities), from **two manufacturer publication sets**. Different pack sizes are not counted as separate medicines.
+- [DGDA catalogue](https://info.dgda.gov.bd/allopathic-medicines): expired certificate prevented secure robots retrieval. No TLS bypass or page crawl.
+- [Official DGHS value set](https://fhir.dghs.gov.bd/core/ValueSet-dgda-registered-drugs.html) and [DGHS terminology source](https://api.tr.ocl.dghs.gov.bd/orgs/MoHFW/sources/DGDA-Drugs/): public API located; two-concept audit checked fields. Approximately 39,195 source concepts are not app coverage. Public View access and a null copyright field are not redistribution permission. No permission/export was supplied.
+- [OCL terms](https://openconceptlab.org/terms-of-use): service access is not assumed to authorize independent republication.
+- [MedEx terms](https://medex.com.bd/terms-of-use): unauthorized extraction/redistribution restricted; no bulk import.
+- [Healthcare Pharmaceuticals terms](https://www.hplbd.com/page/Terms%20of%20Use): product reuse restricted without written consent; no bulk import. A supposed product-list PDF redirected to HTML and was rejected.
+- DOI 10.17632/3x5gsr2jm3.1: dataset blocked/withdrawn at author's request; no mirror workaround.
 
-Guidance contains **9 generic/formulation records**, applicable to **15 products**, with **14 products abstaining**. Sources used for medical claims: NHS patient guidance, DailyMed structured drug labels, and Square administration/indication publications. Beximco publications establish local product identities.
+## Verification
 
-## Source adapter investigation
+Ingredient(s), strength, form, route and release remain separate. Unresolved releases may be searchable but cannot borrow another formulation's instructions. Combinations require combination-specific evidence. VERIFIED covers checked displayed facts; PARTIALLY_VERIFIED exposes only reviewed parts. Non-oral meal relevance is a disclosed inference from a cited route, not a universal dosing schedule. UNKNOWN and NEEDS_REVIEW abstain.
 
-- DailyMed documented API: https://dailymed.nlm.nih.gov/dailymed/webservices-help/v2/spls_api.cfm
-- openFDA label API: https://open.fda.gov/apis/drug/label/
-- The implemented adapters were actually probed: each returned three matching records (cefixime through DailyMed, metformin hydrochloride through openFDA).
-- openFDA is implemented and tested as a **retrieval adapter**, not a source of published MVP guidance. It does not independently verify submitted labels and is not used for clinical decisions.
-- The static browser app never queries either API at runtime. Adapter output goes to a human curation step. Route, ingredient, formulation, strength-specific differences, source sections, local-label conflicts and current publication dates must be reviewed before adding guidance.
-
-## Verification meaning
-
-`VERIFIED` means the displayed paraphrases were checked against the named source sections. It does **not** mean generated content became verified automatically, independent pharmacist review, local product bioequivalence, official Bangladesh approval, or a complete safety assessment. Sources may be older than the check date.
-
-`PARTIALLY_VERIFIED` is supported for records with incomplete evidence. `NOT_AVAILABLE` or absence of an exact formulation match yields explicit abstention. Combination medicines are never resolved to single-ingredient guidance. Numeric strength tokens are never fuzzy-corrected.
-
-English and Bangla text is fixed in versioned records. It is manually authored from the cited instructions; independent professional Bangla terminology review remains pending. No runtime machine translation, model inference or user-personalised medical advice exists.
-
-## Future import process
-
-1. Obtain and document permission/licensing for the prospective dataset; do not assume public visibility permits a bulk crawl.
-2. Prepare CSV/JSON following `docs/product-import.example.csv` and the Zod schema.
-3. Run `pnpm import:products your-file.csv` for validation only. Check the source URL, composition, release type, registration provenance, duplicates and risk flags.
-4. Run with `--write` only after review. Replacement is atomic and invalid imports leave the current file intact.
-5. Add or review guidance separately; ingestion cannot manufacture verification or fuzzy-map a formulation.
-6. Run data validation, tests, build and browser acceptance checks; commit the reviewed version and deploy.
-
-Future work: licensed catalogue coverage, qualified pharmacist/clinician review, professional Bangla review, dated label snapshots/version IDs, periodic source-link and content rechecks, and a documented conflict-resolution/review ownership process.
+All production identities, claims and sources are versioned. See [pipeline documentation](DATA_PIPELINE.md) for future permitted imports and review. Coverage is computed from production records, not source totals or targets.

@@ -27,9 +27,19 @@ import {
   sources,
   guidance,
   coveredProducts,
+  searchPage,
 } from "./catalogue";
 import { claimsOf, type Claim, type Product, type Language } from "./domain";
-import { ui, foodLabels, releaseLabels, formLabel } from "./i18n";
+import {
+  ui,
+  foodLabels,
+  releaseLabels,
+  formLabel,
+  timingLabels,
+  routeLabels,
+} from "./i18n";
+import { Coverage } from "./Coverage";
+import { useSearch } from "./useSearch";
 import { Methodology } from "./Methodology";
 import "./styles.css";
 function getIds(key: string): string[] {
@@ -139,7 +149,11 @@ export default function App() {
     setSelected(null);
     setConfirmed(false);
   }
-  const results = browse ? products : searchProducts(query);
+  const searched = useSearch(query);
+  const searchResult = browse
+    ? { items: products.slice(0, 60), total: products.length }
+    : searched;
+  const results = searchResult.items;
   const record = selected ? resolveGuidance(selected, confirmed) : null;
   const productInfo = (p: Product) => (
     <dl className="product-details">
@@ -148,6 +162,7 @@ export default function App() {
         [t.generic, p.generic_name],
         [t.strength, p.strength],
         [t.form, formLabel(p.dosage_form, lang)],
+        [lang === "en" ? "Route" : "প্রয়োগের পথ", routeLabels[lang][p.route]],
         [t.manufacturer, p.manufacturer],
         [t.release, releaseLabels[lang][p.release_type]],
       ].map(([name, value]) => (
@@ -370,12 +385,18 @@ export default function App() {
                   <div>
                     <span className="eyebrow">{t.results}</span>
                     <h2>
-                      {results.length}{" "}
+                      {searchResult.total}{" "}
                       {lang === "en"
                         ? "products to check"
                         : "টি পণ্য মিলিয়ে দেখুন"}
                     </h2>
-                    <p>{t.resultsHint}</p>
+                    <p>
+                      {t.resultsHint}{" "}
+                      {searchResult.total > results.length &&
+                        (lang === "en"
+                          ? `Showing the best ${results.length} matches. Add a strength or form to narrow your search.`
+                          : `সেরা ${results.length}টি ফল দেখানো হয়েছে। শক্তি বা ফর্ম দিয়ে অনুসন্ধান নির্দিষ্ট করুন।`)}
+                    </p>
                   </div>
                   <span className="outline-badge">
                     {lang === "en" ? "Identity first" : "আগে পরিচয়"}
@@ -515,6 +536,14 @@ export default function App() {
                           </span>
                         </div>
                         <div className="guidance-grid">
+                          {record.verification_status ===
+                            "PARTIALLY_VERIFIED" && (
+                            <p className="context-note">
+                              {lang === "en"
+                                ? "Partial guidance: meal relevance is classified from the source-supported non-oral route. A dosing schedule has not been verified here; follow your prescription."
+                                : "আংশিক নির্দেশনা: উৎসে লেখা মুখে না খাওয়ার প্রয়োগের ধরন থেকে খাবারের প্রাসঙ্গিকতা নির্ধারিত। এখানে ডোজের সময়সূচি যাচাই করা হয়নি; প্রেসক্রিপশন অনুসরণ করুন।"}
+                            </p>
+                          )}
                           <section className="guide-card food-card">
                             <h3>
                               <Utensils size={21} />
@@ -525,6 +554,13 @@ export default function App() {
                             </span>
                             {record.food_guidance &&
                               claim(record.food_guidance)}
+                            {record.food_relation === "UNKNOWN" && (
+                              <p>
+                                {lang === "en"
+                                  ? "Reliable food-timing guidance has not yet been verified for this formulation."
+                                  : "এই ফর্মুলেশনের খাবার-সংক্রান্ত নির্ভরযোগ্য নির্দেশনা এখনও যাচাই করা হয়নি।"}
+                              </p>
+                            )}
                           </section>
                           {card(
                             t.timing,
@@ -532,7 +568,7 @@ export default function App() {
                             record.timing_guidance
                               ? [record.timing_guidance]
                               : [],
-                            t.noTiming,
+                            timingLabels[lang][record.timing_type],
                           )}
                           {card(
                             t.uses,
@@ -601,6 +637,18 @@ export default function App() {
                         </span>
                         <h2>{t.unavailable}</h2>
                         <p>{t.unavailableBody}</p>
+                        <p>
+                          {lang === "en"
+                            ? "Product identified, but formulation-specific administration guidance has not yet been verified."
+                            : "পণ্যের পরিচয় পাওয়া গেছে, তবে এই ফর্মুলেশনের ব্যবহারের নির্দেশনা এখনও যাচাই করা হয়নি।"}
+                        </p>
+                        {selected.active_ingredients.length > 1 && (
+                          <p>
+                            {lang === "en"
+                              ? "This combination requires formulation-specific instructions. Please follow the dispensing label or pharmacist’s advice."
+                              : "এই যৌগিক ওষুধের জন্য ফর্মুলেশনভিত্তিক নির্দেশনা প্রয়োজন। ওষুধের লেবেল বা ফার্মাসিস্টের পরামর্শ অনুসরণ করুন।"}
+                          </p>
+                        )}
                       </section>
                     )}
                   </>
@@ -609,6 +657,7 @@ export default function App() {
             )}
             {!selected && !query && !browse && (
               <>
+                <Coverage lang={lang} />
                 <section className="how-it-works">
                   <div className="section-heading">
                     <div>

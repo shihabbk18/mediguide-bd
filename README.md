@@ -2,150 +2,84 @@
 
 **Understand how to take the medicine you were already prescribed.**
 
-An evidence-grounded bilingual medication instruction system for Bangladesh that resolves local medicine brands to their generic formulations and provides source-backed food, timing, administration and common-use information, with explicit abstention when evidence is unavailable.
+[Live app](https://shihabbk18.github.io/mediguide-bd/) · [Data & Methodology](https://shihabbk18.github.io/mediguide-bd/#methodology) · [Data pipeline](docs/DATA_PIPELINE.md)
 
-**[Live application](https://shihabbk18.github.io/mediguide-bd/)** · **[Data & Methodology](https://shihabbk18.github.io/mediguide-bd/#methodology)**
-
-## The problem and intended users
-
-People reading an existing prescription or dispensing label often recognise a local brand but need clarity about meals, timing or formulation-specific administration. MediGuide BD helps them identify the exact medicine pack before showing general, referenced information in English or Bangla.
-
-It is an instruction explainer, not a diagnosis system, prescribing system, pharmacy, or replacement for a doctor or pharmacist. No patient-specific dose or treatment duration is calculated.
-
-## Screenshots
-
-![English medicine search](docs/screenshots/home-desktop.jpg)
-
-| Mobile search                                                                          | Bangla guidance                                                                                                |
-| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| <img src="docs/screenshots/home-mobile.jpg" width="260" alt="Mobile search interface"> | <img src="docs/screenshots/guidance-mobile-bangla.jpg" width="260" alt="Bangla formulation-specific guidance"> |
+An evidence-grounded bilingual medication instruction system for Bangladesh that resolves local brands to ingredient formulations and provides cited administration information, with explicit abstention when evidence is unavailable. It helps people understand an existing prescription; it does not diagnose, prescribe or sell medicines.
 
 ## Actual coverage
 
-| Measure                                               |               Current seed |
-| ----------------------------------------------------- | -------------------------: |
-| Bangladesh product identities                         |                     **29** |
-| Generic / dosage form / release-type guidance records |                      **9** |
-| Products with matching guidance                       |                     **15** |
-| Products that explicitly abstain                      |                     **14** |
-| Manufacturer publication sets                         | **2** (Beximco and Square) |
-| Linked source publications/pages                      |                     **16** |
-| Source check date                                     |         **8 October 2026** |
+The 8 October 2026 upgrade expands the original 29-product seed to **177 product records**, **106 distinct brand strings**, **124 ingredient/form/route/release keys**, and **17 guidance records**: **13 VERIFIED**, **4 PARTIALLY_VERIFIED**. At product level, **25 resolve to verified guidance**, **4 to partial guidance**, and **148 abstain**. There are **25 source entries**. Counts are generated from production data; unknown release keys are included in the formulation count.
 
-This is a curated demonstration catalogue, **not every medicine in Bangladesh**. It includes Napa, Napa Extra, Seclo, Seclo MUPS, Nexum, Comet, Comet XR, Cef-3, Cef-3 DS, Cef-3 Forte, Amdocal and Alatrol identities across real published strengths and formulations. Manufacturer names preserve source wording. Publication presence does not confirm current stock or DGDA registration; registration numbers remain unverified/null.
+**This is not full Bangladesh coverage.** Manufacturer publications do not prove current market availability or DGDA registration. Registration numbers remain null. Many oral mappings remain UNKNOWN/NEEDS_REVIEW rather than assumed immediate release.
+
+The official DGHS/MoHFW API was investigated, but no redistribution permission or licensed export was supplied. Its roughly 39,195 source concepts were **not bulk imported**. MedEx and Healthcare Pharmaceuticals reuse restrictions were respected. There is no unauthorized production scraper.
+
+## Screenshots
+
+![Medicine search](docs/screenshots/home-desktop.jpg)
+
+| Mobile search                                                                | Bangla guidance                                                                           |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| <img src="docs/screenshots/home-mobile.jpg" width="260" alt="Mobile search"> | <img src="docs/screenshots/guidance-mobile-bangla.jpg" width="260" alt="Bangla guidance"> |
+
+These images show the original interface retained by the upgrade; older screenshots may show previous coverage. Current counts are on the live dashboard and in src/data/coverage.json.
 
 ## Architecture
 
 ```mermaid
 flowchart TD
-    A[User Search] --> B[Bangladesh Medicine Index]
-    B --> C[Exact Product Confirmation]
-    C --> D[Generic / Formulation Resolution]
-    D --> E{Exact reviewed record exists?}
-    E -->|Yes| F[Verified Drug Guidance]
-    E -->|No| G[Explicit NOT AVAILABLE]
-    F --> H[English / Bangla Explanation]
-    H --> I[Source Provenance]
+  A[User search] --> B[Prebuilt Bangladesh product index]
+  B --> C[Exact product confirmation]
+  C --> D[Ingredients + form + route + release]
+  D --> E{Reviewed guidance exists?}
+  E -->|Yes| F[English / Bangla cited explanation]
+  E -->|Uncertain or absent| G[Explicit abstention]
+  F --> H[Source provenance]
+  I[Permitted sources] --> J[Quarantine + normalize + review]
+  J --> B
+  K[Authoritative label retrieval] --> L[NEEDS_REVIEW candidates]
+  L --> M[Source / formulation / bilingual review]
+  M --> D
 ```
 
-React + TypeScript + Vite, responsive CSS, Zod, Fuse.js, Vitest, and vite-plugin-pwa/Workbox. The public app is entirely static: no server, authentication, database, inference service or paid API is required. Product and claim data are versioned JSON; CSV/JSON imports are validated separately.
+React, TypeScript and Vite preserve the existing responsive UI. Zod validates identities, provenance and guidance. A prebuilt token inverted index searches brand, generic, manufacturer, strength and form with partial/prefix matching and one-edit/transposition typo tolerance. Numeric strengths are never fuzzy-corrected. At most 60 results render, with total count and refinement prompt. Above 2,000 products a debounced Web Worker performs queries off the UI thread with stale-response protection.
 
-## Search pipeline
+Identity and guidance datasets are independent. Combination ingredients are sorted into combination keys; salt names are not blindly collapsed. Capsules, MUPS, injections, IR and ER remain distinct. Fuzzy brand matches and first ingredients never determine clinical guidance.
 
-1. Unicode/case/whitespace normalisation and strength token separation (`500mg` → `500 mg`).
-2. Exact and partial matching across brand, ingredient, company, strength, dosage form and release type.
-3. Fuse.js fuzzy candidates plus a bounded one-edit/transposition check for short misspellings.
-4. Token intersection supports mixed-field queries such as `Cefixime 200 tablet`; exact ingredient tokens take priority over lookalike ingredients. Numeric tokens are never fuzzy-corrected.
-5. Ranked product cards retain every identity; combination products and different formulations are never merged.
-6. Selecting a result reveals the complete identity. The user must explicitly confirm it before guidance appears.
-7. Medical resolution is a strict `(generic, dosage form, release type)` key lookup, never fuzzy matching.
+## Sources and safety
 
-## Data sources and evidence model
+Identities: Beximco leaflets and Square manufacturer publications, including the published 9th-edition guide. Guidance: manufacturer publications, NHS and DailyMed. openFDA retrieval creates unpublished review candidates. Each clinical claim has English/Bangla text, source IDs and a source section.
 
-Bangladesh identities come from individually checked manufacturer product leaflets/pages. General claims come from NHS patient guidance, DailyMed labels and Square administration/indication publications. Every medical claim contains English and Bangla text, source IDs and a source section; missing evidence stays missing.
+VERIFIED means displayed facts were checked against publications, **not independent pharmacist review, bioequivalence or local approval**. PARTIALLY_VERIFIED exposes limited reviewed fields. Non-oral meal relevance is inferred from the cited route and disclosed as partial; timing remains prescription-dependent. Unknown mapping, release, food and timing never become guesses.
 
-DGDA's public catalogue was investigated first. No documented bulk API or authorised complete dataset was located within the source preflight. Direct robots retrieval failed secure certificate validation, so no automated crawl was attempted. See [the curation log](docs/DATA_SOURCES.md).
+No patient-specific dose, frequency, duration, treatment change, pregnancy/child/kidney/liver treatment or overdose management is generated. A schema guard rejects common dosing/treatment-change text, backed by whole-dataset tests. This is not a complete safety leaflet or interaction checker. Follow the prescription, dispensing label, doctor or pharmacist.
 
-DailyMed and openFDA retrieval adapters are implemented in `scripts/source-adapters.ts` and successfully probed. **openFDA output is not used as published MVP guidance.** Neither adapter can auto-publish a label or assign verification; incoming labels need ingredient/formulation/local-label review. The runtime does not depend on external APIs.
+English/Bangla UI and instructions are manually authored deterministic templates. Medicine/company names are preserved. Independent clinical and professional Bangla review remain future work.
 
-`VERIFIED` means source-checked displayed claims, **not independent clinician/pharmacist approval or local product bioequivalence**. `PARTIALLY_VERIFIED` is supported in the schema, but none of the current records use it. Missing matches and `NOT_AVAILABLE` records yield an explicit unavailable message. Some source publications are old; the check date is not a publication date.
+## Run and extend
 
-## Safety model
-
-- No dose selection, frequency generation, treatment duration, diagnosis, medicine initiation/discontinuation/replacement or overdose management.
-- No invented morning, evening or bedtime advice. Unsupported timing says it has not been verified.
-- Immediate-release and extended-release metformin are separate records. Unsupported Napa liquid/suppository, Napa Extra, MUPS and other formulations abstain instead of inheriting tablet/capsule advice.
-- High-risk context notices direct users to their prescription and a clinician/pharmacist. No advice is personalised for pregnancy, breastfeeding, children, kidney/liver disease or complex medicines.
-- Guidance does not claim complete interaction checks, all warnings or suitability for an individual.
-- A persistent note prioritises the prescription, dispensing label, doctor and pharmacist.
-
-## English / বাংলা
-
-Visible language toggle; deterministic, manually authored UI and core instructions. Brand, generic and manufacturer names remain unchanged. Form labels are explained in Bangla while preserving the English pack term. There is no machine translation. Independent professional review of medical Bangla is a known outstanding requirement.
-
-## PWA installation and privacy
-
-On Android Chrome, open the browser menu and choose **Install app / Add to Home Screen**. iPhone users can use **Share → Add to Home Screen**. The app includes a manifest, 192/512px icons, standalone/splash metadata and a precached application shell plus local catalogue. A new service-worker version prompts for an update.
-
-After a successful first load/cache, the core app works offline. Source links require internet. Offline records may become outdated; check dates stay visible. Real-device installation remains a separate follow-up from browser viewport testing.
-
-Search stays on the device. Favorites and recently confirmed medicines store only product IDs in localStorage. A clear control removes both. No accounts, analytics, diagnoses or prescription text are collected. Google Fonts is optional for typography; system fonts provide a fallback if offline or blocked.
-
-## Run locally
-
-Node.js **24** and pnpm **11.19.0** (the version used for this build and CI):
+Requires Node 22+ and pnpm. Optional PDF extraction additionally needs Python and pdfplumber; the website has no Python/API runtime dependency.
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev
+pnpm build:data
 pnpm validate:data
 pnpm test
 pnpm build
+pnpm preview
 ```
 
-For GitHub Pages:
+For Pages set VITE_BASE_PATH=/mediguide-bd/. The existing GitHub Actions workflow validates, tests, builds and deploys pushes to main.
 
-```sh
-# POSIX shell
-VITE_BASE_PATH=/mediguide-bd/ pnpm build
+See [DATA_PIPELINE.md](docs/DATA_PIPELINE.md) for gated DGHS import, normalization, idempotent reviewed manufacturer imports, CSV/JSON validation, openFDA review queues and reviewed-guidance publication. Production consumes prebuilt local data; no paid LLM is required.
 
-# PowerShell
-$env:VITE_BASE_PATH='/mediguide-bd/'
-pnpm build
-```
+## PWA and privacy
 
-## Authorised catalogue imports
+On Android Chrome choose **Install app / Add to Home Screen**. The manifest, icons and service worker cache the app shell and catalogue. Source links require internet. Cached data may be stale; use the update banner when offered. Favorites/recent medicines contain only IDs in localStorage. No accounts, diagnoses, analytics or prescription uploads.
 
-```sh
-pnpm import:products ./authorised-products.csv
-pnpm import:products ./authorised-products.json --write
-```
+## Validation and limitations
 
-Default mode only validates. `--write` replaces the product catalogue atomically after schema/duplicate checks. Invalid imports preserve the existing catalogue. See [example CSV](docs/product-import.example.csv). Source URL, source section, check date and risk flag are required. Registration number may be null. New products do not automatically gain verified guidance.
+The upgrade suite passed **54 tests across 3 files**, covering requested A–O cases, confirmation, provenance, abstention, IR/ER, combinations, bilingual rendering, imports, dose rejection and 40,000 synthetic-record retrieval. Fixtures do not add production coverage. See [test report](docs/TEST_REPORT.md) for final checks.
 
-```sh
-# Probe retrieval adapters; does not modify the catalogue or guidance
-node --import tsx scripts/source-adapters.ts probe
-```
-
-## Testing and deployment
-
-**24 automated tests passed, 0 failed** locally, covering all eleven requested test categories plus mixed-field search, numeric-strength refusal, provenance, translation completeness, confirmation reset and importer rejection. TypeScript and production PWA build passed. Browser acceptance checks covered all six requested medicine categories at desktop and mobile sizes; each was confirmed, checked for food/source display and toggled to Bangla.
-
-The GitHub Actions workflow `.github/workflows/deploy.yml` validates data, runs tests, type-checks/builds and deploys the static artifact to GitHub Pages only after success. Source is pushed to [shihabbk18/mediguide-bd](https://github.com/shihabbk18/mediguide-bd). Detailed acceptance results are in [TEST_REPORT.md](docs/TEST_REPORT.md).
-
-## Limitations and future work
-
-- Curated 29-product coverage, with 14 intentional abstentions; no complete authorised national dataset.
-- No independent pharmacist/clinician review or professional Bangla review yet.
-- Source publications may be old; no live refresh, source-change monitoring or registration verification.
-- Foreign ingredient labels are general evidence, not proof of equivalence for a Bangladesh brand.
-- No personalised instructions, comprehensive interaction checks, prescription uploads or dose calculator.
-- Optional prescription-notation explainer deliberately omitted from this MVP.
-- Next: licensed catalogue expansion, expert review, dated label snapshots/version IDs, periodic rechecks and real Android installation testing.
-
-## Portfolio positioning
-
-> MediGuide BD — an evidence-grounded bilingual medication instruction system for Bangladesh that resolves local medicine brands to their generic formulations and provides source-backed food, timing, administration, and common-use information with explicit abstention when evidence is unavailable.
-
-Demonstrates information retrieval, fuzzy search, data normalisation, provenance, health informatics, bilingual UX, responsible abstention, automated testing and PWA deployment without relying on an LLM as medical truth.
+Remaining work: authorized nationwide data export; review unresolved formulations and combinations; independent pharmacist/Bangla review; periodic source checks; mobile profiling and chunked loading for substantially larger payloads. No complete Bangladesh coverage claim is made.

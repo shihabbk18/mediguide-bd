@@ -110,5 +110,68 @@
     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=43cf2754-3ec7-75f7-e063-6394a90adfeb",
     "kind": "REGULATORY",
     "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-naproxen",
+    "name": "NHS — Naproxen",
+    "url": "https://www.nhs.uk/medicines/naproxen/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-losartan",
+    "name": "NHS — Losartan",
+    "url": "https://www.nhs.uk/medicines/losartan/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-loratadine",
+    "name": "NHS — Loratadine",
+    "url": "https://www.nhs.uk/medicines/loratadine/how-and-when-to-take-loratadine/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-amoxicillin",
+    "name": "NHS — Amoxicillin",
+    "url": "https://www.nhs.uk/medicines/amoxicillin/how-and-when-to-take-amoxicillin/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "square-guide-29",
+    "name": "Square product guide — PDF page 29",
+    "url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=29",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "square-guide-50",
+    "name": "Square product guide — PDF page 50",
+    "url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=50",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "square-guide-144",
+    "name": "Square product guide — PDF page 144",
+    "url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=144",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-salbutamol",
+    "name": "NHS — Salbutamol inhaler",
+    "url": "https://www.nhs.uk/medicines/salbutamol-inhaler/how-and-when-to-use-salbutamol-inhalers/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "square-guide-274",
+    "name": "Square product guide — PDF page 274",
+    "url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=274",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
   }
 ]

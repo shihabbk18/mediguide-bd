@@ -1,2 +1,2 @@
-id,brand_name,generic_name,strength,dosage_form,release_type,manufacturer,registration_number,source,source_url,source_section,last_verified,high_risk
-bd-1,Napa,Paracetamol,500 mg,Tablet,IMMEDIATE,Beximco Pharmaceuticals Ltd.,,Beximco — Napa product leaflet,https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf,Commercial packs,2026-10-08,false
+id,brand_name,generic_name,active_ingredients,strength,dosage_form,route,release_type,mapping_status,manufacturer,registration_number,source,source_name,source_url,source_section,last_verified,high_risk
+bd-1,Napa,Paracetamol,Paracetamol,500 mg,Tablet,ORAL,IMMEDIATE,VERIFIED,Beximco Pharmaceuticals Ltd.,,Beximco — Napa product leaflet,Beximco — Napa product leaflet,https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf,Commercial packs,2026-10-08,false

@@ -39,7 +39,12 @@
     ],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "paracetamol|tablet|ORAL|IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "UNKNOWN",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "omeprazole-capsule",
@@ -67,7 +72,12 @@
     "warnings": [],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "omeprazole|capsule|ORAL|DELAYED",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "UNKNOWN",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "esomeprazole-capsule",
@@ -102,7 +112,12 @@
     "warnings": [],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "esomeprazole|capsule|ORAL|DELAYED",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "UNKNOWN",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "metformin-ir",
@@ -144,7 +159,12 @@
     ],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "metformin hydrochloride|tablet|ORAL|IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "UNKNOWN",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "metformin-er",
@@ -198,7 +218,12 @@
     ],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "metformin hydrochloride|tablet|ORAL|EXTENDED",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "EVENING",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "cefixime-tablet",
@@ -240,7 +265,12 @@
     ],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "cefixime|tablet|ORAL|IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "UNKNOWN",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "amlodipine-tablet",
@@ -287,7 +317,12 @@
     ],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "amlodipine|tablet|ORAL|IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "CONSISTENT_TIME",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "cetirizine-tablet",
@@ -341,7 +376,12 @@
     ],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "cetirizine hydrochloride|tablet|ORAL|IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "NO_SPECIFIC_TIME",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
   },
   {
     "id": "cetirizine-syrup",
@@ -395,6 +435,306 @@
     ],
     "verification_status": "VERIFIED",
     "last_verified": "2026-10-08",
-    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted.",
+    "route": "ORAL",
+    "generic_key": "cetirizine hydrochloride|syrup|ORAL|IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "timing_type": "NO_SPECIFIC_TIME",
+    "evidence_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "naproxen sodium-tablet-ORAL-IMMEDIATE",
+    "generic_key": "naproxen sodium|tablet|ORAL|IMMEDIATE",
+    "generic_name": "Naproxen Sodium",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "food_relation": "WITH_FOOD",
+    "food_guidance": {
+      "en": "Generally taken with or after food to help protect the stomach.",
+      "bn": "পাকস্থলীর অস্বস্তি কমাতে সাধারণত খাবারের সঙ্গে বা পরে নেওয়া হয়।",
+      "source_ids": ["nhs-naproxen"],
+      "source_section": "How to take naproxen"
+    },
+    "timing_type": "PRESCRIPTION_DEPENDENT",
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used for pain and inflammation.",
+        "bn": "সাধারণত ব্যথা ও প্রদাহের জন্য ব্যবহৃত হয়।",
+        "source_ids": ["nhs-naproxen"],
+        "source_section": "What naproxen is for"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Swallow the tablet whole with water.",
+        "bn": "ট্যাবলেট পানি দিয়ে সম্পূর্ণ গিলে নিন।",
+        "source_ids": ["nhs-naproxen"],
+        "source_section": "How to take naproxen"
+      }
+    ],
+    "food_drink_notes": [
+      {
+        "en": "Alcohol can increase the risk of stomach ulcers or bleeding.",
+        "bn": "অ্যালকোহল পাকস্থলীর আলসার বা রক্তক্ষরণের ঝুঁকি বাড়াতে পারে।",
+        "source_ids": ["nhs-naproxen"],
+        "source_section": "Food, drink and alcohol"
+      }
+    ],
+    "warnings": [],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Concise administration facts checked against the cited source; no dose or frequency is reproduced.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
+  },
+  {
+    "id": "losartan potassium-tablet-ORAL-IMMEDIATE",
+    "generic_key": "losartan potassium|tablet|ORAL|IMMEDIATE",
+    "generic_name": "Losartan Potassium",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Can generally be taken with or without food.",
+      "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+      "source_ids": ["nhs-losartan"],
+      "source_section": "How to take losartan"
+    },
+    "timing_type": "CONSISTENT_TIME",
+    "timing_guidance": {
+      "en": "No fixed morning or evening rule; try to take it at a consistent time according to your prescription.",
+      "bn": "সকাল বা সন্ধ্যার নির্দিষ্ট নিয়ম নেই; প্রেসক্রিপশন অনুযায়ী প্রতিদিন একই সময়ে নেওয়ার চেষ্টা করুন।",
+      "source_ids": ["nhs-losartan"],
+      "source_section": "How to take losartan"
+    },
+    "common_uses": [
+      {
+        "en": "Commonly used for high blood pressure and heart failure.",
+        "bn": "সাধারণত উচ্চ রক্তচাপ ও হার্ট ফেইলিউরের জন্য ব্যবহৃত হয়।",
+        "source_ids": ["nhs-losartan"],
+        "source_section": "What losartan is for"
+      }
+    ],
+    "administration_notes": [],
+    "food_drink_notes": [
+      {
+        "en": "Avoid grapefruit juice; ask a pharmacist about potassium-containing salt substitutes.",
+        "bn": "গ্রেপফ্রুটের রস এড়িয়ে চলুন; পটাশিয়ামযুক্ত লবণের বিকল্প নিয়ে ফার্মাসিস্টকে জিজ্ঞাসা করুন।",
+        "source_ids": ["nhs-losartan"],
+        "source_section": "Taking losartan with other medicines, food and drink"
+      }
+    ],
+    "warnings": [],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Concise administration facts checked against the cited source; no dose or frequency is reproduced.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
+  },
+  {
+    "id": "loratadine-tablet-ORAL-IMMEDIATE",
+    "generic_key": "loratadine|tablet|ORAL|IMMEDIATE",
+    "generic_name": "Loratadine",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Can generally be taken with or without food.",
+      "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+      "source_ids": ["nhs-loratadine"],
+      "source_section": "How to take it"
+    },
+    "timing_type": "PRESCRIPTION_DEPENDENT",
+    "timing_guidance": null,
+    "common_uses": [],
+    "administration_notes": [
+      {
+        "en": "Swallow with a drink of water. Do not chew the tablet.",
+        "bn": "পানি দিয়ে গিলে নিন। ট্যাবলেট চিবাবেন না।",
+        "source_ids": ["nhs-loratadine"],
+        "source_section": "How to take it"
+      }
+    ],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Concise administration facts checked against the cited source; no dose or frequency is reproduced.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
+  },
+  {
+    "id": "amoxicillin-capsule-ORAL-IMMEDIATE",
+    "generic_key": "amoxicillin|capsule|ORAL|IMMEDIATE",
+    "generic_name": "Amoxicillin",
+    "dosage_form": "Capsule",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "meal_relevance": "RELEVANT",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Can generally be taken with or without food.",
+      "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+      "source_ids": ["nhs-amoxicillin"],
+      "source_section": "How to take it"
+    },
+    "timing_type": "EVENLY_SPACED",
+    "timing_guidance": {
+      "en": "Space the doses already prescribed evenly through the day. Follow the frequency on your dispensing label.",
+      "bn": "প্রেসক্রিপশনে লেখা ডোজগুলো দিনের মধ্যে সমান ব্যবধানে নিন। কতবার নিতে হবে তা ওষুধের লেবেল অনুযায়ী অনুসরণ করুন।",
+      "source_ids": ["nhs-amoxicillin"],
+      "source_section": "How to take it"
+    },
+    "common_uses": [],
+    "administration_notes": [
+      {
+        "en": "Swallow the capsule whole with water; do not chew or break it.",
+        "bn": "ক্যাপসুল পানি দিয়ে সম্পূর্ণ গিলে নিন; চিবাবেন বা ভাঙবেন না।",
+        "source_ids": ["nhs-amoxicillin"],
+        "source_section": "How to take it"
+      }
+    ],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Concise administration facts checked against the cited source; no dose or frequency is reproduced.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
+  },
+  {
+    "id": "ketotifen fumarate-eye drops-OPHTHALMIC-NOT_APPLICABLE",
+    "generic_key": "ketotifen fumarate|eye drops|OPHTHALMIC|NOT_APPLICABLE",
+    "generic_name": "Ketotifen Fumarate",
+    "dosage_form": "Eye Drops",
+    "route": "OPHTHALMIC",
+    "release_type": "NOT_APPLICABLE",
+    "meal_relevance": "NOT_APPLICABLE",
+    "food_relation": "NOT_APPLICABLE",
+    "food_guidance": {
+      "en": "Meal timing is not applicable to this dosage form.",
+      "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+      "source_ids": ["square-guide-29"],
+      "source_section": "Ocular administration and Preparation"
+    },
+    "timing_type": "PRESCRIPTION_DEPENDENT",
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used for symptoms of allergic conjunctivitis.",
+        "bn": "সাধারণত অ্যালার্জিজনিত চোখের প্রদাহের উপসর্গে ব্যবহৃত হয়।",
+        "source_ids": ["square-guide-29"],
+        "source_section": "Indication"
+      }
+    ],
+    "administration_notes": [],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "PARTIALLY_VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Meal relevance is classified from the cited non-oral route. Only the cited fields are reviewed; timing and other missing fields remain prescription-dependent.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
+  },
+  {
+    "id": "mupirocin-ointment-TOPICAL-NOT_APPLICABLE",
+    "generic_key": "mupirocin|ointment|TOPICAL|NOT_APPLICABLE",
+    "generic_name": "Mupirocin",
+    "dosage_form": "Ointment",
+    "route": "TOPICAL",
+    "release_type": "NOT_APPLICABLE",
+    "meal_relevance": "NOT_APPLICABLE",
+    "food_relation": "NOT_APPLICABLE",
+    "food_guidance": {
+      "en": "Meal timing is not applicable to this dosage form.",
+      "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+      "source_ids": ["square-guide-50"],
+      "source_section": "Topical administration and Preparation"
+    },
+    "timing_type": "PRESCRIPTION_DEPENDENT",
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used for certain bacterial skin infections, including impetigo.",
+        "bn": "সাধারণত ইমপেটিগোসহ কিছু ব্যাকটেরিয়াজনিত ত্বকের সংক্রমণে ব্যবহৃত হয়।",
+        "source_ids": ["square-guide-50"],
+        "source_section": "Indication"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Avoid contact with the eyes.",
+        "bn": "চোখের সংস্পর্শ এড়িয়ে চলুন।",
+        "source_ids": ["square-guide-50"],
+        "source_section": "Contraindication & Precaution"
+      }
+    ],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "PARTIALLY_VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Meal relevance is classified from the cited non-oral route. Only the cited fields are reviewed; timing and other missing fields remain prescription-dependent.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
+  },
+  {
+    "id": "furosemide-injection-INJECTION-NOT_APPLICABLE",
+    "generic_key": "furosemide|injection|INJECTION|NOT_APPLICABLE",
+    "generic_name": "Furosemide",
+    "dosage_form": "Injection",
+    "route": "INJECTION",
+    "release_type": "NOT_APPLICABLE",
+    "meal_relevance": "NOT_APPLICABLE",
+    "food_relation": "NOT_APPLICABLE",
+    "food_guidance": {
+      "en": "Meal timing is not applicable to this dosage form.",
+      "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+      "source_ids": ["square-guide-144"],
+      "source_section": "Injection (IM/IV) and Preparation"
+    },
+    "timing_type": "PRESCRIPTION_DEPENDENT",
+    "timing_guidance": null,
+    "common_uses": [],
+    "administration_notes": [],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "PARTIALLY_VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Meal relevance is classified from the cited non-oral route. Only the cited fields are reviewed; timing and other missing fields remain prescription-dependent.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
+  },
+  {
+    "id": "salbutamol-inhaler-INHALATION-NOT_APPLICABLE",
+    "generic_key": "salbutamol|inhaler|INHALATION|NOT_APPLICABLE",
+    "generic_name": "Salbutamol",
+    "dosage_form": "Inhaler",
+    "route": "INHALATION",
+    "release_type": "NOT_APPLICABLE",
+    "meal_relevance": "NOT_APPLICABLE",
+    "food_relation": "NOT_APPLICABLE",
+    "food_guidance": {
+      "en": "Meal timing is not applicable to this dosage form.",
+      "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+      "source_ids": ["square-guide-274"],
+      "source_section": "Inhaler administration and Preparation"
+    },
+    "timing_type": "PRESCRIPTION_DEPENDENT",
+    "timing_guidance": null,
+    "common_uses": [],
+    "administration_notes": [
+      {
+        "en": "Read the leaflet for your exact inhaler device and ask a pharmacist to check your technique.",
+        "bn": "আপনার নির্দিষ্ট ইনহেলারের লিফলেট পড়ুন এবং ব্যবহার করার পদ্ধতি ফার্মাসিস্টকে দেখিয়ে নিন।",
+        "source_ids": ["nhs-salbutamol"],
+        "source_section": "How to use your inhaler"
+      }
+    ],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "PARTIALLY_VERIFIED",
+    "last_verified": "2026-10-08",
+    "evidence_note": "Meal relevance is classified from the cited non-oral route. Only the cited fields are reviewed; timing and other missing fields remain prescription-dependent.",
+    "mapping_note": "Exact ingredient, form, route and release mapping required. Local dispensing label takes priority; no bioequivalence or current registration is asserted."
   }
 ]

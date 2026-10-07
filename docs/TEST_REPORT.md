@@ -1,44 +1,22 @@
-# Test report
+# Upgrade test report
 
-Date: 8 October 2026, Asia/Dhaka. Results below are observed, not planned.
+Date: 8 October 2026, Asia/Dhaka.
 
-## Automated checks
+## Observed automated results
 
-- Vitest: **24 passed, 0 failed** across 2 files.
-- Covers exact identity, generic/manufacturer search, typo tolerance, ambiguity gating, cited food guidance, unavailable evidence, formulation separation, bilingual switching, no patient-specific dosage output, nonexistent search, importer validation and numeric-strength refusal.
-- Zod data validation: 29 products, 9 formulation guides, 16 sources, 15 matched products, 14 abstentions.
-- TypeScript: passed after explicitly adding the testing-library DOM peer type dependency.
-- Production Vite build: passed, with manifest and generated precache service worker.
-- Adapter probes: DailyMed and openFDA each returned 3 records; no data automatically published.
+- Vitest: 54 tests passed, 0 failed, across 3 files.
+- Required A–O cases: brand, generic, manufacturer, typo, multiple strengths, combinations, before/with/flexible food, injection, eye drops, topical, abstention, IR/ER and bilingual templates.
+- Existing UI tests: exact confirmation, sources, bilingual switching, changing selection, unknown search and ID-only storage.
+- Pipeline checks: no permission manifest means no bulk DGHS import; uncertain normalization is quarantined; extraction candidates remain NEEDS_REVIEW; missing review manifests and unsafe dosing are rejected.
+- Prebuilt index retrieval over 40,000 synthetic records passed; result cap 60. Fixtures are not production data. This does not establish Android/mobile performance.
+- Production data/index validation: 177 products, 106 brands, 124 formulation keys, 17 guidance records, 25 sources. Product guidance: 25 verified, 4 partial, 148 unavailable.
+- TypeScript/Vite production build passed with GitHub Pages base, generated search worker, manifest, icons and offline precache service worker.
+- openFDA enrichment: three successful formulation retrievals, all unpublished NEEDS_REVIEW candidates. Initial paracetamol searches returned 404; retrieval-only US terminology alias resolved this, without altering production ingredient keys.
 
-Two initial search assertions failed (short transposition typo, fuzzy lookalike ingredient). Search was corrected and the final suite passed. Windows sandbox file-resolution restrictions required elevated execution; those failed attempts are not counted as passing tests.
+The first regression run had 23 passes and one false positive: the dose-change regex rejected an alcohol warning saying “increase the risk”. The guard was narrowed to actual dose/medicine changes and explicit unsafe-claim rejection tests were added; the subsequent complete suite passed. No failed attempt is counted as a pass.
 
 ## Browser acceptance
 
-UI exercised through the Codex browser with snapshots after actions. Desktop 1280×900; mobile 390×844.
+The local HTTP preview served the current production asset successfully. The Codex browser loaded an older cached app on the original preview origin and could not load fresh local origins. This local browser attempt is not reported as passed.
 
-| Category         | Product                | Food instruction observed                     | Confirmation, sources, Bangla, mobile |
-| ---------------- | ---------------------- | --------------------------------------------- | ------------------------------------- |
-| Pain             | Napa 500 mg Tablet     | With or without food                          | Passed                                |
-| Acid/reflux      | Seclo 20 mg Capsule    | Before a meal                                 | Passed                                |
-| Antibiotic       | Cef-3 200 mg Tablet    | With or without food                          | Passed                                |
-| Diabetes         | Comet XR 500 mg Tablet | With evening meal; do not crush/cut/chew      | Passed                                |
-| Antihypertensive | Amdocal 5 mg Tablet    | Before or after food; grapefruit note         | Passed                                |
-| Allergy          | Alatrol 10 mg Tablet   | With or without food; no required time of day | Passed                                |
-
-Mobile checks are captured in `mobile-acceptance.json`. Document scroll width was 375px within a 390px viewport (15px vertical scrollbar), with no horizontal overflow. Initial equality-based overflow diagnostics were corrected to check `scrollWidth <= innerWidth`.
-
-Screenshots: desktop search/guidance, mobile search and mobile Bangla guidance in `screenshots/`.
-
-## Public deployment checks
-
-- GitHub Pages public URL loaded successfully: https://shihabbk18.github.io/mediguide-bd/
-- Initial CI test/build/deploy workflow completed successfully: https://github.com/shihabbk18/mediguide-bd/actions/runs/37679247744
-- Public browser check: `Napa 500` returned the separate tablet, suppository and combination products. Selecting the 500mg tablet showed Beximco / Paracetamol identity; guidance was absent before confirmation. After confirmation, with-or-without-food guidance and the NHS source were present.
-- Deployed Bangla toggle and 390×844 mobile check passed; document width 375px within the 390px viewport, with no horizontal overflow.
-- Offline-origin test: loaded and cached the production build at the deployed base path; stopped its dedicated local preview server. A direct request then failed with `ECONNREFUSED`, while the browser reloaded the cached app and successfully searched/confirmed Seclo 20mg, displaying before-meal guidance and sources. This tests unavailable-origin cache behavior, not a physical-device airplane-mode installation.
-- Live full-page screenshot capture was unreliable in the in-app browser, but a public guidance viewport screenshot was captured and visually inspected (`screenshots/live-guidance.jpg`). The other screenshots document the earlier local desktop/mobile run. Public acceptance was verified through browser accessibility/DOM observations and the captured guidance viewport.
-
-## Limits of verification
-
-Browser viewport tests do not prove installation on a physical Android device. Automated tests inspect the finite deterministic guidance records and forbidden dosage patterns; they are not a clinical safety certification. Independent clinical/pharmacy and Bangla-language review has not been completed.
+Public deployment and ten-category acceptance results will be recorded after observing the deployed application.

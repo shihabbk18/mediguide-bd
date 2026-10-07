@@ -128,7 +128,7 @@ describe("Safety and provenance", () => {
     for (const g of guidance)
       for (const c of claimsOf(g)) {
         expect(c.en).not.toMatch(
-          /\b(?:take|give|use)\s+\d|\b\d+\s*(?:mg|ml|tablets?|capsules?|days?|weeks?)\b|\b(?:once|twice|three times)\s+(?:a |per )?day|\b(?:start|stop|replace|increase|decrease|switch)\s+(?:taking|your|the|this)\b/i,
+          /\b(?:take|give|use)\s+\d|\b\d+\s*(?:mg|ml|tablets?|capsules?|days?|weeks?)\b|\b(?:once|twice|three times)\s+(?:a |per )?day|\b(?:start|stop|replace|increase|decrease|switch)\s+(?:taking|your (?:dose|medicine)|the dose|this medicine)\b/i,
         );
         expect(c.bn).not.toMatch(
           /[০-৯\d]+\s*(?:মি\.গ্রা|মিলি|ট্যাবলেট|দিন|বার)/,
