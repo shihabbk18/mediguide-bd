@@ -80,6 +80,6 @@ On Android Chrome choose **Install app / Add to Home Screen**. The manifest, ico
 
 ## Validation and limitations
 
-The upgrade suite passed **54 tests across 3 files**, covering requested A–O cases, confirmation, provenance, abstention, IR/ER, combinations, bilingual rendering, imports, dose rejection and 40,000 synthetic-record retrieval. Fixtures do not add production coverage. See [test report](docs/TEST_REPORT.md) for final checks.
+The upgrade suite passed **55 tests across 3 files**, covering requested A–O cases, confirmation, provenance, abstention, IR/ER, combinations, bilingual rendering, imports, dose rejection and 40,000 synthetic-record retrieval. Fixtures do not add production coverage. See [test report](docs/TEST_REPORT.md) for final checks.
 
 Remaining work: authorized nationwide data export; review unresolved formulations and combinations; independent pharmacist/Bangla review; periodic source checks; mobile profiling and chunked loading for substantially larger payloads. No complete Bangladesh coverage claim is made.

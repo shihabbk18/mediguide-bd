@@ -1,4 +1,8 @@
 import { describe, it, expect } from "vitest";
+import { mkdirSync, writeFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { execFileSync } from "node:child_process";
+import { randomUUID } from "node:crypto";
 import {
   products,
   guidance,
@@ -110,6 +114,40 @@ describe("Upgrade acceptance A–O", () => {
   });
 });
 describe("Pipeline and scale safeguards", () => {
+  it("reviewed manufacturer import rejects conflicting ingredients, routes and releases", () => {
+    const script = resolve("scripts/import-reviewed-square.mjs");
+    for (const mismatch of [
+      {
+        generic_name: "Conflicting fixture",
+        active_ingredients: ["Conflicting fixture"],
+      },
+      { route: "TOPICAL" },
+      { release_type: "EXTENDED" },
+    ]) {
+      const folder = resolve("tmp", `import-test-${randomUUID()}`);
+      mkdirSync(resolve(folder, "data"), { recursive: true });
+      mkdirSync(resolve(folder, "src/data"), { recursive: true });
+      const prior = {
+        ...products[0],
+        brand_name: "Fixture only",
+        manufacturer: "Square Pharmaceuticals Ltd.",
+      };
+      writeFileSync(
+        resolve(folder, "src/data/products.json"),
+        JSON.stringify([prior]),
+      );
+      writeFileSync(
+        resolve(folder, "data/reviewed-square-identities.json"),
+        JSON.stringify([{ ...prior, ...mismatch, page: 1 }]),
+      );
+      expect(() =>
+        execFileSync(process.execPath, [script], {
+          cwd: folder,
+          stdio: "pipe",
+        }),
+      ).toThrow(/Conflicting ingredient\/route\/release mapping/);
+    }
+  });
   it("does not accept absent permission or a public URL as permission", () => {
     expect(() => permissionSchema.parse({})).toThrow();
     expect(() =>

@@ -4,7 +4,7 @@ Date: 8 October 2026, Asia/Dhaka.
 
 ## Observed automated results
 
-- Vitest: 54 tests passed, 0 failed, across 3 files.
+- Vitest: 55 tests passed, 0 failed, across 3 files.
 - Required A–O cases: brand, generic, manufacturer, typo, multiple strengths, combinations, before/with/flexible food, injection, eye drops, topical, abstention, IR/ER and bilingual templates.
 - Existing UI tests: exact confirmation, sources, bilingual switching, changing selection, unknown search and ID-only storage.
 - Pipeline checks: no permission manifest means no bulk DGHS import; uncertain normalization is quarantined; extraction candidates remain NEEDS_REVIEW; missing review manifests and unsafe dosing are rejected.
@@ -19,7 +19,7 @@ The first regression run had 23 passes and one false positive: the dose-change r
 
 The local HTTP preview served the current production asset successfully. The Codex browser loaded an older cached app on the original preview origin and could not load fresh local origins. This local browser attempt is not reported as passed.
 
-Public deployment and ten-category acceptance results will be recorded after observing the deployed application.
+Public deployment and category acceptance were subsequently observed; detailed results follow.
 
 ## Observed public deployment acceptance
 
@@ -48,3 +48,5 @@ The mobile DOM overflow checks reported false for horizontal overflow. English/B
 Napa Extra was separately confirmed and displayed NOT AVAILABLE plus the combination-specific refusal; no paracetamol-only guidance appeared. A nonexistent medicine produced graceful no-results feedback. Methodology showed computed counts, source register and permission/verification limitations.
 
 These are responsive browser checks, not an actual Android installation or a large-dataset mobile performance benchmark. Independent clinical review and nationwide coverage remain incomplete.
+
+Final importer hardening: the complete suite passed 55 tests after adding a regression for conflicting ingredients, routes and known release types. The reviewed manufacturer import was rerun and added zero records; catalogue contents and coverage remained unchanged. TypeScript compilation passed after this final test addition.
