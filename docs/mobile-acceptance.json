@@ -1,0 +1,74 @@
+[
+  {
+    "category": "pain",
+    "gated": true,
+    "food": true,
+    "sources": true,
+    "bangla": true,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 375,
+      "width": 390
+    }
+  },
+  {
+    "category": "reflux",
+    "gated": true,
+    "food": true,
+    "sources": true,
+    "bangla": true,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 375,
+      "width": 390
+    }
+  },
+  {
+    "category": "antibiotic",
+    "gated": true,
+    "food": true,
+    "sources": true,
+    "bangla": true,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 375,
+      "width": 390
+    }
+  },
+  {
+    "category": "diabetes",
+    "gated": true,
+    "food": true,
+    "sources": true,
+    "bangla": true,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 375,
+      "width": 390
+    }
+  },
+  {
+    "category": "antihypertensive",
+    "gated": true,
+    "food": true,
+    "sources": true,
+    "bangla": true,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 375,
+      "width": 390
+    }
+  },
+  {
+    "category": "allergy",
+    "gated": true,
+    "food": true,
+    "sources": true,
+    "bangla": true,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 375,
+      "width": 390
+    }
+  }
+]

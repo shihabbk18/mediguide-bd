@@ -1,0 +1,483 @@
+[
+  {
+    "id": "paracetamol-tablet",
+    "generic_name": "Paracetamol",
+    "dosage_form": "Tablet",
+    "release_type": "IMMEDIATE",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Can generally be taken with or without food.",
+      "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+      "source_ids": [
+        "nhs-para"
+      ],
+      "source_section": "How to take common types — tablets"
+    },
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used for pain and fever.",
+        "bn": "সাধারণত ব্যথা ও জ্বরের জন্য ব্যবহৃত হয়।",
+        "source_ids": [
+          "nhs-para"
+        ],
+        "source_section": "What paracetamol is for"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Swallow the conventional tablet with water.",
+        "bn": "সাধারণ ট্যাবলেট পানি দিয়ে গিলে নিন।",
+        "source_ids": [
+          "nhs-para"
+        ],
+        "source_section": "Tablets and capsules"
+      }
+    ],
+    "food_drink_notes": [],
+    "warnings": [
+      {
+        "en": "Check other medicines for paracetamol to avoid accidentally taking the same ingredient twice.",
+        "bn": "একই উপাদান ভুল করে দুবার নেওয়া এড়াতে অন্য ওষুধে paracetamol আছে কি না দেখুন।",
+        "source_ids": [
+          "nhs-para"
+        ],
+        "source_section": "Important — other medicines containing paracetamol"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "omeprazole-capsule",
+    "generic_name": "Omeprazole",
+    "dosage_form": "Capsule",
+    "release_type": "DELAYED",
+    "food_relation": "BEFORE_FOOD",
+    "food_guidance": {
+      "en": "Generally taken before a meal.",
+      "bn": "সাধারণত খাবারের আগে নেওয়া হয়।",
+      "source_ids": [
+        "seclo-web"
+      ],
+      "source_section": "Dosage & Administration"
+    },
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used for acid reflux and stomach or duodenal ulcers.",
+        "bn": "সাধারণত এসিড রিফ্লাক্স এবং পাকস্থলী বা ডুওডেনামের আলসারের জন্য ব্যবহৃত হয়।",
+        "source_ids": [
+          "seclo-web"
+        ],
+        "source_section": "Indication"
+      }
+    ],
+    "administration_notes": [],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "esomeprazole-capsule",
+    "generic_name": "Esomeprazole",
+    "dosage_form": "Capsule",
+    "release_type": "DELAYED",
+    "food_relation": "BEFORE_FOOD",
+    "food_guidance": {
+      "en": "Delayed-release capsules are generally taken at least one hour before a meal.",
+      "bn": "ডিলেইড-রিলিজ ক্যাপসুল সাধারণত খাবারের অন্তত এক ঘণ্টা আগে নেওয়া হয়।",
+      "source_ids": [
+        "dm-eso"
+      ],
+      "source_section": "2.3 Preparation and Administration"
+    },
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used for acid reflux.",
+        "bn": "সাধারণত এসিড রিফ্লাক্সের জন্য ব্যবহৃত হয়।",
+        "source_ids": [
+          "nexum"
+        ],
+        "source_section": "Indication"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Swallow whole; do not chew or crush the capsule or its pellets.",
+        "bn": "পুরো ক্যাপসুল গিলে নিন; ক্যাপসুল বা ভেতরের দানা চিবাবেন বা গুঁড়া করবেন না।",
+        "source_ids": [
+          "dm-eso"
+        ],
+        "source_section": "2.3 Oral Administration"
+      }
+    ],
+    "food_drink_notes": [],
+    "warnings": [],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "metformin-ir",
+    "generic_name": "Metformin hydrochloride",
+    "dosage_form": "Tablet",
+    "release_type": "IMMEDIATE",
+    "food_relation": "WITH_FOOD",
+    "food_guidance": {
+      "en": "Generally taken with meals.",
+      "bn": "সাধারণত খাবারের সঙ্গে নেওয়া হয়।",
+      "source_ids": [
+        "comet",
+        "dm-met"
+      ],
+      "source_section": "Dosage and Administration — immediate release"
+    },
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used to help control blood glucose in type 2 diabetes.",
+        "bn": "সাধারণত টাইপ ২ ডায়াবেটিসে রক্তের গ্লুকোজ নিয়ন্ত্রণে ব্যবহৃত হয়।",
+        "source_ids": [
+          "comet"
+        ],
+        "source_section": "Indication and usage"
+      }
+    ],
+    "administration_notes": [],
+    "food_drink_notes": [
+      {
+        "en": "Avoid excessive alcohol; it increases the risk of lactic acidosis.",
+        "bn": "অতিরিক্ত অ্যালকোহল এড়িয়ে চলুন; এতে ল্যাকটিক অ্যাসিডোসিসের ঝুঁকি বাড়ে।",
+        "source_ids": [
+          "dm-met"
+        ],
+        "source_section": "5.1 Lactic acidosis / Patient information"
+      }
+    ],
+    "warnings": [
+      {
+        "en": "Kidney function, liver disease and some contrast scans can affect safe use. Ask your prescriber or pharmacist about your instructions.",
+        "bn": "কিডনির কার্যক্ষমতা, লিভারের রোগ ও কিছু কনট্রাস্ট পরীক্ষা নিরাপদ ব্যবহারে প্রভাব ফেলতে পারে। আপনার নির্দেশনা সম্পর্কে চিকিৎসক বা ফার্মাসিস্টকে জিজ্ঞাসা করুন।",
+        "source_ids": [
+          "dm-met"
+        ],
+        "source_section": "5.1 Lactic acidosis"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "metformin-er",
+    "generic_name": "Metformin hydrochloride",
+    "dosage_form": "Tablet",
+    "release_type": "EXTENDED",
+    "food_relation": "WITH_FOOD",
+    "food_guidance": {
+      "en": "Generally taken with the evening meal.",
+      "bn": "সাধারণত সন্ধ্যা বা রাতের খাবারের সঙ্গে নেওয়া হয়।",
+      "source_ids": [
+        "comet",
+        "dm-met"
+      ],
+      "source_section": "Dosage and Administration — extended release"
+    },
+    "timing_guidance": {
+      "en": "Extended-release tablets are generally taken with the evening meal. Follow the schedule on your prescription.",
+      "bn": "এক্সটেন্ডেড-রিলিজ ট্যাবলেট সাধারণত সন্ধ্যা বা রাতের খাবারের সঙ্গে নেওয়া হয়। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+      "source_ids": [
+        "comet",
+        "dm-met"
+      ],
+      "source_section": "Dosage and Administration — extended release"
+    },
+    "common_uses": [
+      {
+        "en": "Commonly used to help control blood glucose in type 2 diabetes.",
+        "bn": "সাধারণত টাইপ ২ ডায়াবেটিসে রক্তের গ্লুকোজ নিয়ন্ত্রণে ব্যবহৃত হয়।",
+        "source_ids": [
+          "comet"
+        ],
+        "source_section": "Indication and usage"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Swallow whole. Do not crush, cut or chew extended-release tablets.",
+        "bn": "পুরো ট্যাবলেট গিলে নিন। এক্সটেন্ডেড-রিলিজ ট্যাবলেট গুঁড়া, কাটা বা চিবানো যাবে না।",
+        "source_ids": [
+          "dm-met"
+        ],
+        "source_section": "2.1 Adult Dosage — extended release"
+      }
+    ],
+    "food_drink_notes": [
+      {
+        "en": "Avoid excessive alcohol; it increases the risk of lactic acidosis.",
+        "bn": "অতিরিক্ত অ্যালকোহল এড়িয়ে চলুন; এতে ল্যাকটিক অ্যাসিডোসিসের ঝুঁকি বাড়ে।",
+        "source_ids": [
+          "dm-met"
+        ],
+        "source_section": "5.1 Lactic acidosis / Patient information"
+      }
+    ],
+    "warnings": [
+      {
+        "en": "Kidney function and contrast scans may require patient-specific instructions from your clinician.",
+        "bn": "কিডনির কার্যক্ষমতা ও কনট্রাস্ট পরীক্ষার ক্ষেত্রে চিকিৎসকের ব্যক্তিভিত্তিক নির্দেশনা প্রয়োজন হতে পারে।",
+        "source_ids": [
+          "dm-met"
+        ],
+        "source_section": "5.1 Lactic acidosis"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "cefixime-tablet",
+    "generic_name": "Cefixime",
+    "dosage_form": "Tablet",
+    "release_type": "IMMEDIATE",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Tablets can generally be taken with or without food.",
+      "bn": "ট্যাবলেট সাধারণত খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+      "source_ids": [
+        "dm-cef"
+      ],
+      "source_section": "2.1 Adults / 12.3 Pharmacokinetics"
+    },
+    "timing_guidance": null,
+    "common_uses": [
+      {
+        "en": "Commonly used for certain bacterial respiratory or urinary infections, when prescribed.",
+        "bn": "চিকিৎসক লিখে দিলে সাধারণত কিছু ব্যাকটেরিয়াজনিত শ্বাসতন্ত্র বা মূত্রতন্ত্রের সংক্রমণে ব্যবহৃত হয়।",
+        "source_ids": [
+          "cef3"
+        ],
+        "source_section": "Indication"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Tablets and suspension are not always interchangeable. Confirm any formulation change with your pharmacist.",
+        "bn": "ট্যাবলেট ও সাসপেনশন সবসময় একটির বদলে অন্যটি ব্যবহার করা যায় না। ফর্ম বদলানোর আগে ফার্মাসিস্টের সঙ্গে নিশ্চিত করুন।",
+        "source_ids": [
+          "dm-cef"
+        ],
+        "source_section": "2.2 / 12.3 — lack of bioequivalence"
+      }
+    ],
+    "food_drink_notes": [],
+    "warnings": [
+      {
+        "en": "Tell your clinician about an allergy to cephalosporin antibiotics.",
+        "bn": "সেফালোস্পোরিন অ্যান্টিবায়োটিকে অ্যালার্জি থাকলে চিকিৎসককে জানান।",
+        "source_ids": [
+          "dm-cef"
+        ],
+        "source_section": "4 Contraindications"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "amlodipine-tablet",
+    "generic_name": "Amlodipine",
+    "dosage_form": "Tablet",
+    "release_type": "IMMEDIATE",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Can generally be taken before or after eating.",
+      "bn": "সাধারণত খাবারের আগে বা পরে নেওয়া যায়।",
+      "source_ids": [
+        "nhs-amlo"
+      ],
+      "source_section": "How to take amlodipine"
+    },
+    "timing_guidance": {
+      "en": "Take consistently at the same time of day specified on your prescription. There is no required morning or evening time in this source.",
+      "bn": "প্রেসক্রিপশনে নির্ধারিত সময়ে প্রতিদিন নিয়মিত নিন। এই উৎসে সকাল বা সন্ধ্যার নির্দিষ্ট নির্দেশনা নেই।",
+      "source_ids": [
+        "nhs-amlo"
+      ],
+      "source_section": "How to take amlodipine"
+    },
+    "common_uses": [
+      {
+        "en": "Commonly used for high blood pressure and to prevent angina attacks.",
+        "bn": "সাধারণত উচ্চ রক্তচাপ ও অ্যানজাইনার আক্রমণ প্রতিরোধে ব্যবহৃত হয়।",
+        "source_ids": [
+          "nhs-amlo"
+        ],
+        "source_section": "What amlodipine is for"
+      }
+    ],
+    "administration_notes": [],
+    "food_drink_notes": [
+      {
+        "en": "Avoid grapefruit and grapefruit juice; they may increase side effects.",
+        "bn": "গ্রেপফ্রুট ও গ্রেপফ্রুটের রস এড়িয়ে চলুন; পার্শ্বপ্রতিক্রিয়া বাড়তে পারে।",
+        "source_ids": [
+          "nhs-amlo"
+        ],
+        "source_section": "Food and alcohol"
+      }
+    ],
+    "warnings": [
+      {
+        "en": "Dizziness or sleepiness can occur. Avoid driving or machinery if affected.",
+        "bn": "মাথা ঘোরা বা ঘুম ঘুম ভাব হতে পারে। এমন হলে গাড়ি চালানো বা যন্ত্র পরিচালনা এড়িয়ে চলুন।",
+        "source_ids": [
+          "nhs-amlo"
+        ],
+        "source_section": "Side effects"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "cetirizine-tablet",
+    "generic_name": "Cetirizine hydrochloride",
+    "dosage_form": "Tablet",
+    "release_type": "IMMEDIATE",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Can generally be taken with or without food.",
+      "bn": "সাধারণত খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+      "source_ids": [
+        "alatrol"
+      ],
+      "source_section": "Dosage and Administration"
+    },
+    "timing_guidance": {
+      "en": "No specific time of day is required by this leaflet. Follow the schedule written on your prescription.",
+      "bn": "এই লিফলেটে দিনের নির্দিষ্ট সময় দেওয়া নেই। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+      "source_ids": [
+        "alatrol"
+      ],
+      "source_section": "Dosage and Administration — time varies to suit needs"
+    },
+    "common_uses": [
+      {
+        "en": "Commonly used for allergy symptoms and hives.",
+        "bn": "সাধারণত অ্যালার্জির লক্ষণ ও আমবাতের জন্য ব্যবহৃত হয়।",
+        "source_ids": [
+          "alatrol"
+        ],
+        "source_section": "Indication"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Swallow whole with a drink. Do not chew.",
+        "bn": "পানীয় দিয়ে পুরো ট্যাবলেট গিলে নিন। চিবাবেন না।",
+        "source_ids": [
+          "nhs-cet"
+        ],
+        "source_section": "How to take it"
+      }
+    ],
+    "food_drink_notes": [
+      {
+        "en": "Avoid alcohol because it may increase sleepiness.",
+        "bn": "অ্যালকোহল এড়িয়ে চলুন; ঘুম ঘুম ভাব বাড়তে পারে।",
+        "source_ids": [
+          "nhs-cet-notes"
+        ],
+        "source_section": "Can I drink alcohol?"
+      }
+    ],
+    "warnings": [
+      {
+        "en": "May cause sleepiness. Avoid driving or machinery if affected.",
+        "bn": "ঘুম ঘুম ভাব হতে পারে। এমন হলে গাড়ি চালানো বা যন্ত্র পরিচালনা এড়িয়ে চলুন।",
+        "source_ids": [
+          "nhs-cet-notes"
+        ],
+        "source_section": "Can I drive?"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  },
+  {
+    "id": "cetirizine-syrup",
+    "generic_name": "Cetirizine hydrochloride",
+    "dosage_form": "Syrup",
+    "release_type": "IMMEDIATE",
+    "food_relation": "WITH_OR_WITHOUT_FOOD",
+    "food_guidance": {
+      "en": "Can generally be taken with or without food.",
+      "bn": "সাধারণত খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+      "source_ids": [
+        "alatrol"
+      ],
+      "source_section": "Dosage and Administration"
+    },
+    "timing_guidance": {
+      "en": "No specific time of day is required by this leaflet. Follow the schedule written on your prescription.",
+      "bn": "এই লিফলেটে দিনের নির্দিষ্ট সময় দেওয়া নেই। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+      "source_ids": [
+        "alatrol"
+      ],
+      "source_section": "Dosage and Administration — time varies to suit needs"
+    },
+    "common_uses": [
+      {
+        "en": "Commonly used for allergy symptoms and hives.",
+        "bn": "সাধারণত অ্যালার্জির লক্ষণ ও আমবাতের জন্য ব্যবহৃত হয়।",
+        "source_ids": [
+          "alatrol"
+        ],
+        "source_section": "Indication"
+      }
+    ],
+    "administration_notes": [
+      {
+        "en": "Measure the prescribed amount with a medicine spoon or syringe, not a kitchen spoon.",
+        "bn": "ওষুধ মাপার চামচ বা সিরিঞ্জ দিয়ে প্রেসক্রিপশনে লেখা পরিমাণ মাপুন; রান্নাঘরের চামচ ব্যবহার করবেন না।",
+        "source_ids": [
+          "nhs-cet"
+        ],
+        "source_section": "How to take liquid"
+      }
+    ],
+    "food_drink_notes": [
+      {
+        "en": "Avoid alcohol because it may increase sleepiness.",
+        "bn": "অ্যালকোহল এড়িয়ে চলুন; ঘুম ঘুম ভাব বাড়তে পারে।",
+        "source_ids": [
+          "nhs-cet-notes"
+        ],
+        "source_section": "Can I drink alcohol?"
+      }
+    ],
+    "warnings": [
+      {
+        "en": "May cause sleepiness. Avoid driving or machinery if affected.",
+        "bn": "ঘুম ঘুম ভাব হতে পারে। এমন হলে গাড়ি চালানো বা যন্ত্র পরিচালনা এড়িয়ে চলুন।",
+        "source_ids": [
+          "nhs-cet-notes"
+        ],
+        "source_section": "Can I drive?"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "last_verified": "2026-10-08",
+    "mapping_note": "General ingredient and formulation guidance; the Bangladesh dispensing label takes priority. No bioequivalence or local regulatory approval is asserted."
+  }
+]

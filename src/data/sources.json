@@ -1,0 +1,114 @@
+[
+  {
+    "id": "napa",
+    "name": "Beximco — Napa product leaflet",
+    "url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "amdocal",
+    "name": "Beximco — Amdocal product leaflet",
+    "url": "https://beximco-pharma.com/cdn/bpl/product/pdf/amdocal.pdf",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "seclo",
+    "name": "Square — Seclo product leaflet",
+    "url": "https://www.squarepharma.com.bd/downloads/1609925065_pdoc_Seclo.pdf",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "seclo-web",
+    "name": "Square — Seclo administration",
+    "url": "https://www.squarepharma.com.bd/product-details.php?pid=10",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "seclo-mups",
+    "name": "Square — Seclo MUPS product",
+    "url": "https://squarepharma.com.bd/product-details.php?pid=662",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nexum",
+    "name": "Square — Nexum product leaflet",
+    "url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "comet",
+    "name": "Square — Comet product leaflet",
+    "url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "cef3",
+    "name": "Square — Cef-3 product leaflet",
+    "url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "alatrol",
+    "name": "Square — Alatrol product leaflet",
+    "url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+    "kind": "MANUFACTURER",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-para",
+    "name": "NHS — Paracetamol for adults",
+    "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-amlo",
+    "name": "NHS — Amlodipine",
+    "url": "https://www.nhs.uk/medicines/amlodipine/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-cet",
+    "name": "NHS — How to take cetirizine",
+    "url": "https://www.nhs.uk/medicines/cetirizine/how-and-when-to-take-cetirizine/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nhs-cet-notes",
+    "name": "NHS — Cetirizine common questions",
+    "url": "https://www.nhs.uk/medicines/cetirizine/common-questions-about-cetirizine/",
+    "kind": "PUBLIC_HEALTH",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "dm-met",
+    "name": "DailyMed — Metformin IR and ER label",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+    "kind": "REGULATORY",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "dm-cef",
+    "name": "DailyMed — Cefixime tablet label",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a3c547-3bc7-4856-af9c-1bead294f5d9",
+    "kind": "REGULATORY",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "dm-eso",
+    "name": "DailyMed — Esomeprazole delayed-release capsule label",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=43cf2754-3ec7-75f7-e063-6394a90adfeb",
+    "kind": "REGULATORY",
+    "last_verified": "2026-10-08"
+  }
+]
