@@ -22,7 +22,7 @@ The official DGHS/MoHFW API was investigated, but no redistribution permission o
 | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | <img src="docs/screenshots/home-mobile.jpg" width="260" alt="Mobile search"> | <img src="docs/screenshots/guidance-mobile-bangla.jpg" width="260" alt="Bangla guidance"> |
 
-These images show the original interface retained by the upgrade; older screenshots may show previous coverage. Current counts are on the live dashboard and in src/data/coverage.json.
+These screenshots were captured from the deployed upgrade on 8 October 2026. Current counts are on the live dashboard and in src/data/coverage.json.
 
 ## Architecture
 
