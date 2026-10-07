@@ -49,4 +49,4 @@ Napa Extra was separately confirmed and displayed NOT AVAILABLE plus the combina
 
 These are responsive browser checks, not an actual Android installation or a large-dataset mobile performance benchmark. Independent clinical review and nationwide coverage remain incomplete.
 
-Final importer hardening: the complete suite passed 55 tests after adding a regression for conflicting ingredients, routes and known release types. The reviewed manufacturer import was rerun and added zero records; catalogue contents and coverage remained unchanged. TypeScript compilation passed after this final test addition.
+Final importer hardening: the complete suite passed 55 tests after adding a regression for conflicting ingredients, routes and known release types. The reviewed manufacturer import was rerun and added zero records; catalogue contents and coverage remained unchanged. A final compiler check initially reported missing table-callback type annotations. Explicit string annotations resolved those errors, and TypeScript compilation and the complete 55-test suite passed afterward.

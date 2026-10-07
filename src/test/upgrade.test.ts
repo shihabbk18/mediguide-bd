@@ -39,7 +39,7 @@ describe("Upgrade acceptance A–O", () => {
     "Sonap",
     "Bactrocin",
     "Sultolin 100 HFA",
-  ])("A: real brand %s resolves", (brand) =>
+  ])("A: real brand %s resolves", (brand: string) =>
     expect(searchProducts(brand).some((p) => p.brand_name === brand)).toBe(
       true,
     ),
@@ -48,7 +48,7 @@ describe("Upgrade acceptance A–O", () => {
     expect(
       searchProducts("Losartan").filter((p) => p.brand_name === "Angilock"),
     ).toHaveLength(3));
-  it.each(["Square", "Beximco"])("C: manufacturer %s", (company) => {
+  it.each(["Square", "Beximco"])("C: manufacturer %s", (company: string) => {
     const p = searchProducts(company);
     expect(p.length).toBeGreaterThan(0);
     expect(p.every((x) => x.manufacturer.includes(company))).toBe(true);
@@ -76,7 +76,7 @@ describe("Upgrade acceptance A–O", () => {
     ["Alarid Eye Drops", "Eye Drops", "NOT_APPLICABLE"],
     ["Bactrocin", "Ointment", "NOT_APPLICABLE"],
     ["Sultolin 100 HFA", "Inhaler", "NOT_APPLICABLE"],
-  ])("G–L: %s %s => %s", (brand, form, state) => {
+  ])("G–L: %s %s => %s", (brand: string, form: string, state: string) => {
     const p = product(brand, form);
     expect(p).toBeDefined();
     expect(resolveGuidance(p, false)).toBeNull();
