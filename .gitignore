@@ -8,3 +8,6 @@ playwright-report/
 *.tsbuildinfo
 tmp/
 data-source-audit/
+__pycache__/
+*.pyc
+data/ingested/

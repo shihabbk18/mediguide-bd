@@ -36,10 +36,10 @@ if (process.argv[1]?.endsWith("review-guidance.ts")) {
   console.log("Validated review for", r.guidance.generic_key);
   if (process.argv.includes("--write")) {
     const guides = JSON.parse(
-      readFileSync("src/data/guidance.json", "utf8"),
+      readFileSync("data/inputs/generic_guidance.json", "utf8"),
     ).filter((g: any) => formulationKey(g) !== r.guidance.generic_key);
     guides.push(r.guidance);
-    const sources = JSON.parse(readFileSync("src/data/sources.json", "utf8"));
+    const sources = JSON.parse(readFileSync("data/inputs/guidance_sources.json", "utf8"));
     for (const s of r.sources) {
       const i = sources.findIndex((x: any) => x.id === s.id);
       if (i >= 0 && JSON.stringify(sources[i]) !== JSON.stringify(s))
@@ -50,7 +50,7 @@ if (process.argv[1]?.endsWith("review-guidance.ts")) {
       ["guidance", guides],
       ["sources", sources],
     ] as const) {
-      const target = `src/data/${name}.json`;
+      const target = `data/inputs/${name === "guidance" ? "generic_guidance" : "guidance_sources"}.json`;
       writeFileSync(target + ".tmp", JSON.stringify(data, null, 2) + "\n");
       renameSync(target + ".tmp", target);
     }

@@ -1,5 +1,5 @@
 import { coverage, guidance } from "./catalogue";
-import build from "./data/coverage.json";
+import build from "../data/production/statistics.json";
 import type { Language } from "./domain";
 export function Coverage({ lang }: { lang: Language }) {
   const bn = lang === "bn";

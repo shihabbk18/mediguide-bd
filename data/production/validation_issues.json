@@ -1,0 +1,1026 @@
+[
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-12d3d3506b08eaa034a186ec",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e05371e3135419ab9b44c635",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-4a1cd777aba88e2a31681b83",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-485210735fb2d37834affca9",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-034228d07aa0fb9aaefa1837",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-fc01541650a1d8b18c347a72",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-6319e70144f6ad0cf6635687",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-da2a9e7e0c9b574c060ff29c",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-3e33cd3e0706a939ab67960a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e37250f2679195f0586d4449",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-bc59fbbf0f0bbf697385b055",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-06e9a9fd89afe3b60beb60f5",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-725754dc05af5485f67a56b7",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-edf683ea79f2065fb960bad6",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-00ee5c8bc97948d9431ff1c3",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-59cf5df52fdf4ee98fb6291d",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e0b954ed6a22309bf5c0dfdb",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-cdab9b4446003f034bc9bee6",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-514d14a7a2f57c3863daa7e8",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-10852da78bc297e964e40eb6",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-de2be2178fc5bebaf629037c",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-9ef38014434e8429e6a586c4",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-0961d6620dfc8d11d90c9137",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-c4b8d264b2dc6c6f51e9be0c",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-ec36cbe240ae99aecdc5e05b",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-bf5056717a6253eb60b22212",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-dfe8c7729d21f7ef50f44b7c",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-74adc18d48c9cd9f496e73b6",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-5aceb74d013d57ad5246e815",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-f64c9ddb0119f9a587d0482d",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-793d6f14bf9111e8edd1ed04",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-5979d9dbd2eddd7bf1ffd9ed",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-7ea589bffce6fa3673743706",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-9fb46e923dc17e2ef2dba5da",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-91b74a6996eff93497a0c267",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-a6efdba6c66df67d7ae6ce9f",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-ddb91ae1620128cfa3673926",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-164908ffce536ccc73d23472",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-3e8fda5d5fb3ea8977bd8665",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-20d663d2457b4f774449fe2b",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-ee87f2bdf3cb270d69069aba",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-d1f2b1e88e544dec9b33d09b",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-ca76d224765d1a4ae09c19c9",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e85e2e6f2b5ad037ecb7bf4d",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-0cc43b4fea6f0cead47a4223",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-41b8b0ea16cda2226abd9eca",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-a609e619d300eb8bff832552",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-3c9986bb29a5f4503e6e01ba",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-754be1146c610ab2b0061a5c",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e86be082b0680d595937a67c",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-b52d1a68a219eb8b6986da40",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-0cf97d32fd31ab554fee9955",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-56593e9740c71b871d54f8af",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-752d1022a18abaee1b72bb86",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-b32291c34ead2155661d8758",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-2f2f32df3e6b5bf81baf0a52",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-cd8186510057b125c7f7b1b7",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-7cd360f4910dbb036d2311fb",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-f2725c0976f42fe299a03d41",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-27c7a57a58177f18fd57dedb",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-ddb604492a3ccb0c3134ea6a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-454fc595cea86e6a3a82b3d2",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-f773fc16da2c28a7c9d004f2",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-8d58018eeea62dad8ee004d2",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-51d2e2d4e8de79f7cd953a98",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-c52868f33eba78cf68c7ea75",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-04ef1ff734f69c95ebda097e",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-f1d275978abfef5bbbceeb43",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-f03eae80c5500c3f12b671f3",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-d498c9279d33149850ccd17a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-c44971b66031c5d31ee9922b",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-5087caff39f5f4bb05c73e9f",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-84e293f61f30d8f3242aec2a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-27695a81e9cb58575211875a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-a1723d9ca57d8aa71943b08f",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-da19321b91cb94f397ef428e",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-be6036c46e461c29b895f83a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-f369955cce5d7af88d2bd16d",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-3a57edd6b444aeb40b62d76d",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-40475e8012c6875162d0a673",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-eb7a11de4a653ebc0130b331",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-3bfe35654b90a24061a0b8e9",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-74d1228ef3e328db4751d65e",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-4dba05e85d301fdf0ae66205",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-4f92e3d18ee7b443a2d68a82",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-4862ef08552a716ce6be95ef",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-83c0c96b764a182c0c06db17",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-6b3c2267ef0f759465b10360",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-b63c63cfea595bc60652be80",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-a80937e0f291a5a85a430d4a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-b60e6c63036c2372aa48531f",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-3e5e7420f51c5b298f6fc082",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-2f8dfd55fb45710708a3528b",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-8bb3326d94ffe6b93560b954",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-1ba2fab4b669718ef0283300",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-ec4325bf063ce5d2e83dc18b",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e6626e6fb2e22900c8f01e71",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-c5b0bc4045f7a4cb62e1a0be",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-7008b6b6e024fb35b375c6ec",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-60d1342cdc0f077bbfbea178",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-d4d9aff208cf066a5d968fc0",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-2b024272b0a20ce7fad1e716",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-b9676a96e095bb881f9266f0",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-c5c14eae4f949e90b8e3d8c4",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-a536e405ce10fed066216659",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-ce81ca88e8313682be694bb2",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-fa7093be0ad0c8f624c8278f",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-d2fe448ca16c908d93f6cd12",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-650ab9b619ba9493f096d29a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-2c5106065b4b089dca98530a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-0ae826cb7022e99f633f1feb",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-1280419463796c9d76e21be9",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-76e28abdfe675ff073d048d5",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-de8654fad88ae16ba43b2e28",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-9873d5c374de320d0fe2b728",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e391c56a70749b4ba6638022",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-fe93021e7c88774499fe9595",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-d5cd6558f2d62b67e49461f0",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-8bd8ae4b19c1e9889902923a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-6756eb555b290a679abaadb9",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-da7064dfafd425ee0460575a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-4fc1cd4f2729fc34d06f1336",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-0b6a189b5dad24833f66d92a",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-121dddca6903dfefc3d78151",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-294422a14c7f193603dea8d5",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-266d8fc3edf2b39f5bf08529",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "UNVERIFIED_FORMULATION",
+    "product_id": "product-e29f5074955ee5d591017bd1",
+    "source_id": "square_reviewed",
+    "field": "route/release_type",
+    "severity": "WARNING",
+    "detail": ""
+  },
+  {
+    "code": "DUPLICATE_PRODUCT",
+    "product_id": "product-468b1caa159f7cdada54e100",
+    "source_id": "manual_verified",
+    "field": "product_key",
+    "severity": "INFO",
+    "detail": ""
+  }
+]

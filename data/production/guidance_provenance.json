@@ -1,0 +1,1297 @@
+[
+  {
+    "generic_key": "paracetamol|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "nhs-para",
+          "publisher": "NHS — Paracetamol for adults",
+          "source_url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+          "source_section": "How to take common types — tablets",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Can generally be taken with or without food.",
+            "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+            "source_ids": [
+              "nhs-para"
+            ],
+            "source_section": "How to take common types — tablets"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "nhs-para",
+          "publisher": "NHS — Paracetamol for adults",
+          "source_url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+          "source_section": "What paracetamol is for",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for pain and fever.",
+            "bn": "সাধারণত ব্যথা ও জ্বরের জন্য ব্যবহৃত হয়।",
+            "source_ids": [
+              "nhs-para"
+            ],
+            "source_section": "What paracetamol is for"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "nhs-para",
+          "publisher": "NHS — Paracetamol for adults",
+          "source_url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+          "source_section": "Tablets and capsules",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Swallow the conventional tablet with water.",
+            "bn": "সাধারণ ট্যাবলেট পানি দিয়ে গিলে নিন।",
+            "source_ids": [
+              "nhs-para"
+            ],
+            "source_section": "Tablets and capsules"
+          }
+        }
+      ],
+      "food_drink_notes": [],
+      "warnings": [
+        {
+          "source_id": "nhs-para",
+          "publisher": "NHS — Paracetamol for adults",
+          "source_url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+          "source_section": "Important — other medicines containing paracetamol",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Check other medicines for paracetamol to avoid accidentally taking the same ingredient twice.",
+            "bn": "একই উপাদান ভুল করে দুবার নেওয়া এড়াতে অন্য ওষুধে paracetamol আছে কি না দেখুন।",
+            "source_ids": [
+              "nhs-para"
+            ],
+            "source_section": "Important — other medicines containing paracetamol"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "generic_key": "omeprazole|capsule|ORAL|DELAYED",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "seclo-web",
+          "publisher": "Square — Seclo administration",
+          "source_url": "https://www.squarepharma.com.bd/product-details.php?pid=10",
+          "source_section": "Dosage & Administration",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Generally taken before a meal.",
+            "bn": "সাধারণত খাবারের আগে নেওয়া হয়।",
+            "source_ids": [
+              "seclo-web"
+            ],
+            "source_section": "Dosage & Administration"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "seclo-web",
+          "publisher": "Square — Seclo administration",
+          "source_url": "https://www.squarepharma.com.bd/product-details.php?pid=10",
+          "source_section": "Indication",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for acid reflux and stomach or duodenal ulcers.",
+            "bn": "সাধারণত এসিড রিফ্লাক্স এবং পাকস্থলী বা ডুওডেনামের আলসারের জন্য ব্যবহৃত হয়।",
+            "source_ids": [
+              "seclo-web"
+            ],
+            "source_section": "Indication"
+          }
+        }
+      ],
+      "administration_notes": [],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "esomeprazole|capsule|ORAL|DELAYED",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "dm-eso",
+          "publisher": "DailyMed — Esomeprazole delayed-release capsule label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=43cf2754-3ec7-75f7-e063-6394a90adfeb",
+          "source_section": "2.3 Preparation and Administration",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Delayed-release capsules are generally taken at least one hour before a meal.",
+            "bn": "ডিলেইড-রিলিজ ক্যাপসুল সাধারণত খাবারের অন্তত এক ঘণ্টা আগে নেওয়া হয়।",
+            "source_ids": [
+              "dm-eso"
+            ],
+            "source_section": "2.3 Preparation and Administration"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "nexum",
+          "publisher": "Square — Nexum product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
+          "source_section": "Indication",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for acid reflux.",
+            "bn": "সাধারণত এসিড রিফ্লাক্সের জন্য ব্যবহৃত হয়।",
+            "source_ids": [
+              "nexum"
+            ],
+            "source_section": "Indication"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "dm-eso",
+          "publisher": "DailyMed — Esomeprazole delayed-release capsule label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=43cf2754-3ec7-75f7-e063-6394a90adfeb",
+          "source_section": "2.3 Oral Administration",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Swallow whole; do not chew or crush the capsule or its pellets.",
+            "bn": "পুরো ক্যাপসুল গিলে নিন; ক্যাপসুল বা ভেতরের দানা চিবাবেন বা গুঁড়া করবেন না।",
+            "source_ids": [
+              "dm-eso"
+            ],
+            "source_section": "2.3 Oral Administration"
+          }
+        }
+      ],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "metformin hydrochloride|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "comet",
+          "publisher": "Square — Comet product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+          "source_section": "Dosage and Administration — immediate release",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Generally taken with meals.",
+            "bn": "সাধারণত খাবারের সঙ্গে নেওয়া হয়।",
+            "source_ids": [
+              "comet",
+              "dm-met"
+            ],
+            "source_section": "Dosage and Administration — immediate release"
+          }
+        },
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "Dosage and Administration — immediate release",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Generally taken with meals.",
+            "bn": "সাধারণত খাবারের সঙ্গে নেওয়া হয়।",
+            "source_ids": [
+              "comet",
+              "dm-met"
+            ],
+            "source_section": "Dosage and Administration — immediate release"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "comet",
+          "publisher": "Square — Comet product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+          "source_section": "Indication and usage",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used to help control blood glucose in type 2 diabetes.",
+            "bn": "সাধারণত টাইপ ২ ডায়াবেটিসে রক্তের গ্লুকোজ নিয়ন্ত্রণে ব্যবহৃত হয়।",
+            "source_ids": [
+              "comet"
+            ],
+            "source_section": "Indication and usage"
+          }
+        }
+      ],
+      "administration_notes": [],
+      "food_drink_notes": [
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "5.1 Lactic acidosis / Patient information",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Avoid excessive alcohol; it increases the risk of lactic acidosis.",
+            "bn": "অতিরিক্ত অ্যালকোহল এড়িয়ে চলুন; এতে ল্যাকটিক অ্যাসিডোসিসের ঝুঁকি বাড়ে।",
+            "source_ids": [
+              "dm-met"
+            ],
+            "source_section": "5.1 Lactic acidosis / Patient information"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "5.1 Lactic acidosis",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Kidney function, liver disease and some contrast scans can affect safe use. Ask your prescriber or pharmacist about your instructions.",
+            "bn": "কিডনির কার্যক্ষমতা, লিভারের রোগ ও কিছু কনট্রাস্ট পরীক্ষা নিরাপদ ব্যবহারে প্রভাব ফেলতে পারে। আপনার নির্দেশনা সম্পর্কে চিকিৎসক বা ফার্মাসিস্টকে জিজ্ঞাসা করুন।",
+            "source_ids": [
+              "dm-met"
+            ],
+            "source_section": "5.1 Lactic acidosis"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "generic_key": "metformin hydrochloride|tablet|ORAL|EXTENDED",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "comet",
+          "publisher": "Square — Comet product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+          "source_section": "Dosage and Administration — extended release",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Generally taken with the evening meal.",
+            "bn": "সাধারণত সন্ধ্যা বা রাতের খাবারের সঙ্গে নেওয়া হয়।",
+            "source_ids": [
+              "comet",
+              "dm-met"
+            ],
+            "source_section": "Dosage and Administration — extended release"
+          }
+        },
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "Dosage and Administration — extended release",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Generally taken with the evening meal.",
+            "bn": "সাধারণত সন্ধ্যা বা রাতের খাবারের সঙ্গে নেওয়া হয়।",
+            "source_ids": [
+              "comet",
+              "dm-met"
+            ],
+            "source_section": "Dosage and Administration — extended release"
+          }
+        }
+      ],
+      "timing_guidance": [
+        {
+          "source_id": "comet",
+          "publisher": "Square — Comet product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+          "source_section": "Dosage and Administration — extended release",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Extended-release tablets are generally taken with the evening meal. Follow the schedule on your prescription.",
+            "bn": "এক্সটেন্ডেড-রিলিজ ট্যাবলেট সাধারণত সন্ধ্যা বা রাতের খাবারের সঙ্গে নেওয়া হয়। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+            "source_ids": [
+              "comet",
+              "dm-met"
+            ],
+            "source_section": "Dosage and Administration — extended release"
+          }
+        },
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "Dosage and Administration — extended release",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Extended-release tablets are generally taken with the evening meal. Follow the schedule on your prescription.",
+            "bn": "এক্সটেন্ডেড-রিলিজ ট্যাবলেট সাধারণত সন্ধ্যা বা রাতের খাবারের সঙ্গে নেওয়া হয়। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+            "source_ids": [
+              "comet",
+              "dm-met"
+            ],
+            "source_section": "Dosage and Administration — extended release"
+          }
+        }
+      ],
+      "common_uses": [
+        {
+          "source_id": "comet",
+          "publisher": "Square — Comet product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+          "source_section": "Indication and usage",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used to help control blood glucose in type 2 diabetes.",
+            "bn": "সাধারণত টাইপ ২ ডায়াবেটিসে রক্তের গ্লুকোজ নিয়ন্ত্রণে ব্যবহৃত হয়।",
+            "source_ids": [
+              "comet"
+            ],
+            "source_section": "Indication and usage"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "2.1 Adult Dosage — extended release",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Swallow whole. Do not crush, cut or chew extended-release tablets.",
+            "bn": "পুরো ট্যাবলেট গিলে নিন। এক্সটেন্ডেড-রিলিজ ট্যাবলেট গুঁড়া, কাটা বা চিবানো যাবে না।",
+            "source_ids": [
+              "dm-met"
+            ],
+            "source_section": "2.1 Adult Dosage — extended release"
+          }
+        }
+      ],
+      "food_drink_notes": [
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "5.1 Lactic acidosis / Patient information",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Avoid excessive alcohol; it increases the risk of lactic acidosis.",
+            "bn": "অতিরিক্ত অ্যালকোহল এড়িয়ে চলুন; এতে ল্যাকটিক অ্যাসিডোসিসের ঝুঁকি বাড়ে।",
+            "source_ids": [
+              "dm-met"
+            ],
+            "source_section": "5.1 Lactic acidosis / Patient information"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "source_id": "dm-met",
+          "publisher": "DailyMed — Metformin IR and ER label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b3bc6-1b07-4a04-bc7a-7fc695adf063",
+          "source_section": "5.1 Lactic acidosis",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Kidney function and contrast scans may require patient-specific instructions from your clinician.",
+            "bn": "কিডনির কার্যক্ষমতা ও কনট্রাস্ট পরীক্ষার ক্ষেত্রে চিকিৎসকের ব্যক্তিভিত্তিক নির্দেশনা প্রয়োজন হতে পারে।",
+            "source_ids": [
+              "dm-met"
+            ],
+            "source_section": "5.1 Lactic acidosis"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "generic_key": "cefixime|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "dm-cef",
+          "publisher": "DailyMed — Cefixime tablet label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a3c547-3bc7-4856-af9c-1bead294f5d9",
+          "source_section": "2.1 Adults / 12.3 Pharmacokinetics",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Tablets can generally be taken with or without food.",
+            "bn": "ট্যাবলেট সাধারণত খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+            "source_ids": [
+              "dm-cef"
+            ],
+            "source_section": "2.1 Adults / 12.3 Pharmacokinetics"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "cef3",
+          "publisher": "Square — Cef-3 product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+          "source_section": "Indication",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for certain bacterial respiratory or urinary infections, when prescribed.",
+            "bn": "চিকিৎসক লিখে দিলে সাধারণত কিছু ব্যাকটেরিয়াজনিত শ্বাসতন্ত্র বা মূত্রতন্ত্রের সংক্রমণে ব্যবহৃত হয়।",
+            "source_ids": [
+              "cef3"
+            ],
+            "source_section": "Indication"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "dm-cef",
+          "publisher": "DailyMed — Cefixime tablet label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a3c547-3bc7-4856-af9c-1bead294f5d9",
+          "source_section": "2.2 / 12.3 — lack of bioequivalence",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Tablets and suspension are not always interchangeable. Confirm any formulation change with your pharmacist.",
+            "bn": "ট্যাবলেট ও সাসপেনশন সবসময় একটির বদলে অন্যটি ব্যবহার করা যায় না। ফর্ম বদলানোর আগে ফার্মাসিস্টের সঙ্গে নিশ্চিত করুন।",
+            "source_ids": [
+              "dm-cef"
+            ],
+            "source_section": "2.2 / 12.3 — lack of bioequivalence"
+          }
+        }
+      ],
+      "food_drink_notes": [],
+      "warnings": [
+        {
+          "source_id": "dm-cef",
+          "publisher": "DailyMed — Cefixime tablet label",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a3c547-3bc7-4856-af9c-1bead294f5d9",
+          "source_section": "4 Contraindications",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Tell your clinician about an allergy to cephalosporin antibiotics.",
+            "bn": "সেফালোস্পোরিন অ্যান্টিবায়োটিকে অ্যালার্জি থাকলে চিকিৎসককে জানান।",
+            "source_ids": [
+              "dm-cef"
+            ],
+            "source_section": "4 Contraindications"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "generic_key": "amlodipine|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "nhs-amlo",
+          "publisher": "NHS — Amlodipine",
+          "source_url": "https://www.nhs.uk/medicines/amlodipine/",
+          "source_section": "How to take amlodipine",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Can generally be taken before or after eating.",
+            "bn": "সাধারণত খাবারের আগে বা পরে নেওয়া যায়।",
+            "source_ids": [
+              "nhs-amlo"
+            ],
+            "source_section": "How to take amlodipine"
+          }
+        }
+      ],
+      "timing_guidance": [
+        {
+          "source_id": "nhs-amlo",
+          "publisher": "NHS — Amlodipine",
+          "source_url": "https://www.nhs.uk/medicines/amlodipine/",
+          "source_section": "How to take amlodipine",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Take consistently at the same time of day specified on your prescription. There is no required morning or evening time in this source.",
+            "bn": "প্রেসক্রিপশনে নির্ধারিত সময়ে প্রতিদিন নিয়মিত নিন। এই উৎসে সকাল বা সন্ধ্যার নির্দিষ্ট নির্দেশনা নেই।",
+            "source_ids": [
+              "nhs-amlo"
+            ],
+            "source_section": "How to take amlodipine"
+          }
+        }
+      ],
+      "common_uses": [
+        {
+          "source_id": "nhs-amlo",
+          "publisher": "NHS — Amlodipine",
+          "source_url": "https://www.nhs.uk/medicines/amlodipine/",
+          "source_section": "What amlodipine is for",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for high blood pressure and to prevent angina attacks.",
+            "bn": "সাধারণত উচ্চ রক্তচাপ ও অ্যানজাইনার আক্রমণ প্রতিরোধে ব্যবহৃত হয়।",
+            "source_ids": [
+              "nhs-amlo"
+            ],
+            "source_section": "What amlodipine is for"
+          }
+        }
+      ],
+      "administration_notes": [],
+      "food_drink_notes": [
+        {
+          "source_id": "nhs-amlo",
+          "publisher": "NHS — Amlodipine",
+          "source_url": "https://www.nhs.uk/medicines/amlodipine/",
+          "source_section": "Food and alcohol",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Avoid grapefruit and grapefruit juice; they may increase side effects.",
+            "bn": "গ্রেপফ্রুট ও গ্রেপফ্রুটের রস এড়িয়ে চলুন; পার্শ্বপ্রতিক্রিয়া বাড়তে পারে।",
+            "source_ids": [
+              "nhs-amlo"
+            ],
+            "source_section": "Food and alcohol"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "source_id": "nhs-amlo",
+          "publisher": "NHS — Amlodipine",
+          "source_url": "https://www.nhs.uk/medicines/amlodipine/",
+          "source_section": "Side effects",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Dizziness or sleepiness can occur. Avoid driving or machinery if affected.",
+            "bn": "মাথা ঘোরা বা ঘুম ঘুম ভাব হতে পারে। এমন হলে গাড়ি চালানো বা যন্ত্র পরিচালনা এড়িয়ে চলুন।",
+            "source_ids": [
+              "nhs-amlo"
+            ],
+            "source_section": "Side effects"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "generic_key": "cetirizine hydrochloride|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "alatrol",
+          "publisher": "Square — Alatrol product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+          "source_section": "Dosage and Administration",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Can generally be taken with or without food.",
+            "bn": "সাধারণত খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+            "source_ids": [
+              "alatrol"
+            ],
+            "source_section": "Dosage and Administration"
+          }
+        }
+      ],
+      "timing_guidance": [
+        {
+          "source_id": "alatrol",
+          "publisher": "Square — Alatrol product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+          "source_section": "Dosage and Administration — time varies to suit needs",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "No specific time of day is required by this leaflet. Follow the schedule written on your prescription.",
+            "bn": "এই লিফলেটে দিনের নির্দিষ্ট সময় দেওয়া নেই। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+            "source_ids": [
+              "alatrol"
+            ],
+            "source_section": "Dosage and Administration — time varies to suit needs"
+          }
+        }
+      ],
+      "common_uses": [
+        {
+          "source_id": "alatrol",
+          "publisher": "Square — Alatrol product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+          "source_section": "Indication",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for allergy symptoms and hives.",
+            "bn": "সাধারণত অ্যালার্জির লক্ষণ ও আমবাতের জন্য ব্যবহৃত হয়।",
+            "source_ids": [
+              "alatrol"
+            ],
+            "source_section": "Indication"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "nhs-cet",
+          "publisher": "NHS — How to take cetirizine",
+          "source_url": "https://www.nhs.uk/medicines/cetirizine/how-and-when-to-take-cetirizine/",
+          "source_section": "How to take it",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Swallow whole with a drink. Do not chew.",
+            "bn": "পানীয় দিয়ে পুরো ট্যাবলেট গিলে নিন। চিবাবেন না।",
+            "source_ids": [
+              "nhs-cet"
+            ],
+            "source_section": "How to take it"
+          }
+        }
+      ],
+      "food_drink_notes": [
+        {
+          "source_id": "nhs-cet-notes",
+          "publisher": "NHS — Cetirizine common questions",
+          "source_url": "https://www.nhs.uk/medicines/cetirizine/common-questions-about-cetirizine/",
+          "source_section": "Can I drink alcohol?",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Avoid alcohol because it may increase sleepiness.",
+            "bn": "অ্যালকোহল এড়িয়ে চলুন; ঘুম ঘুম ভাব বাড়তে পারে।",
+            "source_ids": [
+              "nhs-cet-notes"
+            ],
+            "source_section": "Can I drink alcohol?"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "source_id": "nhs-cet-notes",
+          "publisher": "NHS — Cetirizine common questions",
+          "source_url": "https://www.nhs.uk/medicines/cetirizine/common-questions-about-cetirizine/",
+          "source_section": "Can I drive?",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "May cause sleepiness. Avoid driving or machinery if affected.",
+            "bn": "ঘুম ঘুম ভাব হতে পারে। এমন হলে গাড়ি চালানো বা যন্ত্র পরিচালনা এড়িয়ে চলুন।",
+            "source_ids": [
+              "nhs-cet-notes"
+            ],
+            "source_section": "Can I drive?"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "generic_key": "cetirizine hydrochloride|syrup|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "alatrol",
+          "publisher": "Square — Alatrol product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+          "source_section": "Dosage and Administration",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Can generally be taken with or without food.",
+            "bn": "সাধারণত খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+            "source_ids": [
+              "alatrol"
+            ],
+            "source_section": "Dosage and Administration"
+          }
+        }
+      ],
+      "timing_guidance": [
+        {
+          "source_id": "alatrol",
+          "publisher": "Square — Alatrol product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+          "source_section": "Dosage and Administration — time varies to suit needs",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "No specific time of day is required by this leaflet. Follow the schedule written on your prescription.",
+            "bn": "এই লিফলেটে দিনের নির্দিষ্ট সময় দেওয়া নেই। প্রেসক্রিপশনের সময়সূচি অনুসরণ করুন।",
+            "source_ids": [
+              "alatrol"
+            ],
+            "source_section": "Dosage and Administration — time varies to suit needs"
+          }
+        }
+      ],
+      "common_uses": [
+        {
+          "source_id": "alatrol",
+          "publisher": "Square — Alatrol product leaflet",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+          "source_section": "Indication",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for allergy symptoms and hives.",
+            "bn": "সাধারণত অ্যালার্জির লক্ষণ ও আমবাতের জন্য ব্যবহৃত হয়।",
+            "source_ids": [
+              "alatrol"
+            ],
+            "source_section": "Indication"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "nhs-cet",
+          "publisher": "NHS — How to take cetirizine",
+          "source_url": "https://www.nhs.uk/medicines/cetirizine/how-and-when-to-take-cetirizine/",
+          "source_section": "How to take liquid",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Measure the prescribed amount with a medicine spoon or syringe, not a kitchen spoon.",
+            "bn": "ওষুধ মাপার চামচ বা সিরিঞ্জ দিয়ে প্রেসক্রিপশনে লেখা পরিমাণ মাপুন; রান্নাঘরের চামচ ব্যবহার করবেন না।",
+            "source_ids": [
+              "nhs-cet"
+            ],
+            "source_section": "How to take liquid"
+          }
+        }
+      ],
+      "food_drink_notes": [
+        {
+          "source_id": "nhs-cet-notes",
+          "publisher": "NHS — Cetirizine common questions",
+          "source_url": "https://www.nhs.uk/medicines/cetirizine/common-questions-about-cetirizine/",
+          "source_section": "Can I drink alcohol?",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Avoid alcohol because it may increase sleepiness.",
+            "bn": "অ্যালকোহল এড়িয়ে চলুন; ঘুম ঘুম ভাব বাড়তে পারে।",
+            "source_ids": [
+              "nhs-cet-notes"
+            ],
+            "source_section": "Can I drink alcohol?"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "source_id": "nhs-cet-notes",
+          "publisher": "NHS — Cetirizine common questions",
+          "source_url": "https://www.nhs.uk/medicines/cetirizine/common-questions-about-cetirizine/",
+          "source_section": "Can I drive?",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "May cause sleepiness. Avoid driving or machinery if affected.",
+            "bn": "ঘুম ঘুম ভাব হতে পারে। এমন হলে গাড়ি চালানো বা যন্ত্র পরিচালনা এড়িয়ে চলুন।",
+            "source_ids": [
+              "nhs-cet-notes"
+            ],
+            "source_section": "Can I drive?"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "generic_key": "naproxen sodium|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "nhs-naproxen",
+          "publisher": "NHS — Naproxen",
+          "source_url": "https://www.nhs.uk/medicines/naproxen/",
+          "source_section": "How to take naproxen",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Generally taken with or after food to help protect the stomach.",
+            "bn": "পাকস্থলীর অস্বস্তি কমাতে সাধারণত খাবারের সঙ্গে বা পরে নেওয়া হয়।",
+            "source_ids": [
+              "nhs-naproxen"
+            ],
+            "source_section": "How to take naproxen"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "nhs-naproxen",
+          "publisher": "NHS — Naproxen",
+          "source_url": "https://www.nhs.uk/medicines/naproxen/",
+          "source_section": "What naproxen is for",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for pain and inflammation.",
+            "bn": "সাধারণত ব্যথা ও প্রদাহের জন্য ব্যবহৃত হয়।",
+            "source_ids": [
+              "nhs-naproxen"
+            ],
+            "source_section": "What naproxen is for"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "nhs-naproxen",
+          "publisher": "NHS — Naproxen",
+          "source_url": "https://www.nhs.uk/medicines/naproxen/",
+          "source_section": "How to take naproxen",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Swallow the tablet whole with water.",
+            "bn": "ট্যাবলেট পানি দিয়ে সম্পূর্ণ গিলে নিন।",
+            "source_ids": [
+              "nhs-naproxen"
+            ],
+            "source_section": "How to take naproxen"
+          }
+        }
+      ],
+      "food_drink_notes": [
+        {
+          "source_id": "nhs-naproxen",
+          "publisher": "NHS — Naproxen",
+          "source_url": "https://www.nhs.uk/medicines/naproxen/",
+          "source_section": "Food, drink and alcohol",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Alcohol can increase the risk of stomach ulcers or bleeding.",
+            "bn": "অ্যালকোহল পাকস্থলীর আলসার বা রক্তক্ষরণের ঝুঁকি বাড়াতে পারে।",
+            "source_ids": [
+              "nhs-naproxen"
+            ],
+            "source_section": "Food, drink and alcohol"
+          }
+        }
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "losartan potassium|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "nhs-losartan",
+          "publisher": "NHS — Losartan",
+          "source_url": "https://www.nhs.uk/medicines/losartan/",
+          "source_section": "How to take losartan",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Can generally be taken with or without food.",
+            "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+            "source_ids": [
+              "nhs-losartan"
+            ],
+            "source_section": "How to take losartan"
+          }
+        }
+      ],
+      "timing_guidance": [
+        {
+          "source_id": "nhs-losartan",
+          "publisher": "NHS — Losartan",
+          "source_url": "https://www.nhs.uk/medicines/losartan/",
+          "source_section": "How to take losartan",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "No fixed morning or evening rule; try to take it at a consistent time according to your prescription.",
+            "bn": "সকাল বা সন্ধ্যার নির্দিষ্ট নিয়ম নেই; প্রেসক্রিপশন অনুযায়ী প্রতিদিন একই সময়ে নেওয়ার চেষ্টা করুন।",
+            "source_ids": [
+              "nhs-losartan"
+            ],
+            "source_section": "How to take losartan"
+          }
+        }
+      ],
+      "common_uses": [
+        {
+          "source_id": "nhs-losartan",
+          "publisher": "NHS — Losartan",
+          "source_url": "https://www.nhs.uk/medicines/losartan/",
+          "source_section": "What losartan is for",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for high blood pressure and heart failure.",
+            "bn": "সাধারণত উচ্চ রক্তচাপ ও হার্ট ফেইলিউরের জন্য ব্যবহৃত হয়।",
+            "source_ids": [
+              "nhs-losartan"
+            ],
+            "source_section": "What losartan is for"
+          }
+        }
+      ],
+      "administration_notes": [],
+      "food_drink_notes": [
+        {
+          "source_id": "nhs-losartan",
+          "publisher": "NHS — Losartan",
+          "source_url": "https://www.nhs.uk/medicines/losartan/",
+          "source_section": "Taking losartan with other medicines, food and drink",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Avoid grapefruit juice; ask a pharmacist about potassium-containing salt substitutes.",
+            "bn": "গ্রেপফ্রুটের রস এড়িয়ে চলুন; পটাশিয়ামযুক্ত লবণের বিকল্প নিয়ে ফার্মাসিস্টকে জিজ্ঞাসা করুন।",
+            "source_ids": [
+              "nhs-losartan"
+            ],
+            "source_section": "Taking losartan with other medicines, food and drink"
+          }
+        }
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "loratadine|tablet|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "nhs-loratadine",
+          "publisher": "NHS — Loratadine",
+          "source_url": "https://www.nhs.uk/medicines/loratadine/how-and-when-to-take-loratadine/",
+          "source_section": "How to take it",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Can generally be taken with or without food.",
+            "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+            "source_ids": [
+              "nhs-loratadine"
+            ],
+            "source_section": "How to take it"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [],
+      "administration_notes": [
+        {
+          "source_id": "nhs-loratadine",
+          "publisher": "NHS — Loratadine",
+          "source_url": "https://www.nhs.uk/medicines/loratadine/how-and-when-to-take-loratadine/",
+          "source_section": "How to take it",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Swallow with a drink of water. Do not chew the tablet.",
+            "bn": "পানি দিয়ে গিলে নিন। ট্যাবলেট চিবাবেন না।",
+            "source_ids": [
+              "nhs-loratadine"
+            ],
+            "source_section": "How to take it"
+          }
+        }
+      ],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "amoxicillin|capsule|ORAL|IMMEDIATE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "nhs-amoxicillin",
+          "publisher": "NHS — Amoxicillin",
+          "source_url": "https://www.nhs.uk/medicines/amoxicillin/how-and-when-to-take-amoxicillin/",
+          "source_section": "How to take it",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Can generally be taken with or without food.",
+            "bn": "খাবারের সঙ্গে বা ছাড়াও নেওয়া যায়।",
+            "source_ids": [
+              "nhs-amoxicillin"
+            ],
+            "source_section": "How to take it"
+          }
+        }
+      ],
+      "timing_guidance": [
+        {
+          "source_id": "nhs-amoxicillin",
+          "publisher": "NHS — Amoxicillin",
+          "source_url": "https://www.nhs.uk/medicines/amoxicillin/how-and-when-to-take-amoxicillin/",
+          "source_section": "How to take it",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Space the doses already prescribed evenly through the day. Follow the frequency on your dispensing label.",
+            "bn": "প্রেসক্রিপশনে লেখা ডোজগুলো দিনের মধ্যে সমান ব্যবধানে নিন। কতবার নিতে হবে তা ওষুধের লেবেল অনুযায়ী অনুসরণ করুন।",
+            "source_ids": [
+              "nhs-amoxicillin"
+            ],
+            "source_section": "How to take it"
+          }
+        }
+      ],
+      "common_uses": [],
+      "administration_notes": [
+        {
+          "source_id": "nhs-amoxicillin",
+          "publisher": "NHS — Amoxicillin",
+          "source_url": "https://www.nhs.uk/medicines/amoxicillin/how-and-when-to-take-amoxicillin/",
+          "source_section": "How to take it",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "VERIFIED",
+          "raw_value": {
+            "en": "Swallow the capsule whole with water; do not chew or break it.",
+            "bn": "ক্যাপসুল পানি দিয়ে সম্পূর্ণ গিলে নিন; চিবাবেন বা ভাঙবেন না।",
+            "source_ids": [
+              "nhs-amoxicillin"
+            ],
+            "source_section": "How to take it"
+          }
+        }
+      ],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "ketotifen fumarate|eye drops|OPHTHALMIC|NOT_APPLICABLE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "square-guide-29",
+          "publisher": "Square product guide — PDF page 29",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=29",
+          "source_section": "Ocular administration and Preparation",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Meal timing is not applicable to this dosage form.",
+            "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+            "source_ids": [
+              "square-guide-29"
+            ],
+            "source_section": "Ocular administration and Preparation"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "square-guide-29",
+          "publisher": "Square product guide — PDF page 29",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=29",
+          "source_section": "Indication",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for symptoms of allergic conjunctivitis.",
+            "bn": "সাধারণত অ্যালার্জিজনিত চোখের প্রদাহের উপসর্গে ব্যবহৃত হয়।",
+            "source_ids": [
+              "square-guide-29"
+            ],
+            "source_section": "Indication"
+          }
+        }
+      ],
+      "administration_notes": [],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "mupirocin|ointment|TOPICAL|NOT_APPLICABLE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "square-guide-50",
+          "publisher": "Square product guide — PDF page 50",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=50",
+          "source_section": "Topical administration and Preparation",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Meal timing is not applicable to this dosage form.",
+            "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+            "source_ids": [
+              "square-guide-50"
+            ],
+            "source_section": "Topical administration and Preparation"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [
+        {
+          "source_id": "square-guide-50",
+          "publisher": "Square product guide — PDF page 50",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=50",
+          "source_section": "Indication",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Commonly used for certain bacterial skin infections, including impetigo.",
+            "bn": "সাধারণত ইমপেটিগোসহ কিছু ব্যাকটেরিয়াজনিত ত্বকের সংক্রমণে ব্যবহৃত হয়।",
+            "source_ids": [
+              "square-guide-50"
+            ],
+            "source_section": "Indication"
+          }
+        }
+      ],
+      "administration_notes": [
+        {
+          "source_id": "square-guide-50",
+          "publisher": "Square product guide — PDF page 50",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=50",
+          "source_section": "Contraindication & Precaution",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Avoid contact with the eyes.",
+            "bn": "চোখের সংস্পর্শ এড়িয়ে চলুন।",
+            "source_ids": [
+              "square-guide-50"
+            ],
+            "source_section": "Contraindication & Precaution"
+          }
+        }
+      ],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "furosemide|injection|INJECTION|NOT_APPLICABLE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "square-guide-144",
+          "publisher": "Square product guide — PDF page 144",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=144",
+          "source_section": "Injection (IM/IV) and Preparation",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Meal timing is not applicable to this dosage form.",
+            "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+            "source_ids": [
+              "square-guide-144"
+            ],
+            "source_section": "Injection (IM/IV) and Preparation"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [],
+      "administration_notes": [],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "generic_key": "salbutamol|inhaler|INHALATION|NOT_APPLICABLE",
+    "review_input": "data/inputs/generic_guidance.json",
+    "field_provenance": {
+      "food_guidance": [
+        {
+          "source_id": "square-guide-274",
+          "publisher": "Square product guide — PDF page 274",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=274",
+          "source_section": "Inhaler administration and Preparation",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Meal timing is not applicable to this dosage form.",
+            "bn": "এই ধরনের ওষুধের ক্ষেত্রে খাবারের আগে বা পরে নেওয়ার বিষয়টি প্রযোজ্য নয়।",
+            "source_ids": [
+              "square-guide-274"
+            ],
+            "source_section": "Inhaler administration and Preparation"
+          }
+        }
+      ],
+      "timing_guidance": [],
+      "common_uses": [],
+      "administration_notes": [
+        {
+          "source_id": "nhs-salbutamol",
+          "publisher": "NHS — Salbutamol inhaler",
+          "source_url": "https://www.nhs.uk/medicines/salbutamol-inhaler/how-and-when-to-use-salbutamol-inhalers/",
+          "source_section": "How to use your inhaler",
+          "source_checked_at": "2026-10-08",
+          "verification_status": "PARTIALLY_VERIFIED",
+          "raw_value": {
+            "en": "Read the leaflet for your exact inhaler device and ask a pharmacist to check your technique.",
+            "bn": "আপনার নির্দিষ্ট ইনহেলারের লিফলেট পড়ুন এবং ব্যবহার করার পদ্ধতি ফার্মাসিস্টকে দেখিয়ে নিন।",
+            "source_ids": [
+              "nhs-salbutamol"
+            ],
+            "source_section": "How to use your inhaler"
+          }
+        }
+      ],
+      "food_drink_notes": [],
+      "warnings": []
+    }
+  }
+]

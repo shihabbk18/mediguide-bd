@@ -3,557 +3,619 @@
     "id": "bd-1",
     "brand_name": "Napa",
     "generic_name": "Paracetamol",
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Paracetamol"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
+    "high_risk": false
   },
   {
     "id": "bd-2",
     "brand_name": "Napa Extra",
     "generic_name": "Paracetamol + Caffeine",
+    "active_ingredients": [
+      "Paracetamol",
+      "Caffeine"
+    ],
     "strength": "500 mg + 65 mg",
     "dosage_form": "Tablet",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Paracetamol", "Caffeine"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
+    "high_risk": false
   },
   {
     "id": "bd-3",
     "brand_name": "Napa",
     "generic_name": "Paracetamol",
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "120 mg/5 ml",
     "dosage_form": "Syrup",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Paracetamol"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
+    "high_risk": true
   },
   {
     "id": "bd-4",
     "brand_name": "Napa",
     "generic_name": "Paracetamol",
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "120 mg/5 ml",
     "dosage_form": "Oral suspension",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Paracetamol"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
+    "high_risk": true
   },
   {
     "id": "bd-5",
     "brand_name": "Napa",
     "generic_name": "Paracetamol",
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "80 mg/ml",
     "dosage_form": "Paediatric drops",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Paracetamol"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
+    "high_risk": true
   },
   {
     "id": "bd-6",
     "brand_name": "Napa",
     "generic_name": "Paracetamol",
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "125 mg",
     "dosage_form": "Suppository",
+    "route": "RECTAL",
     "release_type": "NOT_APPLICABLE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Paracetamol"],
-    "route": "RECTAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
+    "high_risk": true
   },
   {
     "id": "bd-7",
     "brand_name": "Napa",
     "generic_name": "Paracetamol",
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "250 mg",
     "dosage_form": "Suppository",
+    "route": "RECTAL",
     "release_type": "NOT_APPLICABLE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Paracetamol"],
-    "route": "RECTAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
+    "high_risk": true
   },
   {
     "id": "bd-8",
     "brand_name": "Napa",
     "generic_name": "Paracetamol",
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "500 mg",
     "dosage_form": "Suppository",
+    "route": "RECTAL",
     "release_type": "NOT_APPLICABLE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Napa product leaflet",
+    "source_name": "Beximco — Napa product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Paracetamol"],
-    "route": "RECTAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Napa product leaflet"
-  },
-  {
-    "id": "bd-9",
-    "brand_name": "Seclo",
-    "generic_name": "Omeprazole",
-    "strength": "20 mg",
-    "dosage_form": "Capsule",
-    "release_type": "DELAYED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Seclo product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/1609925065_pdoc_Seclo.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Omeprazole"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Seclo product leaflet"
-  },
-  {
-    "id": "bd-10",
-    "brand_name": "Seclo",
-    "generic_name": "Omeprazole",
-    "strength": "40 mg",
-    "dosage_form": "Capsule",
-    "release_type": "DELAYED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Seclo product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/1609925065_pdoc_Seclo.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Omeprazole"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Seclo product leaflet"
-  },
-  {
-    "id": "bd-11",
-    "brand_name": "Seclo MUPS",
-    "generic_name": "Omeprazole",
-    "strength": "20 mg",
-    "dosage_form": "Tablet",
-    "release_type": "MUPS",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Seclo MUPS product",
-    "source_url": "https://squarepharma.com.bd/product-details.php?pid=662",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Omeprazole"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Seclo MUPS product"
-  },
-  {
-    "id": "bd-12",
-    "brand_name": "Nexum",
-    "generic_name": "Esomeprazole",
-    "strength": "20 mg",
-    "dosage_form": "Tablet",
-    "release_type": "DELAYED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Nexum product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Esomeprazole"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Nexum product leaflet"
-  },
-  {
-    "id": "bd-13",
-    "brand_name": "Nexum",
-    "generic_name": "Esomeprazole",
-    "strength": "40 mg",
-    "dosage_form": "Tablet",
-    "release_type": "DELAYED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Nexum product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Esomeprazole"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Nexum product leaflet"
-  },
-  {
-    "id": "bd-14",
-    "brand_name": "Nexum",
-    "generic_name": "Esomeprazole",
-    "strength": "20 mg",
-    "dosage_form": "Capsule",
-    "release_type": "DELAYED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Nexum product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Esomeprazole"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Nexum product leaflet"
-  },
-  {
-    "id": "bd-15",
-    "brand_name": "Nexum",
-    "generic_name": "Esomeprazole",
-    "strength": "40 mg",
-    "dosage_form": "Capsule",
-    "release_type": "DELAYED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Nexum product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Esomeprazole"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Nexum product leaflet"
-  },
-  {
-    "id": "bd-16",
-    "brand_name": "Comet",
-    "generic_name": "Metformin hydrochloride",
-    "strength": "500 mg",
-    "dosage_form": "Tablet",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Comet product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Metformin hydrochloride"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Comet product leaflet"
-  },
-  {
-    "id": "bd-17",
-    "brand_name": "Comet",
-    "generic_name": "Metformin hydrochloride",
-    "strength": "850 mg",
-    "dosage_form": "Tablet",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Comet product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Metformin hydrochloride"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Comet product leaflet"
-  },
-  {
-    "id": "bd-18",
-    "brand_name": "Comet XR",
-    "generic_name": "Metformin hydrochloride",
-    "strength": "500 mg",
-    "dosage_form": "Tablet",
-    "release_type": "EXTENDED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Comet product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Metformin hydrochloride"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Comet product leaflet"
-  },
-  {
-    "id": "bd-19",
-    "brand_name": "Comet XR",
-    "generic_name": "Metformin hydrochloride",
-    "strength": "1000 mg",
-    "dosage_form": "Tablet",
-    "release_type": "EXTENDED",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Comet product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Metformin hydrochloride"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Comet product leaflet"
-  },
-  {
-    "id": "bd-20",
-    "brand_name": "Cef-3",
-    "generic_name": "Cefixime",
-    "strength": "200 mg",
-    "dosage_form": "Tablet",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Cef-3 product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Cefixime"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Cef-3 product leaflet"
-  },
-  {
-    "id": "bd-21",
-    "brand_name": "Cef-3 DS",
-    "generic_name": "Cefixime",
-    "strength": "400 mg",
-    "dosage_form": "Tablet",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Cef-3 product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Cefixime"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Cef-3 product leaflet"
-  },
-  {
-    "id": "bd-22",
-    "brand_name": "Cef-3",
-    "generic_name": "Cefixime",
-    "strength": "200 mg",
-    "dosage_form": "Capsule",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Cef-3 product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Cefixime"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Cef-3 product leaflet"
-  },
-  {
-    "id": "bd-23",
-    "brand_name": "Cef-3 DS",
-    "generic_name": "Cefixime",
-    "strength": "400 mg",
-    "dosage_form": "Capsule",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Cef-3 product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Cefixime"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Cef-3 product leaflet"
-  },
-  {
-    "id": "bd-24",
-    "brand_name": "Cef-3",
-    "generic_name": "Cefixime",
-    "strength": "100 mg/5 ml",
-    "dosage_form": "Powder for oral suspension",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Cef-3 product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Cefixime"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Cef-3 product leaflet"
-  },
-  {
-    "id": "bd-25",
-    "brand_name": "Cef-3 Forte",
-    "generic_name": "Cefixime",
-    "strength": "200 mg/5 ml",
-    "dosage_form": "Powder for oral suspension",
-    "release_type": "IMMEDIATE",
-    "manufacturer": "Square Pharmaceuticals Ltd.",
-    "registration_number": null,
-    "source": "Square — Cef-3 product leaflet",
-    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
-    "source_section": "Composition / Commercial packs / How supplied",
-    "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Cefixime"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Cef-3 product leaflet"
+    "high_risk": true
   },
   {
     "id": "bd-26",
     "brand_name": "Amdocal",
     "generic_name": "Amlodipine",
+    "active_ingredients": [
+      "Amlodipine"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Amdocal product leaflet",
+    "source_name": "Beximco — Amdocal product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/amdocal.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Amlodipine"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Amdocal product leaflet"
+    "high_risk": false
   },
   {
     "id": "bd-27",
     "brand_name": "Amdocal",
     "generic_name": "Amlodipine",
+    "active_ingredients": [
+      "Amlodipine"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Beximco Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Beximco — Amdocal product leaflet",
+    "source_name": "Beximco — Amdocal product leaflet",
     "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/amdocal.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Amlodipine"],
+    "high_risk": false
+  },
+  {
+    "id": "bd-9",
+    "brand_name": "Seclo",
+    "generic_name": "Omeprazole",
+    "active_ingredients": [
+      "Omeprazole"
+    ],
+    "strength": "20 mg",
+    "dosage_form": "Capsule",
     "route": "ORAL",
+    "release_type": "DELAYED",
     "mapping_status": "VERIFIED",
-    "source_name": "Beximco — Amdocal product leaflet"
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Seclo product leaflet",
+    "source_name": "Square — Seclo product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/1609925065_pdoc_Seclo.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-10",
+    "brand_name": "Seclo",
+    "generic_name": "Omeprazole",
+    "active_ingredients": [
+      "Omeprazole"
+    ],
+    "strength": "40 mg",
+    "dosage_form": "Capsule",
+    "route": "ORAL",
+    "release_type": "DELAYED",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Seclo product leaflet",
+    "source_name": "Square — Seclo product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/1609925065_pdoc_Seclo.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-11",
+    "brand_name": "Seclo MUPS",
+    "generic_name": "Omeprazole",
+    "active_ingredients": [
+      "Omeprazole"
+    ],
+    "strength": "20 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "MUPS",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Seclo MUPS product",
+    "source_name": "Square — Seclo MUPS product",
+    "source_url": "https://squarepharma.com.bd/product-details.php?pid=662",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-12",
+    "brand_name": "Nexum",
+    "generic_name": "Esomeprazole",
+    "active_ingredients": [
+      "Esomeprazole"
+    ],
+    "strength": "20 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "DELAYED",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Nexum product leaflet",
+    "source_name": "Square — Nexum product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-13",
+    "brand_name": "Nexum",
+    "generic_name": "Esomeprazole",
+    "active_ingredients": [
+      "Esomeprazole"
+    ],
+    "strength": "40 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "DELAYED",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Nexum product leaflet",
+    "source_name": "Square — Nexum product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-14",
+    "brand_name": "Nexum",
+    "generic_name": "Esomeprazole",
+    "active_ingredients": [
+      "Esomeprazole"
+    ],
+    "strength": "20 mg",
+    "dosage_form": "Capsule",
+    "route": "ORAL",
+    "release_type": "DELAYED",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Nexum product leaflet",
+    "source_name": "Square — Nexum product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-15",
+    "brand_name": "Nexum",
+    "generic_name": "Esomeprazole",
+    "active_ingredients": [
+      "Esomeprazole"
+    ],
+    "strength": "40 mg",
+    "dosage_form": "Capsule",
+    "route": "ORAL",
+    "release_type": "DELAYED",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Nexum product leaflet",
+    "source_name": "Square — Nexum product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-16",
+    "brand_name": "Comet",
+    "generic_name": "Metformin hydrochloride",
+    "active_ingredients": [
+      "Metformin hydrochloride"
+    ],
+    "strength": "500 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Comet product leaflet",
+    "source_name": "Square — Comet product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": true
+  },
+  {
+    "id": "bd-17",
+    "brand_name": "Comet",
+    "generic_name": "Metformin hydrochloride",
+    "active_ingredients": [
+      "Metformin hydrochloride"
+    ],
+    "strength": "850 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Comet product leaflet",
+    "source_name": "Square — Comet product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": true
+  },
+  {
+    "id": "bd-18",
+    "brand_name": "Comet XR",
+    "generic_name": "Metformin hydrochloride",
+    "active_ingredients": [
+      "Metformin hydrochloride"
+    ],
+    "strength": "500 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "EXTENDED",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Comet product leaflet",
+    "source_name": "Square — Comet product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": true
+  },
+  {
+    "id": "bd-19",
+    "brand_name": "Comet XR",
+    "generic_name": "Metformin hydrochloride",
+    "active_ingredients": [
+      "Metformin hydrochloride"
+    ],
+    "strength": "1000 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "EXTENDED",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Comet product leaflet",
+    "source_name": "Square — Comet product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": true
+  },
+  {
+    "id": "bd-20",
+    "brand_name": "Cef-3",
+    "generic_name": "Cefixime",
+    "active_ingredients": [
+      "Cefixime"
+    ],
+    "strength": "200 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Cef-3 product leaflet",
+    "source_name": "Square — Cef-3 product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-21",
+    "brand_name": "Cef-3 DS",
+    "generic_name": "Cefixime",
+    "active_ingredients": [
+      "Cefixime"
+    ],
+    "strength": "400 mg",
+    "dosage_form": "Tablet",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Cef-3 product leaflet",
+    "source_name": "Square — Cef-3 product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-22",
+    "brand_name": "Cef-3",
+    "generic_name": "Cefixime",
+    "active_ingredients": [
+      "Cefixime"
+    ],
+    "strength": "200 mg",
+    "dosage_form": "Capsule",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Cef-3 product leaflet",
+    "source_name": "Square — Cef-3 product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-23",
+    "brand_name": "Cef-3 DS",
+    "generic_name": "Cefixime",
+    "active_ingredients": [
+      "Cefixime"
+    ],
+    "strength": "400 mg",
+    "dosage_form": "Capsule",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Cef-3 product leaflet",
+    "source_name": "Square — Cef-3 product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": false
+  },
+  {
+    "id": "bd-24",
+    "brand_name": "Cef-3",
+    "generic_name": "Cefixime",
+    "active_ingredients": [
+      "Cefixime"
+    ],
+    "strength": "100 mg/5 ml",
+    "dosage_form": "Powder for oral suspension",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Cef-3 product leaflet",
+    "source_name": "Square — Cef-3 product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": true
+  },
+  {
+    "id": "bd-25",
+    "brand_name": "Cef-3 Forte",
+    "generic_name": "Cefixime",
+    "active_ingredients": [
+      "Cefixime"
+    ],
+    "strength": "200 mg/5 ml",
+    "dosage_form": "Powder for oral suspension",
+    "route": "ORAL",
+    "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "registration_number": null,
+    "source": "Square — Cef-3 product leaflet",
+    "source_name": "Square — Cef-3 product leaflet",
+    "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+    "source_section": "Composition / Commercial packs / How supplied",
+    "last_verified": "2026-10-08",
+    "high_risk": true
   },
   {
     "id": "bd-28",
     "brand_name": "Alatrol",
     "generic_name": "Cetirizine hydrochloride",
+    "active_ingredients": [
+      "Cetirizine hydrochloride"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Square Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Square — Alatrol product leaflet",
+    "source_name": "Square — Alatrol product leaflet",
     "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": false,
-    "active_ingredients": ["Cetirizine hydrochloride"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Alatrol product leaflet"
+    "high_risk": false
   },
   {
     "id": "bd-29",
     "brand_name": "Alatrol",
     "generic_name": "Cetirizine hydrochloride",
+    "active_ingredients": [
+      "Cetirizine hydrochloride"
+    ],
     "strength": "5 mg/5 ml",
     "dosage_form": "Syrup",
+    "route": "ORAL",
     "release_type": "IMMEDIATE",
+    "mapping_status": "VERIFIED",
     "manufacturer": "Square Pharmaceuticals Ltd.",
     "registration_number": null,
     "source": "Square — Alatrol product leaflet",
+    "source_name": "Square — Alatrol product leaflet",
     "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
     "source_section": "Composition / Commercial packs / How supplied",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "active_ingredients": ["Cetirizine hydrochloride"],
-    "route": "ORAL",
-    "mapping_status": "VERIFIED",
-    "source_name": "Square — Alatrol product leaflet"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5fbb837ff6b0",
     "brand_name": "Ace Power",
     "generic_name": "Paracetamol",
-    "active_ingredients": ["Paracetamol"],
+    "active_ingredients": [
+      "Paracetamol"
+    ],
     "strength": "1000 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -566,13 +628,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=24",
     "source_section": "Active ingredient and Preparation; PDF page 24",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5fbb837ff6b0"
+    "high_risk": true
   },
   {
+    "id": "bd-square-a565d580967a",
     "brand_name": "Adryl",
     "generic_name": "Diphenhydramine",
-    "active_ingredients": ["Diphenhydramine"],
+    "active_ingredients": [
+      "Diphenhydramine"
+    ],
     "strength": "10 mg/5 ml",
     "dosage_form": "Syrup",
     "route": "ORAL",
@@ -585,13 +649,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=25",
     "source_section": "Active ingredient and Preparation; PDF page 25",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-a565d580967a"
+    "high_risk": true
   },
   {
+    "id": "bd-square-eaf02c8f73db",
     "brand_name": "Alarid",
     "generic_name": "Ketotifen",
-    "active_ingredients": ["Ketotifen"],
+    "active_ingredients": [
+      "Ketotifen"
+    ],
     "strength": "1 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -604,13 +670,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=28",
     "source_section": "Active ingredient and Preparation; PDF page 28",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-eaf02c8f73db"
+    "high_risk": true
   },
   {
+    "id": "bd-square-de5516d38bdd",
     "brand_name": "Alarid",
     "generic_name": "Ketotifen",
-    "active_ingredients": ["Ketotifen"],
+    "active_ingredients": [
+      "Ketotifen"
+    ],
     "strength": "1 mg/5 ml",
     "dosage_form": "Syrup",
     "route": "ORAL",
@@ -623,13 +691,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=28",
     "source_section": "Active ingredient and Preparation; PDF page 28",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-de5516d38bdd"
+    "high_risk": true
   },
   {
+    "id": "bd-square-9fa49a30e8ce",
     "brand_name": "Alarid Eye Drops",
     "generic_name": "Ketotifen Fumarate",
-    "active_ingredients": ["Ketotifen Fumarate"],
+    "active_ingredients": [
+      "Ketotifen Fumarate"
+    ],
     "strength": "0.025%",
     "dosage_form": "Eye Drops",
     "route": "OPHTHALMIC",
@@ -642,13 +712,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=29",
     "source_section": "Active ingredient and Preparation; PDF page 29",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-9fa49a30e8ce"
+    "high_risk": true
   },
   {
+    "id": "bd-square-0621728e5946",
     "brand_name": "Anadol",
     "generic_name": "Tramadol",
-    "active_ingredients": ["Tramadol"],
+    "active_ingredients": [
+      "Tramadol"
+    ],
     "strength": "50 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -661,13 +733,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=36",
     "source_section": "Active ingredient and Preparation; PDF page 36",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-0621728e5946"
+    "high_risk": true
   },
   {
+    "id": "bd-square-a324d4a55d7b",
     "brand_name": "Anadol",
     "generic_name": "Tramadol",
-    "active_ingredients": ["Tramadol"],
+    "active_ingredients": [
+      "Tramadol"
+    ],
     "strength": "100 mg/2 ml",
     "dosage_form": "Injection",
     "route": "INJECTION",
@@ -680,13 +754,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=36",
     "source_section": "Active ingredient and Preparation; PDF page 36",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-a324d4a55d7b"
+    "high_risk": true
   },
   {
+    "id": "bd-square-e50884d0c68a",
     "brand_name": "Anadol",
     "generic_name": "Tramadol",
-    "active_ingredients": ["Tramadol"],
+    "active_ingredients": [
+      "Tramadol"
+    ],
     "strength": "100 mg",
     "dosage_form": "Suppository",
     "route": "RECTAL",
@@ -699,13 +775,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=36",
     "source_section": "Active ingredient and Preparation; PDF page 36",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-e50884d0c68a"
+    "high_risk": true
   },
   {
+    "id": "bd-square-284791357d43",
     "brand_name": "Anclog",
     "generic_name": "Clopidogrel",
-    "active_ingredients": ["Clopidogrel"],
+    "active_ingredients": [
+      "Clopidogrel"
+    ],
     "strength": "75 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -718,13 +796,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=37",
     "source_section": "Active ingredient and Preparation; PDF page 37",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-284791357d43"
+    "high_risk": true
   },
   {
+    "id": "bd-square-610e4bc5ebcd",
     "brand_name": "Angilock",
     "generic_name": "Losartan Potassium",
-    "active_ingredients": ["Losartan Potassium"],
+    "active_ingredients": [
+      "Losartan Potassium"
+    ],
     "strength": "25 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -737,13 +817,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=39",
     "source_section": "Active ingredient and Preparation; PDF page 39",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-610e4bc5ebcd"
+    "high_risk": true
   },
   {
+    "id": "bd-square-0159288a25e4",
     "brand_name": "Angilock",
     "generic_name": "Losartan Potassium",
-    "active_ingredients": ["Losartan Potassium"],
+    "active_ingredients": [
+      "Losartan Potassium"
+    ],
     "strength": "50 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -756,13 +838,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=39",
     "source_section": "Active ingredient and Preparation; PDF page 39",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-0159288a25e4"
+    "high_risk": true
   },
   {
+    "id": "bd-square-652c8141ca28",
     "brand_name": "Angilock",
     "generic_name": "Losartan Potassium",
-    "active_ingredients": ["Losartan Potassium"],
+    "active_ingredients": [
+      "Losartan Potassium"
+    ],
     "strength": "100 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -775,13 +859,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=39",
     "source_section": "Active ingredient and Preparation; PDF page 39",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-652c8141ca28"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3760d307bb8b",
     "brand_name": "Antista",
     "generic_name": "Chlorpheniramine",
-    "active_ingredients": ["Chlorpheniramine"],
+    "active_ingredients": [
+      "Chlorpheniramine"
+    ],
     "strength": "2 mg/5 ml",
     "dosage_form": "Syrup",
     "route": "ORAL",
@@ -794,13 +880,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=45",
     "source_section": "Active ingredient and Preparation; PDF page 45",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3760d307bb8b"
+    "high_risk": true
   },
   {
+    "id": "bd-square-43d566c2378b",
     "brand_name": "Anzitor",
     "generic_name": "Atorvastatin",
-    "active_ingredients": ["Atorvastatin"],
+    "active_ingredients": [
+      "Atorvastatin"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -813,13 +901,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=46",
     "source_section": "Active ingredient and Preparation; PDF page 46",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-43d566c2378b"
+    "high_risk": true
   },
   {
+    "id": "bd-square-f2061fd9e1d0",
     "brand_name": "Anzitor",
     "generic_name": "Atorvastatin",
-    "active_ingredients": ["Atorvastatin"],
+    "active_ingredients": [
+      "Atorvastatin"
+    ],
     "strength": "20 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -832,13 +922,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=46",
     "source_section": "Active ingredient and Preparation; PDF page 46",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-f2061fd9e1d0"
+    "high_risk": true
   },
   {
+    "id": "bd-square-201c3cc4ec3f",
     "brand_name": "Anzitor",
     "generic_name": "Atorvastatin",
-    "active_ingredients": ["Atorvastatin"],
+    "active_ingredients": [
+      "Atorvastatin"
+    ],
     "strength": "40 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -851,13 +943,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=46",
     "source_section": "Active ingredient and Preparation; PDF page 46",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-201c3cc4ec3f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-beb6530b9127",
     "brand_name": "Bactrocin",
     "generic_name": "Mupirocin",
-    "active_ingredients": ["Mupirocin"],
+    "active_ingredients": [
+      "Mupirocin"
+    ],
     "strength": "2%",
     "dosage_form": "Ointment",
     "route": "TOPICAL",
@@ -870,13 +964,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=50",
     "source_section": "Active ingredient and Preparation; PDF page 50",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-beb6530b9127"
+    "high_risk": true
   },
   {
+    "id": "bd-square-451d8e461d09",
     "brand_name": "Barif",
     "generic_name": "Febuxostat",
-    "active_ingredients": ["Febuxostat"],
+    "active_ingredients": [
+      "Febuxostat"
+    ],
     "strength": "40 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -889,13 +985,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=51",
     "source_section": "Active ingredient and Preparation; PDF page 51",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-451d8e461d09"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5e2bcc358d44",
     "brand_name": "Brofex",
     "generic_name": "Dextromethorphan",
-    "active_ingredients": ["Dextromethorphan"],
+    "active_ingredients": [
+      "Dextromethorphan"
+    ],
     "strength": "10 mg/5 ml",
     "dosage_form": "Syrup",
     "route": "ORAL",
@@ -908,13 +1006,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=61",
     "source_section": "Active ingredient and Preparation; PDF page 61",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5e2bcc358d44"
+    "high_risk": true
   },
   {
+    "id": "bd-square-b22dea261a90",
     "brand_name": "Bromolac",
     "generic_name": "Bromocriptine",
-    "active_ingredients": ["Bromocriptine"],
+    "active_ingredients": [
+      "Bromocriptine"
+    ],
     "strength": "2.5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -927,13 +1027,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=61",
     "source_section": "Active ingredient and Preparation; PDF page 61",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-b22dea261a90"
+    "high_risk": true
   },
   {
+    "id": "bd-square-230c30201346",
     "brand_name": "Camlodin",
     "generic_name": "Amlodipine",
-    "active_ingredients": ["Amlodipine"],
+    "active_ingredients": [
+      "Amlodipine"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -946,13 +1048,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=73",
     "source_section": "Active ingredient and Preparation; PDF page 73",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-230c30201346"
+    "high_risk": true
   },
   {
+    "id": "bd-square-c118f80bda49",
     "brand_name": "Canaglif",
     "generic_name": "Canagliflozin",
-    "active_ingredients": ["Canagliflozin"],
+    "active_ingredients": [
+      "Canagliflozin"
+    ],
     "strength": "100 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -965,13 +1069,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=74",
     "source_section": "Active ingredient and Preparation; PDF page 74",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-c118f80bda49"
+    "high_risk": true
   },
   {
+    "id": "bd-square-55684377db80",
     "brand_name": "Carbizol",
     "generic_name": "Carbimazole",
-    "active_ingredients": ["Carbimazole"],
+    "active_ingredients": [
+      "Carbimazole"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -984,13 +1090,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=76",
     "source_section": "Active ingredient and Preparation; PDF page 76",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-55684377db80"
+    "high_risk": true
   },
   {
+    "id": "bd-square-b2b002f1dea1",
     "brand_name": "Carva",
     "generic_name": "Aspirin",
-    "active_ingredients": ["Aspirin"],
+    "active_ingredients": [
+      "Aspirin"
+    ],
     "strength": "75 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1003,13 +1111,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=76",
     "source_section": "Active ingredient and Preparation; PDF page 76",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-b2b002f1dea1"
+    "high_risk": true
   },
   {
+    "id": "bd-square-1952bfb91ee1",
     "brand_name": "Cef-3",
     "generic_name": "Cefixime",
-    "active_ingredients": ["Cefixime"],
+    "active_ingredients": [
+      "Cefixime"
+    ],
     "strength": "400 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1022,13 +1132,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=80",
     "source_section": "Active ingredient and Preparation; PDF page 80",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-1952bfb91ee1"
+    "high_risk": true
   },
   {
+    "id": "bd-square-86960e760d46",
     "brand_name": "Cef-3",
     "generic_name": "Cefixime",
-    "active_ingredients": ["Cefixime"],
+    "active_ingredients": [
+      "Cefixime"
+    ],
     "strength": "100 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
@@ -1041,14 +1153,16 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=80",
     "source_section": "Active ingredient and Preparation; PDF page 80",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-86960e760d46"
+    "high_risk": true
   },
   {
+    "id": "bd-square-f6d29e312e13",
     "brand_name": "Cef-3",
     "generic_name": "Cefixime",
-    "active_ingredients": ["Cefixime"],
-    "strength": "200 mg/5ml",
+    "active_ingredients": [
+      "Cefixime"
+    ],
+    "strength": "200 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
     "release_type": "UNKNOWN",
@@ -1060,13 +1174,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=80",
     "source_section": "Active ingredient and Preparation; PDF page 80",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-f6d29e312e13"
+    "high_risk": true
   },
   {
+    "id": "bd-square-53ae0808e190",
     "brand_name": "Cerevas",
     "generic_name": "Vinpocetine",
-    "active_ingredients": ["Vinpocetine"],
+    "active_ingredients": [
+      "Vinpocetine"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1079,13 +1195,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=85",
     "source_section": "Active ingredient and Preparation; PDF page 85",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-53ae0808e190"
+    "high_risk": true
   },
   {
+    "id": "bd-square-223185dfe89e",
     "brand_name": "Cilosta",
     "generic_name": "Cilostazol",
-    "active_ingredients": ["Cilostazol"],
+    "active_ingredients": [
+      "Cilostazol"
+    ],
     "strength": "100 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1098,13 +1216,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=85",
     "source_section": "Active ingredient and Preparation; PDF page 85",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-223185dfe89e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5a6ee81be1c5",
     "brand_name": "Cinaron",
     "generic_name": "Cinnarizine",
-    "active_ingredients": ["Cinnarizine"],
+    "active_ingredients": [
+      "Cinnarizine"
+    ],
     "strength": "15 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1117,13 +1237,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=86",
     "source_section": "Active ingredient and Preparation; PDF page 86",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5a6ee81be1c5"
+    "high_risk": true
   },
   {
+    "id": "bd-square-c2fecc498093",
     "brand_name": "Ciprocin",
     "generic_name": "Ciprofloxacin",
-    "active_ingredients": ["Ciprofloxacin"],
+    "active_ingredients": [
+      "Ciprofloxacin"
+    ],
     "strength": "250 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1136,13 +1258,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=87",
     "source_section": "Active ingredient and Preparation; PDF page 87",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-c2fecc498093"
+    "high_risk": true
   },
   {
+    "id": "bd-square-96286b2b4724",
     "brand_name": "Ciprocin",
     "generic_name": "Ciprofloxacin",
-    "active_ingredients": ["Ciprofloxacin"],
+    "active_ingredients": [
+      "Ciprofloxacin"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1155,13 +1279,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=87",
     "source_section": "Active ingredient and Preparation; PDF page 87",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-96286b2b4724"
+    "high_risk": true
   },
   {
+    "id": "bd-square-7c7bd96059ed",
     "brand_name": "Ciprocin",
     "generic_name": "Ciprofloxacin",
-    "active_ingredients": ["Ciprofloxacin"],
+    "active_ingredients": [
+      "Ciprofloxacin"
+    ],
     "strength": "750 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1174,13 +1300,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=87",
     "source_section": "Active ingredient and Preparation; PDF page 87",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-7c7bd96059ed"
+    "high_risk": true
   },
   {
+    "id": "bd-square-d5dd966cbe85",
     "brand_name": "Climycin",
     "generic_name": "Clindamycin",
-    "active_ingredients": ["Clindamycin"],
+    "active_ingredients": [
+      "Clindamycin"
+    ],
     "strength": "300 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1193,13 +1321,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=90",
     "source_section": "Active ingredient and Preparation; PDF page 90",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-d5dd966cbe85"
+    "high_risk": true
   },
   {
+    "id": "bd-square-fed11ed1cb0c",
     "brand_name": "Depram",
     "generic_name": "Imipramine",
-    "active_ingredients": ["Imipramine"],
+    "active_ingredients": [
+      "Imipramine"
+    ],
     "strength": "25 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1212,13 +1342,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=105",
     "source_section": "Active ingredient and Preparation; PDF page 105",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-fed11ed1cb0c"
+    "high_risk": true
   },
   {
+    "id": "bd-square-125dee3145c3",
     "brand_name": "Deprex",
     "generic_name": "Olanzapine",
-    "active_ingredients": ["Olanzapine"],
+    "active_ingredients": [
+      "Olanzapine"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1231,13 +1363,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=105",
     "source_section": "Active ingredient and Preparation; PDF page 105",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-125dee3145c3"
+    "high_risk": true
   },
   {
+    "id": "bd-square-c22b2c80bd97",
     "brand_name": "Deprex",
     "generic_name": "Olanzapine",
-    "active_ingredients": ["Olanzapine"],
+    "active_ingredients": [
+      "Olanzapine"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1250,13 +1384,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=105",
     "source_section": "Active ingredient and Preparation; PDF page 105",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-c22b2c80bd97"
+    "high_risk": true
   },
   {
+    "id": "bd-square-15d91d5b12e6",
     "brand_name": "Durol",
     "generic_name": "Carvedilol",
-    "active_ingredients": ["Carvedilol"],
+    "active_ingredients": [
+      "Carvedilol"
+    ],
     "strength": "6.25 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1269,13 +1405,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=114",
     "source_section": "Active ingredient and Preparation; PDF page 114",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-15d91d5b12e6"
+    "high_risk": true
   },
   {
+    "id": "bd-square-9d374c990ea7",
     "brand_name": "Eromycin",
     "generic_name": "Erythromycin",
-    "active_ingredients": ["Erythromycin"],
+    "active_ingredients": [
+      "Erythromycin"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1288,13 +1426,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=124",
     "source_section": "Active ingredient and Preparation; PDF page 124",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-9d374c990ea7"
+    "high_risk": true
   },
   {
+    "id": "bd-square-f1097e2fc400",
     "brand_name": "Esloric",
     "generic_name": "Allopurinol",
-    "active_ingredients": ["Allopurinol"],
+    "active_ingredients": [
+      "Allopurinol"
+    ],
     "strength": "100 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1307,13 +1447,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=125",
     "source_section": "Active ingredient and Preparation; PDF page 125",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-f1097e2fc400"
+    "high_risk": true
   },
   {
+    "id": "bd-square-beadd1993f3e",
     "brand_name": "Famotack",
     "generic_name": "Famotidine",
-    "active_ingredients": ["Famotidine"],
+    "active_ingredients": [
+      "Famotidine"
+    ],
     "strength": "20 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1326,13 +1468,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=127",
     "source_section": "Active ingredient and Preparation; PDF page 127",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-beadd1993f3e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-2be4c5fb5d3d",
     "brand_name": "Favinil",
     "generic_name": "Favipiravir",
-    "active_ingredients": ["Favipiravir"],
+    "active_ingredients": [
+      "Favipiravir"
+    ],
     "strength": "200 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1345,13 +1489,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=128",
     "source_section": "Active ingredient and Preparation; PDF page 128",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-2be4c5fb5d3d"
+    "high_risk": true
   },
   {
+    "id": "bd-square-0d0ee2414330",
     "brand_name": "Fexo",
     "generic_name": "Fexofenadine",
-    "active_ingredients": ["Fexofenadine"],
+    "active_ingredients": [
+      "Fexofenadine"
+    ],
     "strength": "60 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1364,13 +1510,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=130",
     "source_section": "Active ingredient and Preparation; PDF page 130",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-0d0ee2414330"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3629673bafdc",
     "brand_name": "Fexo",
     "generic_name": "Fexofenadine",
-    "active_ingredients": ["Fexofenadine"],
+    "active_ingredients": [
+      "Fexofenadine"
+    ],
     "strength": "120 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1383,13 +1531,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=130",
     "source_section": "Active ingredient and Preparation; PDF page 130",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3629673bafdc"
+    "high_risk": true
   },
   {
+    "id": "bd-square-9d7bf91222aa",
     "brand_name": "Fexo",
     "generic_name": "Fexofenadine",
-    "active_ingredients": ["Fexofenadine"],
+    "active_ingredients": [
+      "Fexofenadine"
+    ],
     "strength": "180 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1402,13 +1552,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=130",
     "source_section": "Active ingredient and Preparation; PDF page 130",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-9d7bf91222aa"
+    "high_risk": true
   },
   {
+    "id": "bd-square-2c4e6f242cfc",
     "brand_name": "Fexo",
     "generic_name": "Fexofenadine",
-    "active_ingredients": ["Fexofenadine"],
+    "active_ingredients": [
+      "Fexofenadine"
+    ],
     "strength": "30 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
@@ -1421,13 +1573,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=130",
     "source_section": "Active ingredient and Preparation; PDF page 130",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-2c4e6f242cfc"
+    "high_risk": true
   },
   {
+    "id": "bd-square-82c937ba85f5",
     "brand_name": "Flugal",
     "generic_name": "Fluconazole",
-    "active_ingredients": ["Fluconazole"],
+    "active_ingredients": [
+      "Fluconazole"
+    ],
     "strength": "200 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1440,13 +1594,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=137",
     "source_section": "Active ingredient and Preparation; PDF page 137",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-82c937ba85f5"
+    "high_risk": true
   },
   {
+    "id": "bd-square-a2f9f00d32dd",
     "brand_name": "Flugal",
     "generic_name": "Fluconazole",
-    "active_ingredients": ["Fluconazole"],
+    "active_ingredients": [
+      "Fluconazole"
+    ],
     "strength": "150 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1459,13 +1615,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=137",
     "source_section": "Active ingredient and Preparation; PDF page 137",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-a2f9f00d32dd"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3c756940ecc4",
     "brand_name": "Flugal",
     "generic_name": "Fluconazole",
-    "active_ingredients": ["Fluconazole"],
+    "active_ingredients": [
+      "Fluconazole"
+    ],
     "strength": "50 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1478,13 +1636,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=137",
     "source_section": "Active ingredient and Preparation; PDF page 137",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3c756940ecc4"
+    "high_risk": true
   },
   {
+    "id": "bd-square-38abaa5cc237",
     "brand_name": "Flugal",
     "generic_name": "Fluconazole",
-    "active_ingredients": ["Fluconazole"],
+    "active_ingredients": [
+      "Fluconazole"
+    ],
     "strength": "50 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
@@ -1497,13 +1657,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=137",
     "source_section": "Active ingredient and Preparation; PDF page 137",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-38abaa5cc237"
+    "high_risk": true
   },
   {
+    "id": "bd-square-22cb49719fc3",
     "brand_name": "Fusid",
     "generic_name": "Furosemide",
-    "active_ingredients": ["Furosemide"],
+    "active_ingredients": [
+      "Furosemide"
+    ],
     "strength": "40 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1516,13 +1678,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=144",
     "source_section": "Active ingredient and Preparation; PDF page 144",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-22cb49719fc3"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3732ab32aa36",
     "brand_name": "Fusid",
     "generic_name": "Furosemide",
-    "active_ingredients": ["Furosemide"],
+    "active_ingredients": [
+      "Furosemide"
+    ],
     "strength": "20 mg/2 ml",
     "dosage_form": "Injection",
     "route": "INJECTION",
@@ -1535,13 +1699,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=144",
     "source_section": "Active ingredient and Preparation; PDF page 144",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3732ab32aa36"
+    "high_risk": true
   },
   {
+    "id": "bd-square-a7693c362432",
     "brand_name": "Gabastar",
     "generic_name": "Gabapentin",
-    "active_ingredients": ["Gabapentin"],
+    "active_ingredients": [
+      "Gabapentin"
+    ],
     "strength": "100 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1554,13 +1720,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=146",
     "source_section": "Active ingredient and Preparation; PDF page 146",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-a7693c362432"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3b0d45cff187",
     "brand_name": "Gabastar",
     "generic_name": "Gabapentin",
-    "active_ingredients": ["Gabapentin"],
+    "active_ingredients": [
+      "Gabapentin"
+    ],
     "strength": "300 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1573,13 +1741,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=146",
     "source_section": "Active ingredient and Preparation; PDF page 146",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3b0d45cff187"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5450f7365122",
     "brand_name": "Geston",
     "generic_name": "Allylestrenol",
-    "active_ingredients": ["Allylestrenol"],
+    "active_ingredients": [
+      "Allylestrenol"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1592,13 +1762,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=149",
     "source_section": "Active ingredient and Preparation; PDF page 149",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5450f7365122"
+    "high_risk": true
   },
   {
+    "id": "bd-square-44b72d2796b7",
     "brand_name": "Imotil",
     "generic_name": "Loperamide",
-    "active_ingredients": ["Loperamide"],
+    "active_ingredients": [
+      "Loperamide"
+    ],
     "strength": "2 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1611,13 +1783,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=157",
     "source_section": "Active ingredient and Preparation; PDF page 157",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-44b72d2796b7"
+    "high_risk": true
   },
   {
+    "id": "bd-square-ac2b888dc51f",
     "brand_name": "Intimate",
     "generic_name": "Tadalafil",
-    "active_ingredients": ["Tadalafil"],
+    "active_ingredients": [
+      "Tadalafil"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1630,13 +1804,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=158",
     "source_section": "Active ingredient and Preparation; PDF page 158",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-ac2b888dc51f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-a69b171cb59d",
     "brand_name": "Intimate",
     "generic_name": "Tadalafil",
-    "active_ingredients": ["Tadalafil"],
+    "active_ingredients": [
+      "Tadalafil"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1649,13 +1825,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=158",
     "source_section": "Active ingredient and Preparation; PDF page 158",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-a69b171cb59d"
+    "high_risk": true
   },
   {
+    "id": "bd-square-86ebbe6f602e",
     "brand_name": "Intimate",
     "generic_name": "Tadalafil",
-    "active_ingredients": ["Tadalafil"],
+    "active_ingredients": [
+      "Tadalafil"
+    ],
     "strength": "20 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1668,13 +1846,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=158",
     "source_section": "Active ingredient and Preparation; PDF page 158",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-86ebbe6f602e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-e1ed1666eff8",
     "brand_name": "Lanso",
     "generic_name": "Lansoprazole",
-    "active_ingredients": ["Lansoprazole"],
+    "active_ingredients": [
+      "Lansoprazole"
+    ],
     "strength": "30 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1687,13 +1867,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=172",
     "source_section": "Active ingredient and Preparation; PDF page 172",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-e1ed1666eff8"
+    "high_risk": true
   },
   {
+    "id": "bd-square-716928b20d4f",
     "brand_name": "Levocar",
     "generic_name": "Levocarnitine",
-    "active_ingredients": ["Levocarnitine"],
+    "active_ingredients": [
+      "Levocarnitine"
+    ],
     "strength": "330 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1706,13 +1888,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=175",
     "source_section": "Active ingredient and Preparation; PDF page 175",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-716928b20d4f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-0cd38162e9df",
     "brand_name": "Levostar",
     "generic_name": "Levosalbutamol",
-    "active_ingredients": ["Levosalbutamol"],
+    "active_ingredients": [
+      "Levosalbutamol"
+    ],
     "strength": "1 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1725,13 +1909,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=176",
     "source_section": "Active ingredient and Preparation; PDF page 176",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-0cd38162e9df"
+    "high_risk": true
   },
   {
+    "id": "bd-square-d7cd3ccf90d4",
     "brand_name": "Levostar",
     "generic_name": "Levosalbutamol",
-    "active_ingredients": ["Levosalbutamol"],
+    "active_ingredients": [
+      "Levosalbutamol"
+    ],
     "strength": "2 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1744,13 +1930,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=176",
     "source_section": "Active ingredient and Preparation; PDF page 176",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-d7cd3ccf90d4"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5273f4dc0e84",
     "brand_name": "Linita",
     "generic_name": "Linagliptin",
-    "active_ingredients": ["Linagliptin"],
+    "active_ingredients": [
+      "Linagliptin"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1763,13 +1951,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=177",
     "source_section": "Active ingredient and Preparation; PDF page 177",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5273f4dc0e84"
+    "high_risk": true
   },
   {
+    "id": "bd-square-8f59e4074646",
     "brand_name": "Lipired",
     "generic_name": "Fenofibrate",
-    "active_ingredients": ["Fenofibrate"],
+    "active_ingredients": [
+      "Fenofibrate"
+    ],
     "strength": "200 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1782,13 +1972,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=178",
     "source_section": "Active ingredient and Preparation; PDF page 178",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-8f59e4074646"
+    "high_risk": true
   },
   {
+    "id": "bd-square-ca07a4182980",
     "brand_name": "LNC",
     "generic_name": "Cilnidipine",
-    "active_ingredients": ["Cilnidipine"],
+    "active_ingredients": [
+      "Cilnidipine"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1801,13 +1993,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=179",
     "source_section": "Active ingredient and Preparation; PDF page 179",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-ca07a4182980"
+    "high_risk": true
   },
   {
+    "id": "bd-square-b05ba503a21e",
     "brand_name": "LNC",
     "generic_name": "Cilnidipine",
-    "active_ingredients": ["Cilnidipine"],
+    "active_ingredients": [
+      "Cilnidipine"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1820,13 +2014,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=179",
     "source_section": "Active ingredient and Preparation; PDF page 179",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-b05ba503a21e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-67d6b9d97464",
     "brand_name": "Loracef",
     "generic_name": "Cefaclor",
-    "active_ingredients": ["Cefaclor"],
+    "active_ingredients": [
+      "Cefaclor"
+    ],
     "strength": "125 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
@@ -1839,13 +2035,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=179",
     "source_section": "Active ingredient and Preparation; PDF page 179",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-67d6b9d97464"
+    "high_risk": true
   },
   {
+    "id": "bd-square-f6f9b0cdb143",
     "brand_name": "Loratin",
     "generic_name": "Loratadine",
-    "active_ingredients": ["Loratadine"],
+    "active_ingredients": [
+      "Loratadine"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1858,13 +2056,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=180",
     "source_section": "Active ingredient and Preparation; PDF page 180",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-f6f9b0cdb143"
+    "high_risk": true
   },
   {
+    "id": "bd-square-ce2d0cbc4792",
     "brand_name": "Loratin",
     "generic_name": "Loratadine",
-    "active_ingredients": ["Loratadine"],
+    "active_ingredients": [
+      "Loratadine"
+    ],
     "strength": "5 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
@@ -1877,13 +2077,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=180",
     "source_section": "Active ingredient and Preparation; PDF page 180",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-ce2d0cbc4792"
+    "high_risk": true
   },
   {
+    "id": "bd-square-9d2dca980595",
     "brand_name": "Maxrin",
     "generic_name": "Tamsulosin Hydrochloride",
-    "active_ingredients": ["Tamsulosin Hydrochloride"],
+    "active_ingredients": [
+      "Tamsulosin Hydrochloride"
+    ],
     "strength": "0.4 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -1896,13 +2098,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=189",
     "source_section": "Active ingredient and Preparation; PDF page 189",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-9d2dca980595"
+    "high_risk": true
   },
   {
+    "id": "bd-square-368a68f358ff",
     "brand_name": "Methigic",
     "generic_name": "Methylprednisolone",
-    "active_ingredients": ["Methylprednisolone"],
+    "active_ingredients": [
+      "Methylprednisolone"
+    ],
     "strength": "2 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1915,13 +2119,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=191",
     "source_section": "Active ingredient and Preparation; PDF page 191",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-368a68f358ff"
+    "high_risk": true
   },
   {
+    "id": "bd-square-b88fad7a63da",
     "brand_name": "Methigic",
     "generic_name": "Methylprednisolone",
-    "active_ingredients": ["Methylprednisolone"],
+    "active_ingredients": [
+      "Methylprednisolone"
+    ],
     "strength": "4 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1934,13 +2140,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=191",
     "source_section": "Active ingredient and Preparation; PDF page 191",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-b88fad7a63da"
+    "high_risk": true
   },
   {
+    "id": "bd-square-0439de0105fb",
     "brand_name": "Methigic",
     "generic_name": "Methylprednisolone",
-    "active_ingredients": ["Methylprednisolone"],
+    "active_ingredients": [
+      "Methylprednisolone"
+    ],
     "strength": "8 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1953,13 +2161,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=191",
     "source_section": "Active ingredient and Preparation; PDF page 191",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-0439de0105fb"
+    "high_risk": true
   },
   {
+    "id": "bd-square-85067e2c249f",
     "brand_name": "Methigic",
     "generic_name": "Methylprednisolone",
-    "active_ingredients": ["Methylprednisolone"],
+    "active_ingredients": [
+      "Methylprednisolone"
+    ],
     "strength": "16 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1972,13 +2182,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=191",
     "source_section": "Active ingredient and Preparation; PDF page 191",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-85067e2c249f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-f7aad39fe4f9",
     "brand_name": "Menoral",
     "generic_name": "Norethisterone",
-    "active_ingredients": ["Norethisterone"],
+    "active_ingredients": [
+      "Norethisterone"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -1991,13 +2203,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=194",
     "source_section": "Active ingredient and Preparation; PDF page 194",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-f7aad39fe4f9"
+    "high_risk": true
   },
   {
+    "id": "bd-square-ea98ae35fd9e",
     "brand_name": "Methicol",
     "generic_name": "Mecobalamin",
-    "active_ingredients": ["Mecobalamin"],
+    "active_ingredients": [
+      "Mecobalamin"
+    ],
     "strength": "500 mcg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2010,13 +2224,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=196",
     "source_section": "Active ingredient and Preparation; PDF page 196",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-ea98ae35fd9e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5084fe95f9a2",
     "brand_name": "Mevin",
     "generic_name": "Mebeverine Hydrochloride",
-    "active_ingredients": ["Mebeverine Hydrochloride"],
+    "active_ingredients": [
+      "Mebeverine Hydrochloride"
+    ],
     "strength": "135 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2029,13 +2245,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=196",
     "source_section": "Active ingredient and Preparation; PDF page 196",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5084fe95f9a2"
+    "high_risk": true
   },
   {
+    "id": "bd-square-500aeda6ee2e",
     "brand_name": "Mexlo Eye Drops",
     "generic_name": "Lomefloxacin",
-    "active_ingredients": ["Lomefloxacin"],
+    "active_ingredients": [
+      "Lomefloxacin"
+    ],
     "strength": "0.3%",
     "dosage_form": "Eye Drops",
     "route": "OPHTHALMIC",
@@ -2048,13 +2266,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=197",
     "source_section": "Active ingredient and Preparation; PDF page 197",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-500aeda6ee2e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-bc5a09c1b64f",
     "brand_name": "Migranil",
     "generic_name": "Pizotifen",
-    "active_ingredients": ["Pizotifen"],
+    "active_ingredients": [
+      "Pizotifen"
+    ],
     "strength": "0.5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2067,13 +2287,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=197",
     "source_section": "Active ingredient and Preparation; PDF page 197",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-bc5a09c1b64f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-17f79890fd73",
     "brand_name": "Migranil",
     "generic_name": "Pizotifen",
-    "active_ingredients": ["Pizotifen"],
+    "active_ingredients": [
+      "Pizotifen"
+    ],
     "strength": "1.5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2086,13 +2308,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=197",
     "source_section": "Active ingredient and Preparation; PDF page 197",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-17f79890fd73"
+    "high_risk": true
   },
   {
+    "id": "bd-square-1cd13995581f",
     "brand_name": "Mirapro",
     "generic_name": "Mirtazapine",
-    "active_ingredients": ["Mirtazapine"],
+    "active_ingredients": [
+      "Mirtazapine"
+    ],
     "strength": "7.5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2105,13 +2329,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=198",
     "source_section": "Active ingredient and Preparation; PDF page 198",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-1cd13995581f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-4e9fd6f36b5f",
     "brand_name": "Moxacil",
     "generic_name": "Amoxicillin",
-    "active_ingredients": ["Amoxicillin"],
+    "active_ingredients": [
+      "Amoxicillin"
+    ],
     "strength": "250 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2124,13 +2350,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=200",
     "source_section": "Active ingredient and Preparation; PDF page 200",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-4e9fd6f36b5f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-ed90f0539a84",
     "brand_name": "Moxacil",
     "generic_name": "Amoxicillin",
-    "active_ingredients": ["Amoxicillin"],
+    "active_ingredients": [
+      "Amoxicillin"
+    ],
     "strength": "500 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2143,13 +2371,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=200",
     "source_section": "Active ingredient and Preparation; PDF page 200",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-ed90f0539a84"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5c65921560d1",
     "brand_name": "Moxacil",
     "generic_name": "Amoxicillin",
-    "active_ingredients": ["Amoxicillin"],
+    "active_ingredients": [
+      "Amoxicillin"
+    ],
     "strength": "125 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
@@ -2162,13 +2392,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=200",
     "source_section": "Active ingredient and Preparation; PDF page 200",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5c65921560d1"
+    "high_risk": true
   },
   {
+    "id": "bd-square-b3ecae971387",
     "brand_name": "Neurolin",
     "generic_name": "Pregabalin",
-    "active_ingredients": ["Pregabalin"],
+    "active_ingredients": [
+      "Pregabalin"
+    ],
     "strength": "25 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2181,13 +2413,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=207",
     "source_section": "Active ingredient and Preparation; PDF page 207",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-b3ecae971387"
+    "high_risk": true
   },
   {
+    "id": "bd-square-c2dbff0793d7",
     "brand_name": "Neurolin",
     "generic_name": "Pregabalin",
-    "active_ingredients": ["Pregabalin"],
+    "active_ingredients": [
+      "Pregabalin"
+    ],
     "strength": "50 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2200,13 +2434,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=207",
     "source_section": "Active ingredient and Preparation; PDF page 207",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-c2dbff0793d7"
+    "high_risk": true
   },
   {
+    "id": "bd-square-19db451e3448",
     "brand_name": "Neurolin",
     "generic_name": "Pregabalin",
-    "active_ingredients": ["Pregabalin"],
+    "active_ingredients": [
+      "Pregabalin"
+    ],
     "strength": "75 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2219,13 +2455,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=207",
     "source_section": "Active ingredient and Preparation; PDF page 207",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-19db451e3448"
+    "high_risk": true
   },
   {
+    "id": "bd-square-dda8ba396abb",
     "brand_name": "Nimocal",
     "generic_name": "Nimodipine",
-    "active_ingredients": ["Nimodipine"],
+    "active_ingredients": [
+      "Nimodipine"
+    ],
     "strength": "30 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2238,13 +2476,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=212",
     "source_section": "Active ingredient and Preparation; PDF page 212",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-dda8ba396abb"
+    "high_risk": true
   },
   {
+    "id": "bd-square-722fea2539a4",
     "brand_name": "Nomi",
     "generic_name": "Zolmitriptan",
-    "active_ingredients": ["Zolmitriptan"],
+    "active_ingredients": [
+      "Zolmitriptan"
+    ],
     "strength": "2.5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2257,13 +2497,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=213",
     "source_section": "Active ingredient and Preparation; PDF page 213",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-722fea2539a4"
+    "high_risk": true
   },
   {
+    "id": "bd-square-578a334b09b3",
     "brand_name": "Ofran",
     "generic_name": "Ondansetron",
-    "active_ingredients": ["Ondansetron"],
+    "active_ingredients": [
+      "Ondansetron"
+    ],
     "strength": "8 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2276,14 +2518,16 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=217",
     "source_section": "Active ingredient and Preparation; PDF page 217",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-578a334b09b3"
+    "high_risk": true
   },
   {
+    "id": "bd-square-28cbbeb03083",
     "brand_name": "Ofran",
     "generic_name": "Ondansetron",
-    "active_ingredients": ["Ondansetron"],
-    "strength": "8 mg/4ml",
+    "active_ingredients": [
+      "Ondansetron"
+    ],
+    "strength": "8 mg/4 ml",
     "dosage_form": "Injection",
     "route": "INJECTION",
     "release_type": "NOT_APPLICABLE",
@@ -2295,13 +2539,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=217",
     "source_section": "Active ingredient and Preparation; PDF page 217",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-28cbbeb03083"
+    "high_risk": true
   },
   {
+    "id": "bd-square-17a96516f35a",
     "brand_name": "Olmecar",
     "generic_name": "Olmesartan Medoxomil",
-    "active_ingredients": ["Olmesartan Medoxomil"],
+    "active_ingredients": [
+      "Olmesartan Medoxomil"
+    ],
     "strength": "20 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2314,13 +2560,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=219",
     "source_section": "Active ingredient and Preparation; PDF page 219",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-17a96516f35a"
+    "high_risk": true
   },
   {
+    "id": "bd-square-d1d635c7d113",
     "brand_name": "Olmecar",
     "generic_name": "Olmesartan Medoxomil",
-    "active_ingredients": ["Olmesartan Medoxomil"],
+    "active_ingredients": [
+      "Olmesartan Medoxomil"
+    ],
     "strength": "40 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2333,13 +2581,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=219",
     "source_section": "Active ingredient and Preparation; PDF page 219",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-d1d635c7d113"
+    "high_risk": true
   },
   {
+    "id": "bd-square-0bba17e7411f",
     "brand_name": "Oxapro",
     "generic_name": "Escitalopram",
-    "active_ingredients": ["Escitalopram"],
+    "active_ingredients": [
+      "Escitalopram"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2352,13 +2602,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=224",
     "source_section": "Active ingredient and Preparation; PDF page 224",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-0bba17e7411f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-6d9aaa25e187",
     "brand_name": "Oxapro",
     "generic_name": "Escitalopram",
-    "active_ingredients": ["Escitalopram"],
+    "active_ingredients": [
+      "Escitalopram"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2371,13 +2623,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=224",
     "source_section": "Active ingredient and Preparation; PDF page 224",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-6d9aaa25e187"
+    "high_risk": true
   },
   {
+    "id": "bd-square-f1d9c7696a9b",
     "brand_name": "Perkinil",
     "generic_name": "Procyclidine, HCL",
-    "active_ingredients": ["Procyclidine, HCL"],
+    "active_ingredients": [
+      "Procyclidine, HCL"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2390,13 +2644,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=229",
     "source_section": "Active ingredient and Preparation; PDF page 229",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-f1d9c7696a9b"
+    "high_risk": true
   },
   {
+    "id": "bd-square-34a28334021d",
     "brand_name": "Perkinil",
     "generic_name": "Procyclidine, HCL",
-    "active_ingredients": ["Procyclidine, HCL"],
+    "active_ingredients": [
+      "Procyclidine, HCL"
+    ],
     "strength": "10 mg/2 ml",
     "dosage_form": "Injection",
     "route": "INJECTION",
@@ -2409,13 +2665,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=229",
     "source_section": "Active ingredient and Preparation; PDF page 229",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-34a28334021d"
+    "high_risk": true
   },
   {
+    "id": "bd-square-b173d74cc65c",
     "brand_name": "Perkirol",
     "generic_name": "Ropinirole",
-    "active_ingredients": ["Ropinirole"],
+    "active_ingredients": [
+      "Ropinirole"
+    ],
     "strength": "0.25 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2428,13 +2686,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=231",
     "source_section": "Active ingredient and Preparation; PDF page 231",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-b173d74cc65c"
+    "high_risk": true
   },
   {
+    "id": "bd-square-72de467c1b59",
     "brand_name": "Perkirol",
     "generic_name": "Ropinirole",
-    "active_ingredients": ["Ropinirole"],
+    "active_ingredients": [
+      "Ropinirole"
+    ],
     "strength": "2 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2447,13 +2707,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=231",
     "source_section": "Active ingredient and Preparation; PDF page 231",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-72de467c1b59"
+    "high_risk": true
   },
   {
+    "id": "bd-square-dd563cfaed4e",
     "brand_name": "Phylopen",
     "generic_name": "Flucloxacillin",
-    "active_ingredients": ["Flucloxacillin"],
+    "active_ingredients": [
+      "Flucloxacillin"
+    ],
     "strength": "250 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2466,13 +2728,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=232",
     "source_section": "Active ingredient and Preparation; PDF page 232",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-dd563cfaed4e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5ec5b4b664a0",
     "brand_name": "Phylopen",
     "generic_name": "Flucloxacillin",
-    "active_ingredients": ["Flucloxacillin"],
+    "active_ingredients": [
+      "Flucloxacillin"
+    ],
     "strength": "500 mg",
     "dosage_form": "Injection",
     "route": "INJECTION",
@@ -2485,13 +2749,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=232",
     "source_section": "Active ingredient and Preparation; PDF page 232",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5ec5b4b664a0"
+    "high_risk": true
   },
   {
+    "id": "bd-square-050c15a411e3",
     "brand_name": "Prolert",
     "generic_name": "Fluoxetine",
-    "active_ingredients": ["Fluoxetine"],
+    "active_ingredients": [
+      "Fluoxetine"
+    ],
     "strength": "20 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2504,13 +2770,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=233",
     "source_section": "Active ingredient and Preparation; PDF page 233",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-050c15a411e3"
+    "high_risk": true
   },
   {
+    "id": "bd-square-22862a4fe621",
     "brand_name": "Promtil",
     "generic_name": "Prochlorperazine",
-    "active_ingredients": ["Prochlorperazine"],
+    "active_ingredients": [
+      "Prochlorperazine"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2523,13 +2791,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=234",
     "source_section": "Active ingredient and Preparation; PDF page 234",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-22862a4fe621"
+    "high_risk": true
   },
   {
+    "id": "bd-square-1e14f19631e3",
     "brand_name": "Proxivir",
     "generic_name": "Tenofovir Disoproxil Fumarate",
-    "active_ingredients": ["Tenofovir Disoproxil Fumarate"],
+    "active_ingredients": [
+      "Tenofovir Disoproxil Fumarate"
+    ],
     "strength": "300 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2542,13 +2812,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=236",
     "source_section": "Active ingredient and Preparation; PDF page 236",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-1e14f19631e3"
+    "high_risk": true
   },
   {
+    "id": "bd-square-acdea7c3b1d6",
     "brand_name": "Rabeca",
     "generic_name": "Rabeprazole Sodium",
-    "active_ingredients": ["Rabeprazole Sodium"],
+    "active_ingredients": [
+      "Rabeprazole Sodium"
+    ],
     "strength": "20 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2561,13 +2833,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=239",
     "source_section": "Active ingredient and Preparation; PDF page 239",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-acdea7c3b1d6"
+    "high_risk": true
   },
   {
+    "id": "bd-square-208cfdb40d41",
     "brand_name": "Remac",
     "generic_name": "Clarithromycin",
-    "active_ingredients": ["Clarithromycin"],
+    "active_ingredients": [
+      "Clarithromycin"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2580,13 +2854,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=243",
     "source_section": "Active ingredient and Preparation; PDF page 243",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-208cfdb40d41"
+    "high_risk": true
   },
   {
+    "id": "bd-square-b6b97cb0f50f",
     "brand_name": "Renorma",
     "generic_name": "Tibolone",
-    "active_ingredients": ["Tibolone"],
+    "active_ingredients": [
+      "Tibolone"
+    ],
     "strength": "2.5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2599,13 +2875,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=245",
     "source_section": "Active ingredient and Preparation; PDF page 245",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-b6b97cb0f50f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-e61d348f49b8",
     "brand_name": "Revira",
     "generic_name": "Valaciclovir",
-    "active_ingredients": ["Valaciclovir"],
+    "active_ingredients": [
+      "Valaciclovir"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2618,13 +2896,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=247",
     "source_section": "Active ingredient and Preparation; PDF page 247",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-e61d348f49b8"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3df8e09e2997",
     "brand_name": "Revira",
     "generic_name": "Valaciclovir",
-    "active_ingredients": ["Valaciclovir"],
+    "active_ingredients": [
+      "Valaciclovir"
+    ],
     "strength": "1 g",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2637,13 +2917,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=247",
     "source_section": "Active ingredient and Preparation; PDF page 247",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3df8e09e2997"
+    "high_risk": true
   },
   {
+    "id": "bd-square-55e74e03a9b4",
     "brand_name": "RivaXa",
     "generic_name": "Rivaroxaban",
-    "active_ingredients": ["Rivaroxaban"],
+    "active_ingredients": [
+      "Rivaroxaban"
+    ],
     "strength": "2.5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2656,13 +2938,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=250",
     "source_section": "Active ingredient and Preparation; PDF page 250",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-55e74e03a9b4"
+    "high_risk": true
   },
   {
+    "id": "bd-square-c4bdce65f788",
     "brand_name": "RivaXa",
     "generic_name": "Rivaroxaban",
-    "active_ingredients": ["Rivaroxaban"],
+    "active_ingredients": [
+      "Rivaroxaban"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2675,13 +2959,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=250",
     "source_section": "Active ingredient and Preparation; PDF page 250",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-c4bdce65f788"
+    "high_risk": true
   },
   {
+    "id": "bd-square-480118fb3d93",
     "brand_name": "Robic",
     "generic_name": "Ornidazole",
-    "active_ingredients": ["Ornidazole"],
+    "active_ingredients": [
+      "Ornidazole"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2694,13 +2980,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=251",
     "source_section": "Active ingredient and Preparation; PDF page 251",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-480118fb3d93"
+    "high_risk": true
   },
   {
+    "id": "bd-square-555cc500965b",
     "brand_name": "Rupatrol",
     "generic_name": "Rupatadine",
-    "active_ingredients": ["Rupatadine"],
+    "active_ingredients": [
+      "Rupatadine"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2713,13 +3001,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=252",
     "source_section": "Active ingredient and Preparation; PDF page 252",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-555cc500965b"
+    "high_risk": true
   },
   {
+    "id": "bd-square-cfa1e9bb8440",
     "brand_name": "Rosuva",
     "generic_name": "Rosuvastatin",
-    "active_ingredients": ["Rosuvastatin"],
+    "active_ingredients": [
+      "Rosuvastatin"
+    ],
     "strength": "5 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2732,13 +3022,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=252",
     "source_section": "Active ingredient and Preparation; PDF page 252",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-cfa1e9bb8440"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3d6193f545ea",
     "brand_name": "Rosuva",
     "generic_name": "Rosuvastatin",
-    "active_ingredients": ["Rosuvastatin"],
+    "active_ingredients": [
+      "Rosuvastatin"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2751,13 +3043,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=252",
     "source_section": "Active ingredient and Preparation; PDF page 252",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3d6193f545ea"
+    "high_risk": true
   },
   {
+    "id": "bd-square-607e18c1db1c",
     "brand_name": "Rosuva",
     "generic_name": "Rosuvastatin",
-    "active_ingredients": ["Rosuvastatin"],
+    "active_ingredients": [
+      "Rosuvastatin"
+    ],
     "strength": "20 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2770,13 +3064,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=252",
     "source_section": "Active ingredient and Preparation; PDF page 252",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-607e18c1db1c"
+    "high_risk": true
   },
   {
+    "id": "bd-square-fc87f5cf01ab",
     "brand_name": "Rutix",
     "generic_name": "Ofloxacin",
-    "active_ingredients": ["Ofloxacin"],
+    "active_ingredients": [
+      "Ofloxacin"
+    ],
     "strength": "200 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2789,13 +3085,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=253",
     "source_section": "Active ingredient and Preparation; PDF page 253",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-fc87f5cf01ab"
+    "high_risk": true
   },
   {
+    "id": "bd-square-039660252101",
     "brand_name": "Rutix",
     "generic_name": "Ofloxacin",
-    "active_ingredients": ["Ofloxacin"],
+    "active_ingredients": [
+      "Ofloxacin"
+    ],
     "strength": "400 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2808,13 +3106,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=253",
     "source_section": "Active ingredient and Preparation; PDF page 253",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-039660252101"
+    "high_risk": true
   },
   {
+    "id": "bd-square-51c0bbcf532a",
     "brand_name": "Siglita",
     "generic_name": "Sitagliptin Phosphate Monohydrate",
-    "active_ingredients": ["Sitagliptin Phosphate Monohydrate"],
+    "active_ingredients": [
+      "Sitagliptin Phosphate Monohydrate"
+    ],
     "strength": "50 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2827,13 +3127,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=265",
     "source_section": "Active ingredient and Preparation; PDF page 265",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-51c0bbcf532a"
+    "high_risk": true
   },
   {
+    "id": "bd-square-424ef81a30ec",
     "brand_name": "Sonap",
     "generic_name": "Naproxen Sodium",
-    "active_ingredients": ["Naproxen Sodium"],
+    "active_ingredients": [
+      "Naproxen Sodium"
+    ],
     "strength": "250 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2846,13 +3148,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=270",
     "source_section": "Active ingredient and Preparation; PDF page 270",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-424ef81a30ec"
+    "high_risk": true
   },
   {
+    "id": "bd-square-086e5baaef95",
     "brand_name": "Sonap",
     "generic_name": "Naproxen Sodium",
-    "active_ingredients": ["Naproxen Sodium"],
+    "active_ingredients": [
+      "Naproxen Sodium"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2865,13 +3169,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=270",
     "source_section": "Active ingredient and Preparation; PDF page 270",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-086e5baaef95"
+    "high_risk": true
   },
   {
+    "id": "bd-square-fa47ea1fed62",
     "brand_name": "Square Zinc",
     "generic_name": "Zinc Sulphate Monohydrate",
-    "active_ingredients": ["Zinc Sulphate Monohydrate"],
+    "active_ingredients": [
+      "Zinc Sulphate Monohydrate"
+    ],
     "strength": "20 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2884,13 +3190,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=272",
     "source_section": "Active ingredient and Preparation; PDF page 272",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-fa47ea1fed62"
+    "high_risk": true
   },
   {
+    "id": "bd-square-0dcb52380fe3",
     "brand_name": "Sultolin",
     "generic_name": "Salbutamol",
-    "active_ingredients": ["Salbutamol"],
+    "active_ingredients": [
+      "Salbutamol"
+    ],
     "strength": "2 mg/5 ml",
     "dosage_form": "Syrup",
     "route": "ORAL",
@@ -2903,13 +3211,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=274",
     "source_section": "Active ingredient and Preparation; PDF page 274",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-0dcb52380fe3"
+    "high_risk": true
   },
   {
+    "id": "bd-square-21d98a041da0",
     "brand_name": "Suvotol",
     "generic_name": "Suvorexant",
-    "active_ingredients": ["Suvorexant"],
+    "active_ingredients": [
+      "Suvorexant"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2922,13 +3232,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=276",
     "source_section": "Active ingredient and Preparation; PDF page 276",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-21d98a041da0"
+    "high_risk": true
   },
   {
+    "id": "bd-square-7dc8492d1589",
     "brand_name": "Suzyme",
     "generic_name": "Pancreatin",
-    "active_ingredients": ["Pancreatin"],
+    "active_ingredients": [
+      "Pancreatin"
+    ],
     "strength": "325 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2941,13 +3253,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=277",
     "source_section": "Active ingredient and Preparation; PDF page 277",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-7dc8492d1589"
+    "high_risk": true
   },
   {
+    "id": "bd-square-8f934fe45b42",
     "brand_name": "Tebast",
     "generic_name": "Ebastine",
-    "active_ingredients": ["Ebastine"],
+    "active_ingredients": [
+      "Ebastine"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2960,13 +3274,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=279",
     "source_section": "Active ingredient and Preparation; PDF page 279",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-8f934fe45b42"
+    "high_risk": true
   },
   {
+    "id": "bd-square-fc4c3bc2bb55",
     "brand_name": "Tetrax",
     "generic_name": "Tetracycline",
-    "active_ingredients": ["Tetracycline"],
+    "active_ingredients": [
+      "Tetracycline"
+    ],
     "strength": "500 mg",
     "dosage_form": "Capsule",
     "route": "ORAL",
@@ -2979,13 +3295,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=280",
     "source_section": "Active ingredient and Preparation; PDF page 280",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-fc4c3bc2bb55"
+    "high_risk": true
   },
   {
+    "id": "bd-square-388b6335ece2",
     "brand_name": "Thyrin",
     "generic_name": "Levothyroxine Sodium",
-    "active_ingredients": ["Levothyroxine Sodium"],
+    "active_ingredients": [
+      "Levothyroxine Sodium"
+    ],
     "strength": "25 mcg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -2998,13 +3316,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=281",
     "source_section": "Active ingredient and Preparation; PDF page 281",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-388b6335ece2"
+    "high_risk": true
   },
   {
+    "id": "bd-square-3b0a1b88660a",
     "brand_name": "Thyrin",
     "generic_name": "Levothyroxine Sodium",
-    "active_ingredients": ["Levothyroxine Sodium"],
+    "active_ingredients": [
+      "Levothyroxine Sodium"
+    ],
     "strength": "50 mcg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3017,13 +3337,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=281",
     "source_section": "Active ingredient and Preparation; PDF page 281",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-3b0a1b88660a"
+    "high_risk": true
   },
   {
+    "id": "bd-square-51ca415d6787",
     "brand_name": "Timotor",
     "generic_name": "Trimebutine Maleate",
-    "active_ingredients": ["Trimebutine Maleate"],
+    "active_ingredients": [
+      "Trimebutine Maleate"
+    ],
     "strength": "100 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3036,13 +3358,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=285",
     "source_section": "Active ingredient and Preparation; PDF page 285",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-51ca415d6787"
+    "high_risk": true
   },
   {
+    "id": "bd-square-5b2d113e3d2f",
     "brand_name": "Torax",
     "generic_name": "Ketorolac Tromethamine",
-    "active_ingredients": ["Ketorolac Tromethamine"],
+    "active_ingredients": [
+      "Ketorolac Tromethamine"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3055,13 +3379,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=287",
     "source_section": "Active ingredient and Preparation; PDF page 287",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-5b2d113e3d2f"
+    "high_risk": true
   },
   {
+    "id": "bd-square-087d9d3b6211",
     "brand_name": "Torax",
     "generic_name": "Ketorolac Tromethamine",
-    "active_ingredients": ["Ketorolac Tromethamine"],
+    "active_ingredients": [
+      "Ketorolac Tromethamine"
+    ],
     "strength": "60 mg/2 ml",
     "dosage_form": "Injection",
     "route": "INJECTION",
@@ -3074,13 +3400,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=287",
     "source_section": "Active ingredient and Preparation; PDF page 287",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-087d9d3b6211"
+    "high_risk": true
   },
   {
+    "id": "bd-square-319e24a306e6",
     "brand_name": "Tory",
     "generic_name": "Etoricoxib",
-    "active_ingredients": ["Etoricoxib"],
+    "active_ingredients": [
+      "Etoricoxib"
+    ],
     "strength": "60 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3093,13 +3421,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=288",
     "source_section": "Active ingredient and Preparation; PDF page 288",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-319e24a306e6"
+    "high_risk": true
   },
   {
+    "id": "bd-square-f17ff120b9d0",
     "brand_name": "Tory",
     "generic_name": "Etoricoxib",
-    "active_ingredients": ["Etoricoxib"],
+    "active_ingredients": [
+      "Etoricoxib"
+    ],
     "strength": "90 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3112,13 +3442,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=288",
     "source_section": "Active ingredient and Preparation; PDF page 288",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-f17ff120b9d0"
+    "high_risk": true
   },
   {
+    "id": "bd-square-d91c50e7d3b0",
     "brand_name": "Tory",
     "generic_name": "Etoricoxib",
-    "active_ingredients": ["Etoricoxib"],
+    "active_ingredients": [
+      "Etoricoxib"
+    ],
     "strength": "120 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3131,13 +3463,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=288",
     "source_section": "Active ingredient and Preparation; PDF page 288",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-d91c50e7d3b0"
+    "high_risk": true
   },
   {
+    "id": "bd-square-e8c7d17ece58",
     "brand_name": "Trevox",
     "generic_name": "Levofloxacin",
-    "active_ingredients": ["Levofloxacin"],
+    "active_ingredients": [
+      "Levofloxacin"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3150,13 +3484,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=289",
     "source_section": "Active ingredient and Preparation; PDF page 289",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-e8c7d17ece58"
+    "high_risk": true
   },
   {
+    "id": "bd-square-8d2918082b43",
     "brand_name": "Tryptin",
     "generic_name": "Amitriptyline",
-    "active_ingredients": ["Amitriptyline"],
+    "active_ingredients": [
+      "Amitriptyline"
+    ],
     "strength": "10 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3169,13 +3505,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=294",
     "source_section": "Active ingredient and Preparation; PDF page 294",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-8d2918082b43"
+    "high_risk": true
   },
   {
+    "id": "bd-square-30e377b4e316",
     "brand_name": "Tryptin",
     "generic_name": "Amitriptyline",
-    "active_ingredients": ["Amitriptyline"],
+    "active_ingredients": [
+      "Amitriptyline"
+    ],
     "strength": "25 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3188,13 +3526,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=294",
     "source_section": "Active ingredient and Preparation; PDF page 294",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-30e377b4e316"
+    "high_risk": true
   },
   {
+    "id": "bd-square-eb2fa5db1195",
     "brand_name": "Vanprox",
     "generic_name": "Cefpodoxime",
-    "active_ingredients": ["Cefpodoxime"],
+    "active_ingredients": [
+      "Cefpodoxime"
+    ],
     "strength": "40 mg/5 ml",
     "dosage_form": "Suspension",
     "route": "ORAL",
@@ -3207,13 +3547,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=300",
     "source_section": "Active ingredient and Preparation; PDF page 300",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-eb2fa5db1195"
+    "high_risk": true
   },
   {
+    "id": "bd-square-8cf1db2f5d94",
     "brand_name": "Vigorex",
     "generic_name": "Sildenafil",
-    "active_ingredients": ["Sildenafil"],
+    "active_ingredients": [
+      "Sildenafil"
+    ],
     "strength": "25 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3226,13 +3568,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=303",
     "source_section": "Active ingredient and Preparation; PDF page 303",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-8cf1db2f5d94"
+    "high_risk": true
   },
   {
+    "id": "bd-square-57cd8a0263ab",
     "brand_name": "Vigorex",
     "generic_name": "Sildenafil",
-    "active_ingredients": ["Sildenafil"],
+    "active_ingredients": [
+      "Sildenafil"
+    ],
     "strength": "50 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3245,13 +3589,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=303",
     "source_section": "Active ingredient and Preparation; PDF page 303",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-57cd8a0263ab"
+    "high_risk": true
   },
   {
+    "id": "bd-square-02372d293849",
     "brand_name": "Vigorex",
     "generic_name": "Sildenafil",
-    "active_ingredients": ["Sildenafil"],
+    "active_ingredients": [
+      "Sildenafil"
+    ],
     "strength": "100 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3264,13 +3610,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=303",
     "source_section": "Active ingredient and Preparation; PDF page 303",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-02372d293849"
+    "high_risk": true
   },
   {
+    "id": "bd-square-7e902ec0eeaf",
     "brand_name": "Xflam",
     "generic_name": "Dexibuprofen",
-    "active_ingredients": ["Dexibuprofen"],
+    "active_ingredients": [
+      "Dexibuprofen"
+    ],
     "strength": "400 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3283,13 +3631,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=309",
     "source_section": "Active ingredient and Preparation; PDF page 309",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-7e902ec0eeaf"
+    "high_risk": true
   },
   {
+    "id": "bd-square-70453edc5ade",
     "brand_name": "Zanthin",
     "generic_name": "Astaxanthin",
-    "active_ingredients": ["Astaxanthin"],
+    "active_ingredients": [
+      "Astaxanthin"
+    ],
     "strength": "2 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3302,13 +3652,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=311",
     "source_section": "Active ingredient and Preparation; PDF page 311",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-70453edc5ade"
+    "high_risk": true
   },
   {
+    "id": "bd-square-423dd372b19e",
     "brand_name": "Zanthin",
     "generic_name": "Astaxanthin",
-    "active_ingredients": ["Astaxanthin"],
+    "active_ingredients": [
+      "Astaxanthin"
+    ],
     "strength": "4 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3321,13 +3673,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=311",
     "source_section": "Active ingredient and Preparation; PDF page 311",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-423dd372b19e"
+    "high_risk": true
   },
   {
+    "id": "bd-square-05e639490a04",
     "brand_name": "Zox",
     "generic_name": "Nitazoxanide",
-    "active_ingredients": ["Nitazoxanide"],
+    "active_ingredients": [
+      "Nitazoxanide"
+    ],
     "strength": "500 mg",
     "dosage_form": "Tablet",
     "route": "ORAL",
@@ -3340,13 +3694,15 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=316",
     "source_section": "Active ingredient and Preparation; PDF page 316",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-05e639490a04"
+    "high_risk": true
   },
   {
+    "id": "bd-square-42e94aee08de",
     "brand_name": "Sultolin 100 HFA",
     "generic_name": "Salbutamol",
-    "active_ingredients": ["Salbutamol"],
+    "active_ingredients": [
+      "Salbutamol"
+    ],
     "strength": "100 mcg/puff",
     "dosage_form": "Inhaler",
     "route": "INHALATION",
@@ -3359,7 +3715,6 @@
     "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=274",
     "source_section": "Active ingredient and Preparation; PDF page 274",
     "last_verified": "2026-10-08",
-    "high_risk": true,
-    "id": "bd-square-42e94aee08de"
+    "high_risk": true
   }
 ]

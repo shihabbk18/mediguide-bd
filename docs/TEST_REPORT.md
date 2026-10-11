@@ -50,3 +50,13 @@ Napa Extra was separately confirmed and displayed NOT AVAILABLE plus the combina
 These are responsive browser checks, not an actual Android installation or a large-dataset mobile performance benchmark. Independent clinical review and nationwide coverage remain incomplete.
 
 Final importer hardening: the complete suite passed 55 tests after adding a regression for conflicting ingredients, routes and known release types. The reviewed manufacturer import was rerun and added zero records; catalogue contents and coverage remained unchanged. A final compiler check initially reported missing table-callback type annotations. Explicit string annotations resolved those errors, and TypeScript compilation and the complete 55-test suite passed afterward.
+
+## Independent Python pipeline release — 12 October 2026
+
+Observed before publication: 22 Python unittest cases passed (0 failures) and 55 Vitest cases passed (0 failures). Tests cover normalization, raw values, combinations, deterministic identity keys, exact duplicate attribution, strength/form/route/release separation, field provenance, cross-source conflicts, source access gates, CSV/JSON/HTML extraction, optional PDF review gates, search export, end-to-end entity/report outputs, local input/configuration checkpoint invalidation and rejection of unsafe/uncited guidance. Synthetic fixtures are isolated and do not add production products.
+
+The initial sandboxed Python attempt could not create a temporary fixture directory; the permitted rerun completed all cases. A later app run was slow during setup but ultimately passed all 55 cases. Its subsequent build was interrupted during diagnosis, then completed separately; an interrupted build is not counted as a pass. Final production build/data checks are recorded in the completion report.
+
+Source commands exercised: square_reviewed (167 existing identities) and manual_verified (1 existing Napa identity). The build also includes beximco_reviewed (10 identities). Deduplication produces 177 products, not 178. Computed coverage: 106 brands, 99 generic-name strings, 124 formulation keys, 2 manufacturers. Quality report: 0 errors, 127 unverified-formulation warnings and 1 duplicate observation. Clinical guidance remains 17 records (13 verified, 4 partial); product guidance 25 verified, 4 partial, 148 unavailable.
+
+No new remote bulk source or PDF table was ingested. DGDA is disabled and no MedEx adapter exists. Manufacturer adapter tests use existing locally reviewed factual exports. General HTML/table parsing is tested with synthetic fixtures; real-source table extraction remains subject to per-document review and permission.

@@ -22,7 +22,7 @@ The official DGHS/MoHFW API was investigated, but no redistribution permission o
 | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | <img src="docs/screenshots/home-mobile.jpg" width="260" alt="Mobile search"> | <img src="docs/screenshots/guidance-mobile-bangla.jpg" width="260" alt="Bangla guidance"> |
 
-These screenshots were captured from the deployed upgrade on 8 October 2026. Current counts are on the live dashboard and in src/data/coverage.json.
+These screenshots were captured from the deployed upgrade on 8 October 2026. Current counts are on the live dashboard and in data/production/statistics.json.
 
 ## Architecture
 
@@ -58,11 +58,15 @@ English/Bangla UI and instructions are manually authored deterministic templates
 
 ## Run and extend
 
-Requires Node 22+ and pnpm. Optional PDF extraction additionally needs Python and pdfplumber; the website has no Python/API runtime dependency.
+Requires Node 22+, Python 3.11+ and pnpm (or npm). The core ingestion pipeline uses only Python's standard library. Optional reviewed PDF tables need pdfplumber; the deployed website has no Python/API runtime dependency.
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev
+python scripts/import_source.py square_reviewed
+python scripts/import_source.py manual_verified
+python scripts/build_dataset.py
+pnpm test:pipeline
 pnpm build:data
 pnpm validate:data
 pnpm test
@@ -72,7 +76,9 @@ pnpm preview
 
 For Pages set VITE_BASE_PATH=/mediguide-bd/. The existing GitHub Actions workflow validates, tests, builds and deploys pushes to main.
 
-See [DATA_PIPELINE.md](docs/DATA_PIPELINE.md) for gated DGHS import, normalization, idempotent reviewed manufacturer imports, CSV/JSON validation, openFDA review queues and reviewed-guidance publication. Production consumes prebuilt local data; no paid LLM is required.
+See [DATA_PIPELINE.md](docs/DATA_PIPELINE.md) for the independent Python framework, source manifest, manufacturer/manual CSV adapters, normalized entities, field provenance, conflicts, reports and adding a source. `npm run build` also builds the dataset automatically. Production consumes generated local data; no paid LLM is required.
+
+The pipeline's `fetch → parse → normalize → validate → export` interface supports JSON, CSV, reviewed manual CSV, explicit HTML tables, and optional reviewed PDF tables. Enabled adapters read the existing Beximco/Square factual identities locally. DGDA is disabled, and there is no MedEx adapter. No new bulk collection was performed. Outputs contain normalized manufacturers, products, ingredients, ingredient links, product sources, guidance, ingestion runs and validation issues. The app loads a small generated projection and prebuilt index rather than the full audit tables. Hashes detect local input or adapter-configuration changes; checkpointed imports retain raw values and publisher attribution.
 
 ## PWA and privacy
 
@@ -80,6 +86,8 @@ On Android Chrome choose **Install app / Add to Home Screen**. The manifest, ico
 
 ## Validation and limitations
 
-The upgrade suite passed **55 tests across 3 files**, covering requested A–O cases, confirmation, provenance, abstention, IR/ER, combinations, bilingual rendering, imports, dose rejection and 40,000 synthetic-record retrieval. Fixtures do not add production coverage. See [test report](docs/TEST_REPORT.md) for final checks.
+The app suite passed **55 tests across 3 files**, covering requested A–O cases, confirmation, provenance, abstention, IR/ER, combinations, bilingual rendering, imports, dose rejection and 40,000 synthetic-record retrieval. The independent pipeline passed **22 Python tests**, including normalization, combinations, deduplication, formulation separation, conflicts, permission gates, field provenance, search export, input/configuration checkpoint invalidation and unsafe-guidance rejection. Fixtures do not add production coverage. See [test report](docs/TEST_REPORT.md) for observed checks.
+
+Current quality report: **0 validation errors**, **127 unknown-formulation warnings**, and **1 duplicate observation** (the manual Napa row). Unknown route/release mappings retain their uncertainty. A successful pipeline run is not independent clinical verification.
 
 Remaining work: authorized nationwide data export; review unresolved formulations and combinations; independent pharmacist/Bangla review; periodic source checks; mobile profiling and chunked loading for substantially larger payloads. No complete Bangladesh coverage claim is made.

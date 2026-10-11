@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "format_note": "JSON syntax is valid YAML 1.2. Keep JSON syntax so the stdlib-only loader requires no dependency.",
+  "sources": [
+    {
+      "id": "beximco_reviewed", "publisher": "Beximco Pharmaceuticals Ltd.",
+      "source_type": "manufacturer_reviewed_json", "adapter": "manufacturer_json",
+      "base_url": "https://beximco-pharma.com", "enabled": true,
+      "access_method": "local_reviewed_file", "input": "data/inputs/reviewed_products.json",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.", "reviewed": true,
+      "license_or_permission_note": "Existing manually checked concise factual product identities with original publisher links. No new crawling, no copied medical prose, no claim of an open redistribution licence for publisher documents.",
+      "last_checked": "2026-10-08"
+    },
+    {
+      "id": "square_reviewed", "publisher": "Square Pharmaceuticals Ltd.",
+      "source_type": "manufacturer_reviewed_json", "adapter": "manufacturer_json",
+      "base_url": "https://squarepharma.com.bd", "enabled": true,
+      "access_method": "local_reviewed_file", "input": "data/inputs/reviewed_products.json",
+      "manufacturer": "Square Pharmaceuticals Ltd.", "reviewed": true,
+      "license_or_permission_note": "Existing manually checked concise factual identities from the publisher's downloadable guide and leaflets. Local facts only; no automated crawling, no redistribution of PDF or copyrighted prose, no open-licence assertion. Current registration not verified.",
+      "last_checked": "2026-10-08"
+    },
+    {
+      "id": "manual_verified", "publisher": "Beximco Pharmaceuticals Ltd.",
+      "source_type": "manual_csv", "adapter": "manual_verified_csv",
+      "base_url": "https://beximco-pharma.com", "enabled": true,
+      "access_method": "local_reviewed_file", "input": "data/inputs/manual_verified.csv", "reviewed": true,
+      "license_or_permission_note": "One existing verified Napa identity transcribed as concise facts. Reviewer/date and original manufacturer URL required. Demonstrates deduplication and separate provenance, not additional market coverage.",
+      "last_checked": "2026-10-08"
+    },
+    {
+      "id": "dgda", "publisher": "DGDA / MoHFW", "source_type": "regulatory_json", "adapter": "json",
+      "base_url": "https://api.tr.ocl.dghs.gov.bd", "enabled": false,
+      "access_method": "not_authorized", "input": "",
+      "license_or_permission_note": "Public viewing is not evidence of permission for bulk collection or redistribution. User has no permission/export. Disabled; no request is sent.",
+      "last_checked": "2026-10-08"
+    }
+  ]
+}

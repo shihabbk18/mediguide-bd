@@ -1,5 +1,5 @@
-import products from "./data/products.json";
-import index from "./data/search-index.json";
+import products from "../data/production/app_products.json";
+import index from "../data/production/search_index.json";
 import { queryIndex, type SearchIndex } from "./search-engine";
 import type { Product } from "./domain";
 // Large catalogues search outside the UI thread. No medical guidance is resolved here.

@@ -1,7 +1,7 @@
-import rawProducts from "./data/products.json";
-import rawGuidance from "./data/guidance.json";
-import rawSources from "./data/sources.json";
-import rawIndex from "./data/search-index.json";
+import rawProducts from "../data/production/app_products.json";
+import rawGuidance from "../data/production/generic_guidance.json";
+import rawSources from "../data/production/guidance_sources.json";
+import rawIndex from "../data/production/search_index.json";
 import {
   validateCatalogue,
   guidanceSchema,

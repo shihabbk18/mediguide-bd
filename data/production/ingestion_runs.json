@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "beximco_reviewed",
+    "publisher": "Beximco Pharmaceuticals Ltd.",
+    "importer": "ManufacturerJSONImporter",
+    "retrieved_at": "2026-10-08T21:10:04Z",
+    "input_sha256": "a7c57c77a84187ab05ab8ec314b7b6c7e2d533a3d754603a7ec26ca83c8620d4",
+    "records": 10,
+    "validation_errors": 0,
+    "permission_note": "Existing manually checked concise factual product identities with original publisher links. No new crawling, no copied medical prose, no claim of an open redistribution licence for publisher documents.",
+    "source_config_sha256": "45041c168b5ee977e302d67bfeeb0835013986725dfa7726af94f1889eae2793"
+  },
+  {
+    "source_id": "square_reviewed",
+    "publisher": "Square Pharmaceuticals Ltd.",
+    "importer": "ManufacturerJSONImporter",
+    "retrieved_at": "2026-10-08T21:10:02Z",
+    "input_sha256": "a7c57c77a84187ab05ab8ec314b7b6c7e2d533a3d754603a7ec26ca83c8620d4",
+    "records": 167,
+    "validation_errors": 0,
+    "permission_note": "Existing manually checked concise factual identities from the publisher's downloadable guide and leaflets. Local facts only; no automated crawling, no redistribution of PDF or copyrighted prose, no open-licence assertion. Current registration not verified.",
+    "source_config_sha256": "5c0d574df46bd5107404a51bc61b30f02f7c027030efdb5cf1bca85d7b72877d"
+  },
+  {
+    "source_id": "manual_verified",
+    "publisher": "Beximco Pharmaceuticals Ltd.",
+    "importer": "ManualVerifiedCSVImporter",
+    "retrieved_at": "2026-10-08T21:10:03Z",
+    "input_sha256": "154b985c889e18585190c06e41b777c964227017971e44b8ef1b68acf1b00bb7",
+    "records": 1,
+    "validation_errors": 0,
+    "permission_note": "One existing verified Napa identity transcribed as concise facts. Reviewer/date and original manufacturer URL required. Demonstrates deduplication and separate provenance, not additional market coverage.",
+    "source_config_sha256": "ac704c4e116ed40c6080a943d8f3cd7bcae9eeb47d0c8ff036df157d57702ab6"
+  }
+]

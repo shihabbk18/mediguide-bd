@@ -1,10 +1,12 @@
 // Import concise, reviewed identity facts; PDF parser output is always quarantined.
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 const facts = JSON.parse(
   readFileSync("data/reviewed-square-identities.json", "utf8"),
 );
-const products = JSON.parse(readFileSync("src/data/products.json", "utf8"));
+const target = existsSync("data/inputs/reviewed_products.json")
+  ? "data/inputs/reviewed_products.json" : "src/data/products.json";
+const products = JSON.parse(readFileSync(target, "utf8"));
 const identity = (p) =>
   [p.brand_name, p.strength.replace(/\s/g, ""), p.dosage_form, p.manufacturer]
     .join("|")
@@ -71,7 +73,7 @@ for (const f of facts) {
   added++;
 }
 writeFileSync(
-  "src/data/products.json",
+  target,
   JSON.stringify(products, null, 2) + "\n",
 );
 console.log(

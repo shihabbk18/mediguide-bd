@@ -35,12 +35,12 @@ if (process.argv[1]?.endsWith("import-products.ts")) {
     `Validated ${rows.length} product records. Ensure reuse permission and source review before --write.`,
   );
   if (process.argv.includes("--write")) {
-    const target = resolve("src/data/products.json");
+    const target = resolve("data/inputs/reviewed_products.json");
     const temp = target + ".tmp";
     writeFileSync(temp, JSON.stringify(rows, null, 2) + "\n");
     renameSync(temp, target);
     console.log(
-      "Catalogue replaced atomically. Guidance still requires an exact formulation match.",
+      "Reviewed input replaced atomically. Run build:data. For additional manufacturers use the source-agnostic Python importer and source manifest.",
     );
   }
 }

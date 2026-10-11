@@ -1,0 +1,2250 @@
+[
+  {
+    "ingredient_id": "ingredient-54238e9415df5dffbf4ba272",
+    "name": "Paracetamol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "beximco_reviewed",
+          "publisher": "Beximco Pharmaceuticals Ltd.",
+          "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
+          "retrieved_at": "2026-10-08T21:10:04Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Paracetamol"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "manual_verified",
+          "publisher": "Beximco Pharmaceuticals Ltd.",
+          "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
+          "retrieved_at": "2026-10-08T21:10:03Z",
+          "importer": "ManualVerifiedCSVImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": "Paracetamol",
+          "source_section": "Commercial packs",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "beximco_reviewed",
+          "publisher": "Beximco Pharmaceuticals Ltd.",
+          "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
+          "retrieved_at": "2026-10-08T21:10:04Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Paracetamol",
+            "Caffeine"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=24",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Paracetamol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 24",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-9251f129e36d22db1b07c86a",
+    "name": "Caffeine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "beximco_reviewed",
+          "publisher": "Beximco Pharmaceuticals Ltd.",
+          "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/napa.pdf",
+          "retrieved_at": "2026-10-08T21:10:04Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Paracetamol",
+            "Caffeine"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-aba1054d29473b2023cbe916",
+    "name": "Amlodipine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "beximco_reviewed",
+          "publisher": "Beximco Pharmaceuticals Ltd.",
+          "source_url": "https://beximco-pharma.com/cdn/bpl/product/pdf/amdocal.pdf",
+          "retrieved_at": "2026-10-08T21:10:04Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Amlodipine"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=73",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Amlodipine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 73",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-798c6fe77221b47541b05c1a",
+    "name": "Omeprazole",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://www.squarepharma.com.bd/downloads/1609925065_pdoc_Seclo.pdf",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Omeprazole"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product-details.php?pid=662",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Omeprazole"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-0eb962e9fb96e6b4629cab6c",
+    "name": "Esomeprazole",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Nexum%20DS.PDF",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Esomeprazole"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-196c7def5847da983300d0c4",
+    "name": "Metformin hydrochloride",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://www.squarepharma.com.bd/downloads/1587478883_pdoc_Comet%20DS2.pdf",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Metformin hydrochloride"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-1b4ac6feb0601661828ed4dc",
+    "name": "Cefixime",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Cef%203.pdf",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Cefixime"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=80",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Cefixime"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 80",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-bf717c7a4de0738e7957b1fa",
+    "name": "Cetirizine hydrochloride",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://www.squarepharma.com.bd/downloads/Alatrol.pdf",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Cetirizine hydrochloride"
+          ],
+          "source_section": "Composition / Commercial packs / How supplied",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-a21f9dccbffd4c02fadd0955",
+    "name": "Diphenhydramine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=25",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Diphenhydramine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 25",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-321652021ad3468b690f6c27",
+    "name": "Ketotifen",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=28",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ketotifen"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 28",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-3890b0ae861ec0f8b245a26d",
+    "name": "Ketotifen Fumarate",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=29",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Ketotifen Fumarate"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 29",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-f58878dfeab8699294af70a0",
+    "name": "Tramadol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=36",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Tramadol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 36",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=36",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Tramadol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 36",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-9d5829358dff2892f67b394a",
+    "name": "Clopidogrel",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=37",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Clopidogrel"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 37",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-9b96ad6d97cd580c4dda072b",
+    "name": "Losartan Potassium",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=39",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Losartan Potassium"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 39",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-2894ff743bdb4069f8b893f5",
+    "name": "Chlorpheniramine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=45",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Chlorpheniramine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 45",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-920edde59b13e5a5f94316b1",
+    "name": "Atorvastatin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=46",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Atorvastatin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 46",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-3848d382ea8931519e4be576",
+    "name": "Mupirocin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=50",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Mupirocin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 50",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-308165d2b3efc89320f0290b",
+    "name": "Febuxostat",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=51",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Febuxostat"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 51",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-4c6a976e94fb877a4cd5bcd9",
+    "name": "Dextromethorphan",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=61",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Dextromethorphan"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 61",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-631f38f8ff72a46e8f1fda31",
+    "name": "Bromocriptine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=61",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Bromocriptine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 61",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-919f681456d6cb98c3ede0c4",
+    "name": "Canagliflozin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=74",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Canagliflozin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 74",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-3aaebd3bc7c62266e5c05434",
+    "name": "Carbimazole",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=76",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Carbimazole"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 76",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-aa260d27847dec909fc58915",
+    "name": "Aspirin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=76",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Aspirin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 76",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-da22b8b3d134b7e007bd3c0c",
+    "name": "Vinpocetine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=85",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Vinpocetine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 85",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-c44740b27baa8c72479b84ca",
+    "name": "Cilostazol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=85",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Cilostazol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 85",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-4d9b91e2c4f5675822b26439",
+    "name": "Cinnarizine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=86",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Cinnarizine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 86",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-6036cad3024777ed5f64d62e",
+    "name": "Ciprofloxacin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=87",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ciprofloxacin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 87",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-c8654dfa1e6a3a787d999b21",
+    "name": "Clindamycin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=90",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Clindamycin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 90",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-5bef280772169b5c482b7064",
+    "name": "Imipramine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=105",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Imipramine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 105",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-1468a294ab0dcd6bd0e97fd9",
+    "name": "Olanzapine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=105",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Olanzapine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 105",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-a3a5a34d4db3d6fde2b3255c",
+    "name": "Carvedilol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=114",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Carvedilol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 114",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-e91629ef683d8ddc508b0156",
+    "name": "Erythromycin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=124",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Erythromycin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 124",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-a64cf55fb4c002d6876ca3c9",
+    "name": "Allopurinol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=125",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Allopurinol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 125",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-1d8765fef2c50b860c19529f",
+    "name": "Famotidine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=127",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Famotidine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 127",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-96b7ce46b770f9082096407b",
+    "name": "Favipiravir",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=128",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Favipiravir"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 128",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-82e1d2fdd11c7ce3c4efa01d",
+    "name": "Fexofenadine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=130",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Fexofenadine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 130",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-88b1b528944b737055a63e4a",
+    "name": "Fluconazole",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=137",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Fluconazole"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 137",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-7ae669b86fba6d9a9d8bf892",
+    "name": "Furosemide",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=144",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Furosemide"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 144",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=144",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Furosemide"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 144",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-3e0baa0973faa3f4268dfae5",
+    "name": "Gabapentin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=146",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Gabapentin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 146",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-06a196fa452c780bcf96f2d4",
+    "name": "Allylestrenol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=149",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Allylestrenol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 149",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-ec77e6e07935686e06902753",
+    "name": "Loperamide",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=157",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Loperamide"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 157",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-a3ec9f9c5217a876c61e36d0",
+    "name": "Tadalafil",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=158",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Tadalafil"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 158",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-baba3fbcb43c8c6ff87089d7",
+    "name": "Lansoprazole",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=172",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Lansoprazole"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 172",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-3a7abda4380a98e3f10299f2",
+    "name": "Levocarnitine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=175",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Levocarnitine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 175",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-f88184b8243baecc601bfb28",
+    "name": "Levosalbutamol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=176",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Levosalbutamol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 176",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-12cc9f332d10766fdf8249d7",
+    "name": "Linagliptin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=177",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Linagliptin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 177",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-4e765f8f1eff90c008cd58a8",
+    "name": "Fenofibrate",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=178",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Fenofibrate"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 178",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-e0a113170280b3d74bd306cd",
+    "name": "Cilnidipine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=179",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Cilnidipine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 179",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-11d9c46b534a5c13e4c344ad",
+    "name": "Cefaclor",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=179",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Cefaclor"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 179",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-36286c246e27ad1efba1746f",
+    "name": "Loratadine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=180",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Loratadine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 180",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-42876f76bc5e12fdeb48bb54",
+    "name": "Tamsulosin Hydrochloride",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=189",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Tamsulosin Hydrochloride"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 189",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-3792703dc0b1c421e776686a",
+    "name": "Methylprednisolone",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=191",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Methylprednisolone"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 191",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-fd286324950e9fef7b2506d5",
+    "name": "Norethisterone",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=194",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Norethisterone"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 194",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-b123535a878ac6e2f535e5f7",
+    "name": "Mecobalamin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=196",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Mecobalamin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 196",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-7fecf7fdf06a811212b35cc0",
+    "name": "Mebeverine Hydrochloride",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=196",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Mebeverine Hydrochloride"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 196",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-bd9c651ad0c1ba8f4ba4faf3",
+    "name": "Lomefloxacin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=197",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Lomefloxacin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 197",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-39dfcb5fa5e9dfbbe2a6a887",
+    "name": "Pizotifen",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=197",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Pizotifen"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 197",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-4236b830de9f9ba2ac54520f",
+    "name": "Mirtazapine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=198",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Mirtazapine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 198",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-6bf39e02999bcec2fcd14c22",
+    "name": "Amoxicillin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=200",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Amoxicillin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 200",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-9f18ea8a7c164bfebfd22685",
+    "name": "Pregabalin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=207",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Pregabalin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 207",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-2adbce713c43dfddb04cbb71",
+    "name": "Nimodipine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=212",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Nimodipine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 212",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-ae98e5a274d47d0036323be9",
+    "name": "Zolmitriptan",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=213",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Zolmitriptan"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 213",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-4812f770ebbd39c7900d78c8",
+    "name": "Ondansetron",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=217",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ondansetron"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 217",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=217",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Ondansetron"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 217",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-08387c9233da312a20c178f0",
+    "name": "Olmesartan Medoxomil",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=219",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Olmesartan Medoxomil"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 219",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-dc4d899da1918e4235295b17",
+    "name": "Escitalopram",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=224",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Escitalopram"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 224",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-7ccbff053bbb1a8cb60fc221",
+    "name": "Procyclidine, HCL",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=229",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Procyclidine, HCL"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 229",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=229",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Procyclidine, HCL"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 229",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-5d09e89c41448c2387d8a7e3",
+    "name": "Ropinirole",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=231",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ropinirole"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 231",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-bec383409f6bc90b38250523",
+    "name": "Flucloxacillin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=232",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Flucloxacillin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 232",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=232",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Flucloxacillin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 232",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-6979e68b93072f4457a8c403",
+    "name": "Fluoxetine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=233",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Fluoxetine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 233",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-c8ee5fcc08e9d196859f1cba",
+    "name": "Prochlorperazine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=234",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Prochlorperazine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 234",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-21ecc8b9ad360ac7c1c8dbf7",
+    "name": "Tenofovir Disoproxil Fumarate",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=236",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Tenofovir Disoproxil Fumarate"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 236",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-119f5de31f4bbca887dad6b0",
+    "name": "Rabeprazole Sodium",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=239",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Rabeprazole Sodium"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 239",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-9712d583cf8179255286760b",
+    "name": "Clarithromycin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=243",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Clarithromycin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 243",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-ce41d0c09e906189f9f6a67e",
+    "name": "Tibolone",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=245",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Tibolone"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 245",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-8fa258e98d700b99b544970e",
+    "name": "Valaciclovir",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=247",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Valaciclovir"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 247",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-15c7f9c7cdeb645fb500e7b7",
+    "name": "Rivaroxaban",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=250",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Rivaroxaban"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 250",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-7a675a98228fc73a617c08dc",
+    "name": "Ornidazole",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=251",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ornidazole"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 251",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-0b56cc240e600882d44da6ed",
+    "name": "Rupatadine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=252",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Rupatadine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 252",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-fcc68692865e6b40f80d0dd1",
+    "name": "Rosuvastatin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=252",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Rosuvastatin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 252",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-268c2462990fcf43febbe046",
+    "name": "Ofloxacin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=253",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ofloxacin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 253",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-c1eb51e790372fcf38b8ea2e",
+    "name": "Sitagliptin Phosphate Monohydrate",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=265",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Sitagliptin Phosphate Monohydrate"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 265",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-e376b8c17063b6fcc438dcbc",
+    "name": "Naproxen Sodium",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=270",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Naproxen Sodium"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 270",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-65d1e411d6f42844cc5f7a2f",
+    "name": "Zinc Sulphate Monohydrate",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=272",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Zinc Sulphate Monohydrate"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 272",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-bd107be8959ffdd668ceccde",
+    "name": "Salbutamol",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=274",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Salbutamol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 274",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=274",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Salbutamol"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 274",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-aed73302415db5272e4f439b",
+    "name": "Suvorexant",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=276",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Suvorexant"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 276",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-a5bd0c5b39e4def96669017c",
+    "name": "Pancreatin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=277",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Pancreatin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 277",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-bbd6abc8b93bbfeb2fa1b634",
+    "name": "Ebastine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=279",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ebastine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 279",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-c5607a3682cb9f6138255ec6",
+    "name": "Tetracycline",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=280",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Tetracycline"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 280",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-08e9dbd4534fab0aff60da09",
+    "name": "Levothyroxine Sodium",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=281",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Levothyroxine Sodium"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 281",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-59fa6a225ee9bbb2e9f420cd",
+    "name": "Trimebutine Maleate",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=285",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Trimebutine Maleate"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 285",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-c1ec464e314314b56366bb61",
+    "name": "Ketorolac Tromethamine",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=287",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Ketorolac Tromethamine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 287",
+          "source_checked_at": "2026-10-08"
+        },
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=287",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "VERIFIED",
+          "raw_value": [
+            "Ketorolac Tromethamine"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 287",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-84c8c255fadfda33edc403b3",
+    "name": "Etoricoxib",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=288",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Etoricoxib"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 288",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-c9b8d056c5c60512638b695d",
+    "name": "Levofloxacin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=289",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Levofloxacin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 289",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-a79616120b7d856f06aff9c1",
+    "name": "Amitriptyline",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=294",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Amitriptyline"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 294",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-ec295dfbbf415a47f4d77593",
+    "name": "Cefpodoxime",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=300",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Cefpodoxime"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 300",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-b6bbe058481c83f9067ab47b",
+    "name": "Sildenafil",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=303",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Sildenafil"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 303",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-5a46ca7f74cacaeaa6b7bffe",
+    "name": "Dexibuprofen",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=309",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Dexibuprofen"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 309",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-249199f726e985b93bb576a4",
+    "name": "Astaxanthin",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=311",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Astaxanthin"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 311",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  },
+  {
+    "ingredient_id": "ingredient-cafc32c323e2235ed09bf0a3",
+    "name": "Nitazoxanide",
+    "field_provenance": {
+      "name": [
+        {
+          "source_id": "square_reviewed",
+          "publisher": "Square Pharmaceuticals Ltd.",
+          "source_url": "https://squarepharma.com.bd/product_guide/Product%20Guide%209th_SPL.pdf#page=316",
+          "retrieved_at": "2026-10-08T21:10:02Z",
+          "importer": "ManufacturerJSONImporter",
+          "verification_status": "NEEDS_REVIEW",
+          "raw_value": [
+            "Nitazoxanide"
+          ],
+          "source_section": "Active ingredient and Preparation; PDF page 316",
+          "source_checked_at": "2026-10-08"
+        }
+      ]
+    }
+  }
+]

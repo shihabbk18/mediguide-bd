@@ -1,8 +1,33 @@
 {
-  "built_at": "2026-10-07T23:10:40.115Z",
+  "built_at": "2026-10-11T21:08:22Z",
   "products": 177,
+  "total_products": 177,
   "unique_brands": 106,
+  "unique_generics": 99,
   "unique_formulations": 124,
+  "manufacturers": 2,
+  "dosage_forms": {
+    "Tablet": 120,
+    "Syrup": 7,
+    "Oral suspension": 1,
+    "Paediatric drops": 1,
+    "Suppository": 4,
+    "Capsule": 24,
+    "Powder for oral suspension": 2,
+    "Eye Drops": 2,
+    "Injection": 6,
+    "Ointment": 1,
+    "Suspension": 8,
+    "Inhaler": 1
+  },
+  "source_coverage": {
+    "beximco_reviewed": 10,
+    "manual_verified": 1,
+    "square_reviewed": 167
+  },
+  "validation_failures": 0,
+  "validation_warnings": 127,
+  "duplicate_observations": 1,
   "guidance_records": 17,
   "verified_products": 25,
   "partial_products": 4,
@@ -10,5 +35,10 @@
   "verified_guidance": 13,
   "partial_guidance": 4,
   "needs_review_guidance": 0,
-  "sources": 25
+  "sources": 25,
+  "input_hashes": {
+    "beximco_reviewed": "a7c57c77a84187ab05ab8ec314b7b6c7e2d533a3d754603a7ec26ca83c8620d4",
+    "square_reviewed": "a7c57c77a84187ab05ab8ec314b7b6c7e2d533a3d754603a7ec26ca83c8620d4",
+    "manual_verified": "154b985c889e18585190c06e41b777c964227017971e44b8ef1b68acf1b00bb7"
+  }
 }

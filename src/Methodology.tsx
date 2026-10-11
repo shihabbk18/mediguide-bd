@@ -55,6 +55,11 @@ export function Methodology({ lang }: { lang: Language }) {
         </h2>
         <p>
           {bn
+            ? "উৎসের অনুমতি ও তথ্য আলাদাভাবে নথিভুক্ত করা হয়। স্থানীয় যাচাই করা ফাইল থেকে Python পাইপলাইন পণ্যের পরিচয়, জেনেরিক উপাদান, উৎস ও অনুসন্ধানের সূচি তৈরি করে। মূল তথ্য, প্রকাশকের লিংক ও যাচাইয়ের তারিখ সংরক্ষিত থাকে। DGDA-এর স্বয়ংক্রিয় আমদানি বন্ধ আছে; MedEx থেকে তথ্য সংগ্রহ করা হয় না।"
+            : "A source manifest records access conditions. An independent Python pipeline builds product identities, ingredient links, provenance and the search index from reviewed local files. Raw values, publisher URLs and review dates are retained. Automated DGDA import is disabled, and MedEx is not scraped."}
+        </p>
+        <p>
+          {bn
             ? "Beximco ও Square-এর প্রকাশিত পণ্যের লিফলেট এবং পণ্যের পৃষ্ঠা থেকে নাম, উপাদান, শক্তি ও ফর্ম হাতে বেছে নেওয়া হয়েছে। কোম্পানির নাম উৎসে যেভাবে আছে সেভাবেই রাখা হয়েছে।"
             : "Product identities come from Beximco and Square publications, including Square’s published 9th-edition product guide. A conservative PDF extractor quarantines candidates; reviewed composition and preparation facts are imported with page provenance. Company names preserve the source wording."}
         </p>

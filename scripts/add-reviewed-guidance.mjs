@@ -1,6 +1,7 @@
 // Reviewed bilingual facts only. Retrieval candidates never enter this file automatically.
 import { readFileSync, writeFileSync } from "node:fs";
-const read = (n) => JSON.parse(readFileSync(`src/data/${n}.json`, "utf8"));
+const inputPath = (n) => `data/inputs/${n === "guidance" ? "generic_guidance" : "guidance_sources"}.json`;
+const read = (n) => JSON.parse(readFileSync(inputPath(n), "utf8"));
 const guides = read("guidance"),
   sources = read("sources");
 const date = "2026-10-08";
@@ -287,6 +288,6 @@ add(
     ],
   },
 );
-writeFileSync("src/data/guidance.json", JSON.stringify(guides, null, 2) + "\n");
-writeFileSync("src/data/sources.json", JSON.stringify(sources, null, 2) + "\n");
+writeFileSync(inputPath("guidance"), JSON.stringify(guides, null, 2) + "\n");
+writeFileSync(inputPath("sources"), JSON.stringify(sources, null, 2) + "\n");
 console.log(`Reviewed guidance: ${guides.length}; sources: ${sources.length}`);
